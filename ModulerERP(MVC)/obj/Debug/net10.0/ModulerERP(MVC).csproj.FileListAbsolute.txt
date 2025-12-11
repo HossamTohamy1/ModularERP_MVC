@@ -592,3 +592,6 @@ C:\Users\hossny D. monkey\source\repos\ModulerERP(MVC)\ModulerERP(MVC)\obj\Debug
 C:\Users\hossny D. monkey\source\repos\ModulerERP(MVC)\ModulerERP(MVC)\obj\Debug\net10.0\ModulerERP(MVC).genruntimeconfig.cache
 C:\Users\hossny D. monkey\source\repos\ModulerERP(MVC)\ModulerERP(MVC)\obj\Debug\net10.0\ref\ModulerERP(MVC).dll
 C:\Users\hossny D. monkey\source\repos\ModulerERP(MVC)\ModulerERP(MVC)\obj\Debug\net10.0\compressed\aysthootfm-{0}-vpznnru8ok-vpznnru8ok.gz
+C:\Users\hossny D. monkey\source\repos\ModulerERP(MVC)\ModulerERP(MVC)\obj\Debug\net10.0\ModulerERP(MVC).sourcelink.json
+C:\Users\hossny D. monkey\source\repos\ModulerERP(MVC)\ModulerERP(MVC)\bin\Debug\net10.0\Serilog.dll
+C:\Users\hossny D. monkey\source\repos\ModulerERP(MVC)\ModulerERP(MVC)\bin\Debug\net10.0\Serilog.Extensions.Logging.dll

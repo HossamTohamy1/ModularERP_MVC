@@ -30,6 +30,10 @@ build_property._RazorSourceGeneratorDebug =
 build_property.EffectiveAnalysisLevelStyle = 10.0
 build_property.EnableCodeStyleSeverity = 
 
+[C:/Users/hossny D. monkey/source/repos/ModulerERP(MVC)/ModulerERP(MVC)/Areas/Finance/Views/Shared/Components/TenantInfo/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcRmluYW5jZVxWaWV3c1xTaGFyZWRcQ29tcG9uZW50c1xUZW5hbnRJbmZvXERlZmF1bHQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/hossny D. monkey/source/repos/ModulerERP(MVC)/ModulerERP(MVC)/Areas/Finance/Views/Treasuries/Balance.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcRmluYW5jZVxWaWV3c1xUcmVhc3VyaWVzXEJhbGFuY2UuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
@@ -68,6 +72,14 @@ build_metadata.AdditionalFiles.CssScope =
 
 [C:/Users/hossny D. monkey/source/repos/ModulerERP(MVC)/ModulerERP(MVC)/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/hossny D. monkey/source/repos/ModulerERP(MVC)/ModulerERP(MVC)/Views/Tenant/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGVuYW50XENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/hossny D. monkey/source/repos/ModulerERP(MVC)/ModulerERP(MVC)/Views/Tenant/Select.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGVuYW50XFNlbGVjdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/hossny D. monkey/source/repos/ModulerERP(MVC)/ModulerERP(MVC)/Views/_ViewImports.cshtml]

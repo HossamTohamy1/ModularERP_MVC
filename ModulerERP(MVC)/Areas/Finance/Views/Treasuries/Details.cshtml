@@ -1,4 +1,5 @@
-﻿@model ModulerERP_MVC_.Areas.Finance.ViewModels.TreasuryViewModel
+﻿@using ModulerERP_MVC_.Areas.Finance.Treasuries.ViewModels
+@model TreasuryViewModel
 @{
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
@@ -44,7 +45,7 @@
                     <h5 class="mb-0">
                         <i class="fas fa-money-bill-wave me-2"></i>@Model.Name
                     </h5>
-                    @if (Model.Status == ModularERP.Common.Enum.Finance_Enum.TreasuryStatus.Active)
+                    @if (Model.Status == ModulerERP_MVC_.Common.Enums.Finance_Enum.TreasuryStatus.Active)
                     {
                         <span class="badge bg-success bg-opacity-75">
                             <i class="fas fa-check-circle me-1"></i>نشط
@@ -108,7 +109,7 @@
                                     <i class="fas fa-toggle-on text-info me-2"></i>الحالة
                                 </label>
                                 <p class="mb-0">
-                                    @if (Model.Status == ModularERP.Common.Enum.Finance_Enum.TreasuryStatus.Active)
+                                    @if (Model.Status == ModulerERP_MVC_.Common.Enums.Finance_Enum.TreasuryStatus.Active)
                                     {
                                         <span class="badge bg-success fs-6 px-3 py-2">
                                             <i class="fas fa-check-circle me-1"></i>نشط

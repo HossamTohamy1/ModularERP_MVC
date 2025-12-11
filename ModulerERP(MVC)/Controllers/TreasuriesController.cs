@@ -2,10 +2,10 @@
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
-using ModularERP.Common.Enum.Finance_Enum;
-using ModulerERP_MVC_.Areas.Finance.ViewModels;  // ✅ الـ namespace الصحيح
 using ModulerERP_MVC_.Modules.Data;
-using ModulerERP_MVC_.Areas.Finance.Services;
+using ModulerERP_MVC_.Areas.Finance.Treasuries.Services;
+using ModulerERP_MVC_.Areas.Finance.Treasuries.ViewModels;
+using ModulerERP_MVC_.Common.Enums.Finance_Enum;
 
 namespace ModulerERP_MVC_.Areas.Finance.Controllers
 {

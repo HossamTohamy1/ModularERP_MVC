@@ -1,0 +1,71 @@
+﻿@model ModulerERP_MVC_.Controllers.CreateTenantViewModel
+
+@{
+    ViewData["Title"] = "Create New Company";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="container mt-5">
+    <div class="row justify-content-center">
+        <div class="col-md-6">
+            <div class="card shadow-lg">
+                <div class="card-header bg-success text-white">
+                    <h3 class="mb-0">
+                        <i class="fas fa-plus-circle"></i> Create New Company
+                    </h3>
+                </div>
+                <div class="card-body">
+                    <form asp-action="Create" method="post">
+                        <div asp-validation-summary="ModelOnly" class="alert alert-danger"></div>
+
+                        <div class="mb-3">
+                            <label asp-for="Name" class="form-label">
+                                <i class="fas fa-building"></i> Company Name
+                            </label>
+                            <input asp-for="Name"
+                                   class="form-control"
+                                   placeholder="Enter company name"
+                                   required />
+                            <span asp-validation-for="Name" class="text-danger"></span>
+                        </div>
+
+                        <div class="mb-3">
+                            <label asp-for="CurrencyCode" class="form-label">
+                                <i class="fas fa-coins"></i> Currency Code
+                            </label>
+                            <select asp-for="CurrencyCode" class="form-select">
+                                <option value="EGP">EGP - Egyptian Pound</option>
+                                <option value="USD">USD - US Dollar</option>
+                                <option value="EUR">EUR - Euro</option>
+                                <option value="GBP">GBP - British Pound</option>
+                                <option value="SAR">SAR - Saudi Riyal</option>
+                                <option value="AED">AED - UAE Dirham</option>
+                            </select>
+                            <span asp-validation-for="CurrencyCode" class="text-danger"></span>
+                        </div>
+
+                        <div class="alert alert-info">
+                            <i class="fas fa-info-circle"></i>
+                            <strong>Note:</strong> A new database will be automatically created for this company with all necessary tables and configurations.
+                        </div>
+
+                        <div class="d-grid gap-2">
+                            <button type="submit" class="btn btn-success btn-lg">
+                                <i class="fas fa-save"></i> Create Company
+                            </button>
+                            <a asp-action="Select" class="btn btn-secondary">
+                                <i class="fas fa-arrow-left"></i> Back to Companies
+                            </a>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}

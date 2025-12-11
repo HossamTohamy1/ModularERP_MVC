@@ -1,4 +1,5 @@
-﻿@model ModulerERP_MVC_.Areas.Finance.ViewModels.TreasuryListViewModel
+﻿@using ModulerERP_MVC_.Areas.Finance.Treasuries.ViewModels
+@model TreasuryListViewModel
 @{
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
@@ -68,8 +69,8 @@
                     </label>
                     <select name="status" class="form-select">
                         <option value="">الكل</option>
-                        <option value="0" selected="@(Model.FilterStatus == ModularERP.Common.Enum.Finance_Enum.TreasuryStatus.Active)">نشط</option>
-                        <option value="1" selected="@(Model.FilterStatus == ModularERP.Common.Enum.Finance_Enum.TreasuryStatus.Inactive)">غير نشط</option>
+                        <option value="0" selected="@(Model.FilterStatus == ModulerERP_MVC_.Common.Enums.Finance_Enum.TreasuryStatus.Active)">نشط</option>
+                        <option value="1" selected="@(Model.FilterStatus == ModulerERP_MVC_.Common.Enums.Finance_Enum.TreasuryStatus.Inactive)">غير نشط</option>
                     </select>
                 </div>
                 <div class="col-md-2 d-flex align-items-end">
@@ -159,7 +160,7 @@
                                         </strong>
                                     </td>
                                     <td>
-                                        @if (item.Status == ModularERP.Common.Enum.Finance_Enum.TreasuryStatus.Active)
+                                        @if (item.Status == ModulerERP_MVC_.Common.Enums.Finance_Enum.TreasuryStatus.Active)
                                         {
                                             <span class="badge bg-success">
                                                 <i class="fas fa-check-circle me-1"></i>نشط

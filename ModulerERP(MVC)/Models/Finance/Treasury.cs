@@ -1,7 +1,7 @@
 ﻿using System.ComponentModel.DataAnnotations.Schema;
 using System.ComponentModel.DataAnnotations;
 using ModularERP.Common.Models;
-using ModularERP.Common.Enum.Finance_Enum;
+using ModulerERP_MVC_.Common.Enums.Finance_Enum;
 
 namespace ModulerERP_MVC_.Models.Finance
 {

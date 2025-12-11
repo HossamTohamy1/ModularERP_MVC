@@ -1,6 +1,6 @@
 ﻿using ModularERP.Common.Models;
 using ModularERP.Modules.Inventory.Features.TaxManagement.Models;
-using ModulerERP_MVC_.Common.Enums;
+using ModulerERP_MVC_.Common.Enums.Finance_Enum;
 using System.ComponentModel.DataAnnotations;
 
 namespace ModulerERP_MVC_.Models.Finance
