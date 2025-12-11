@@ -1,0 +1,213 @@
+﻿@model ModulerERP_MVC_.Areas.Finance.ViewModels.TreasuryViewModel
+@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+@{
+    ViewData["Title"] = "تفاصيل الخزينة";
+}
+
+<div class="container-fluid">
+    <!-- Header with Breadcrumb -->
+    <div class="row mb-4">
+        <div class="col-md-12">
+            <div class="d-flex justify-content-between align-items-center">
+                <div>
+                    <h2 class="mb-2">
+                        <i class="fas fa-info-circle text-info me-2"></i>
+                        @ViewData["Title"]
+                    </h2>
+                    <nav aria-label="breadcrumb">
+                        <ol class="breadcrumb mb-0">
+                            <li class="breadcrumb-item">
+                                <a asp-action="Index">
+                                    <i class="fas fa-money-bill-wave me-1"></i>الخزائن
+                                </a>
+                            </li>
+                            <li class="breadcrumb-item active" aria-current="page">@Model.Name</li>
+                        </ol>
+                    </nav>
+                </div>
+                <div>
+                    <a asp-action="Index" class="btn btn-outline-secondary">
+                        <i class="fas fa-arrow-right me-2"></i>رجوع للقائمة
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-lg-8 mx-auto">
+            <!-- Main Info Card -->
+            <div class="card shadow-sm mb-4">
+                <div class="card-header bg-info text-white d-flex justify-content-between align-items-center">
+                    <h5 class="mb-0">
+                        <i class="fas fa-money-bill-wave me-2"></i>@Model.Name
+                    </h5>
+                    @if (Model.Status == ModularERP.Common.Enum.Finance_Enum.TreasuryStatus.Active)
+                    {
+                        <span class="badge bg-success bg-opacity-75">
+                            <i class="fas fa-check-circle me-1"></i>نشط
+                        </span>
+                    }
+                    else
+                    {
+                        <span class="badge bg-danger bg-opacity-75">
+                            <i class="fas fa-times-circle me-1"></i>غير نشط
+                        </span>
+                    }
+                </div>
+                <div class="card-body">
+                    <!-- Balance Highlight -->
+                    <div class="alert @(Model.Balance >= 0 ? "alert-success" : "alert-danger") mb-4">
+                        <div class="d-flex align-items-center justify-content-between">
+                            <div>
+                                <h6 class="mb-1">
+                                    <i class="fas fa-wallet me-2"></i>الرصيد الحالي
+                                </h6>
+                                <h2 class="mb-0 fw-bold">
+                                    @Model.Balance.ToString("N2") @Model.CurrencySymbol
+                                </h2>
+                            </div>
+                            <div>
+                                <i class="fas fa-@(Model.Balance >= 0 ? "arrow-up" : "arrow-down") fa-3x opacity-25"></i>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Details Grid -->
+                    <div class="row g-4">
+                        <!-- Company -->
+                        <div class="col-md-6">
+                            <div class="detail-item">
+                                <label class="text-muted mb-2">
+                                    <i class="fas fa-building text-info me-2"></i>الشركة
+                                </label>
+                                <p class="fs-5 fw-bold mb-0">@Model.CompanyName</p>
+                            </div>
+                        </div>
+
+                        <!-- Currency -->
+                        <div class="col-md-6">
+                            <div class="detail-item">
+                                <label class="text-muted mb-2">
+                                    <i class="fas fa-money-bill text-info me-2"></i>العملة
+                                </label>
+                                <p class="mb-0">
+                                    <span class="badge bg-info bg-opacity-10 text-info border border-info fs-6 px-3 py-2">
+                                        @Model.CurrencyCode - @Model.CurrencySymbol
+                                    </span>
+                                </p>
+                            </div>
+                        </div>
+
+                        <!-- Status -->
+                        <div class="col-md-6">
+                            <div class="detail-item">
+                                <label class="text-muted mb-2">
+                                    <i class="fas fa-toggle-on text-info me-2"></i>الحالة
+                                </label>
+                                <p class="mb-0">
+                                    @if (Model.Status == ModularERP.Common.Enum.Finance_Enum.TreasuryStatus.Active)
+                                    {
+                                        <span class="badge bg-success fs-6 px-3 py-2">
+                                            <i class="fas fa-check-circle me-1"></i>نشط
+                                        </span>
+                                    }
+                                    else
+                                    {
+                                        <span class="badge bg-danger fs-6 px-3 py-2">
+                                            <i class="fas fa-times-circle me-1"></i>غير نشط
+                                        </span>
+                                    }
+                                </p>
+                            </div>
+                        </div>
+
+                        <!-- Created Date -->
+                        <div class="col-md-6">
+                            <div class="detail-item">
+                                <label class="text-muted mb-2">
+                                    <i class="fas fa-calendar text-info me-2"></i>تاريخ الإنشاء
+                                </label>
+                                <p class="fs-5 fw-bold mb-0">
+                                    @Model.CreatedAt.ToString("dd/MM/yyyy HH:mm")
+                                </p>
+                            </div>
+                        </div>
+
+                        <!-- Journal Account -->
+                        @if (!string.IsNullOrEmpty(Model.JournalAccountName))
+                        {
+                            <div class="col-md-12">
+                                <div class="detail-item">
+                                    <label class="text-muted mb-2">
+                                        <i class="fas fa-book text-info me-2"></i>حساب اليومية
+                                    </label>
+                                    <p class="fs-5 fw-bold mb-0">@Model.JournalAccountName</p>
+                                </div>
+                            </div>
+                        }
+
+                        <!-- Description -->
+                        @if (!string.IsNullOrEmpty(Model.Description))
+                        {
+                            <div class="col-md-12">
+                                <div class="detail-item">
+                                    <label class="text-muted mb-2">
+                                        <i class="fas fa-align-left text-info me-2"></i>الوصف
+                                    </label>
+                                    <p class="mb-0 text-muted">@Model.Description</p>
+                                </div>
+                            </div>
+                        }
+                    </div>
+                </div>
+            </div>
+
+            <!-- Action Buttons Card -->
+            <div class="card shadow-sm">
+                <div class="card-body">
+                    <div class="d-flex justify-content-between align-items-center">
+                        <a asp-action="Index" class="btn btn-lg btn-secondary">
+                            <i class="fas fa-arrow-right me-2"></i>رجوع للقائمة
+                        </a>
+                        <div>
+                            <a asp-action="Balance" asp-route-id="@Model.Id" class="btn btn-lg btn-success me-2">
+                                <i class="fas fa-wallet me-2"></i>عرض الرصيد
+                            </a>
+                            <a asp-action="Edit" asp-route-id="@Model.Id" class="btn btn-lg btn-warning">
+                                <i class="fas fa-edit me-2"></i>تعديل
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    <script>
+        $(document).ready(function() {
+            // Add animation to cards
+            $('.card').hide().fadeIn(500);
+        });
+    </script>
+}
+
+<style>
+    .detail-item {
+        padding: 15px;
+        background-color: #f8f9fa;
+        border-radius: 8px;
+        border-left: 3px solid #17a2b8;
+    }
+
+        .detail-item label {
+            font-size: 0.875rem;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+</style>
