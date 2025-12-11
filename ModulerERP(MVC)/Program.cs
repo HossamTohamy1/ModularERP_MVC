@@ -1,10 +1,21 @@
-﻿using Microsoft.EntityFrameworkCore;
+﻿using FluentValidation;
+using FluentValidation.AspNetCore;
+using MediatR;
+using Microsoft.EntityFrameworkCore;
 using ModularERP.Common.Models;
-using ModulerERP_MVC_.Areas.Finance.Treasuries.Services;
+using ModulerERP_MVC_.Common.Behaviors;
 using ModulerERP_MVC_.Common.Data;
 using ModulerERP_MVC_.Common.Enums.Finance_Enum;
+using ModulerERP_MVC_.Common.Middleware;
 using ModulerERP_MVC_.Common.Models;
-using ModulerERP_MVC_.Modules.Data;
+using ModulerERP_MVC_.Common.Repositories.Interfaces;
+using ModulerERP_MVC_.Data;
+using ModulerERP_MVC_.Finance.Currencies.Repositories;
+using ModulerERP_MVC_.Finance.Currencies.Services;
+using ModulerERP_MVC_.Finance.ServieceForValidationAndmapping;
+using ModulerERP_MVC_.Finance.Treasuries.Services;
+using Serilog;
+using System.Reflection;
 
 namespace ModulerERP_MVC_
 {
@@ -12,182 +23,284 @@ namespace ModulerERP_MVC_
     {
         public static async Task Main(string[] args)
         {
-            var builder = WebApplication.CreateBuilder(args);
+            // ============================================================================
+            // SERILOG CONFIGURATION (Initialize Early)
+            // ============================================================================
+            Log.Logger = new LoggerConfiguration()
+                .ReadFrom.Configuration(new ConfigurationBuilder()
+                    .AddJsonFile("appsettings.json")
+                    .Build())
+                .Enrich.FromLogContext()
+                .Enrich.WithMachineName()
+                .Enrich.WithEnvironmentName()
+                .WriteTo.Console(
+                    outputTemplate: "[{Timestamp:HH:mm:ss} {Level:u3}] {Message:lj} {Properties:j}{NewLine}{Exception}")
+                .WriteTo.File(
+                    path: "Logs/log-.txt",
+                    rollingInterval: RollingInterval.Day,
+                    outputTemplate: "[{Timestamp:yyyy-MM-dd HH:mm:ss.fff zzz}] [{Level:u3}] [{SourceContext}] {Message:lj} {Properties:j}{NewLine}{Exception}",
+                    retainedFileCountLimit: 30)
+                .CreateLogger();
 
-            // ============================================
-            // 1️⃣ Core Services
-            // ============================================
-            builder.Services.AddHttpContextAccessor();
-            builder.Services.AddMemoryCache();
-            builder.Services.AddDistributedMemoryCache();
+            try
+            {
+                Log.Information("Starting ModularERP Multi-Tenant Application");
 
-            // ============================================
-            // 2️⃣ Master Database Context (للـ Tenants Management)
-            // ============================================
-            builder.Services.AddDbContext<MasterDbContext>(options =>
-                options.UseSqlServer(
-                    builder.Configuration.GetConnectionString("MasterConnection"),
-                    sqlOptions =>
+                var builder = WebApplication.CreateBuilder(args);
+
+                // استخدام Serilog كـ Logger رئيسي
+                builder.Host.UseSerilog();
+
+                // ============================================
+                // 1️⃣ Core Services
+                // ============================================
+                builder.Services.AddHttpContextAccessor();
+                builder.Services.AddMemoryCache();
+                builder.Services.AddDistributedMemoryCache();
+
+                // ============================================
+                // 2️⃣ Master Database Context (للـ Tenants Management)
+                // ============================================
+                builder.Services.AddDbContext<MasterDbContext>(options =>
+                    options.UseSqlServer(
+                        builder.Configuration.GetConnectionString("MasterConnection"),
+                        sqlOptions =>
+                        {
+                            sqlOptions.MigrationsAssembly("ModulerERP(MVC)");
+                            sqlOptions.EnableRetryOnFailure(
+                                maxRetryCount: 5,
+                                maxRetryDelay: TimeSpan.FromSeconds(30),
+                                errorNumbersToAdd: null);
+                        }));
+
+                // ============================================
+                // 3️⃣ Tenant Services
+                // ============================================
+                builder.Services.AddScoped<IMasterDbService, MasterDbService>();
+                builder.Services.AddScoped<ITenantService, TenantService>();
+
+                // ============================================
+                // 4️⃣ Dynamic Tenant DbContext
+                // ============================================
+                builder.Services.AddScoped<ModulesDbContext>(provider =>
+                {
+                    var tenantService = provider.GetRequiredService<ITenantService>();
+                    var configuration = provider.GetRequiredService<IConfiguration>();
+                    var logger = provider.GetRequiredService<ILogger<Program>>();
+
+                    var tenantId = tenantService.GetCurrentTenantId();
+
+                    string connectionString;
+                    if (string.IsNullOrEmpty(tenantId))
+                    {
+                        // استخدام Default Connection إذا مفيش Tenant
+                        connectionString = configuration.GetConnectionString("DefaultConnection")!;
+                        logger.LogWarning("No tenant context, using default connection");
+                    }
+                    else
+                    {
+                        connectionString = tenantService.GetConnectionString(tenantId);
+                        logger.LogInformation("Using tenant connection for TenantId: {TenantId}", tenantId);
+                    }
+
+                    var optionsBuilder = new DbContextOptionsBuilder<ModulesDbContext>();
+                    optionsBuilder.UseSqlServer(connectionString, sqlOptions =>
                     {
                         sqlOptions.MigrationsAssembly("ModulerERP(MVC)");
                         sqlOptions.EnableRetryOnFailure(
                             maxRetryCount: 5,
                             maxRetryDelay: TimeSpan.FromSeconds(30),
                             errorNumbersToAdd: null);
-                    }));
+                    });
 
-            // ============================================
-            // 3️⃣ Tenant Services
-            // ============================================
-            builder.Services.AddScoped<IMasterDbService, MasterDbService>();
-            builder.Services.AddScoped<ITenantService, TenantService>();
-
-            // ============================================
-            // 4️⃣ Dynamic Tenant DbContext
-            // ============================================
-            builder.Services.AddScoped<ModulesDbContext>(provider =>
-            {
-                var tenantService = provider.GetRequiredService<ITenantService>();
-                var configuration = provider.GetRequiredService<IConfiguration>();
-                var logger = provider.GetRequiredService<ILogger<Program>>();
-
-                var tenantId = tenantService.GetCurrentTenantId();
-
-                string connectionString;
-                if (string.IsNullOrEmpty(tenantId))
-                {
-                    // استخدام Default Connection إذا مفيش Tenant
-                    connectionString = configuration.GetConnectionString("DefaultConnection")!;
-                    logger.LogWarning("No tenant context, using default connection");
-                }
-                else
-                {
-                    connectionString = tenantService.GetConnectionString(tenantId);
-                    logger.LogInformation("Using tenant connection for TenantId: {TenantId}", tenantId);
-                }
-
-                var optionsBuilder = new DbContextOptionsBuilder<ModulesDbContext>();
-                optionsBuilder.UseSqlServer(connectionString, sqlOptions =>
-                {
-                    sqlOptions.MigrationsAssembly("ModulerERP(MVC)");
-                    sqlOptions.EnableRetryOnFailure(
-                        maxRetryCount: 5,
-                        maxRetryDelay: TimeSpan.FromSeconds(30),
-                        errorNumbersToAdd: null);
+                    return new ModulesDbContext(optionsBuilder.Options);
                 });
 
-                return new ModulesDbContext(optionsBuilder.Options);
-            });
+                // ============================================
+                // 5️⃣ Repository Pattern
+                // ============================================
+                builder.Services.AddScoped(typeof(IGeneralRepository<>), typeof(GeneralRepository<>));
+                builder.Services.AddScoped<ICurrencyRepository, CurrencyRepository>();
 
-            // ============================================
-            // 5️⃣ Register Application Services
-            // ============================================
-            builder.Services.AddScoped<ITreasuryService, TreasuryService>();
+                // 3. Register Services
+                builder.Services.AddScoped<ICurrencyService, CurrencyService>();
+                // ============================================
+                // 6️⃣ Application Services
+                // ============================================
+                builder.Services.AddScoped<ITreasuryService, TreasuryService>();
 
-            // ============================================
-            // 6️⃣ MVC & Session
-            // ============================================
-            builder.Services.AddControllersWithViews()
-                .AddRazorRuntimeCompilation();
 
-            builder.Services.AddSession(options =>
-            {
-                options.IdleTimeout = TimeSpan.FromMinutes(30);
-                options.Cookie.HttpOnly = true;
-                options.Cookie.IsEssential = true;
-            });
 
-            var app = builder.Build();
+                // Add MediatR Pipeline Behaviors for Validation
+                builder.Services.AddTransient(typeof(IPipelineBehavior<,>), typeof(ValidationBehavior<,>));
 
-            // ============================================
-            // 7️⃣ Initialize Master Database & Default Tenant
-            // ============================================
-            await EnsureMasterDatabaseAsync(app.Services);
+                // ============================================
+                // 9️⃣ FluentValidation
+                // ============================================
+                builder.Services.AddFluentValidationAutoValidation();
+                builder.Services.AddFluentValidationClientsideAdapters();
+                builder.Services.AddValidatorsFromAssembly(Assembly.GetExecutingAssembly());
 
-            // ============================================
-            // 8️⃣ Configure HTTP Pipeline
-            // ============================================
-            if (!app.Environment.IsDevelopment())
-            {
-                app.UseExceptionHandler("/Home/Error");
-                app.UseHsts();
-            }
-            else
-            {
-                app.UseDeveloperExceptionPage();
-            }
+                // ============================================
+                // 🔟 Management Services (من ServiceRegistration)
+                // ============================================
+                builder.Services.ManagementServices();
 
-            app.UseHttpsRedirection();
-            app.UseStaticFiles();
-            app.UseRouting();
-            app.UseSession();
+                // ============================================
+                // 1️⃣1️⃣ Middleware
+                // ============================================
+                builder.Services.AddScoped<GlobalErrorHandlerMiddleware>();
+                // AutoMapper
+                builder.Services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies());
 
-            // ============================================
-            // 9️⃣ Tenant Resolution Middleware (للـ MVC)
-            // ============================================
-            app.Use(async (context, next) =>
-            {
-                var logger = context.RequestServices.GetRequiredService<ILogger<Program>>();
-
-                // Skip tenant check for static files and public paths
-                var path = context.Request.Path.Value?.ToLower();
-                if (path != null && (
-                    path.StartsWith("/css/") ||
-                    path.StartsWith("/js/") ||
-                    path.StartsWith("/lib/") ||
-                    path.StartsWith("/images/") ||
-                    path.StartsWith("/favicon.ico") ||
-                    path.StartsWith("/tenant/select")))
-                {
-                    await next();
-                    return;
-                }
-
-                var tenantService = context.RequestServices.GetRequiredService<ITenantService>();
-                var tenantId = tenantService.GetCurrentTenantId();
-
-                if (string.IsNullOrEmpty(tenantId))
-                {
-                    // إذا مفيش Tenant في الـ Session، نعمل Redirect لصفحة اختيار الشركة
-                    if (!context.Request.Path.StartsWithSegments("/Tenant"))
+                // ============================================
+                // 1️⃣2️⃣ MVC Configuration
+                // ============================================
+                builder.Services.AddControllersWithViews()
+                    .AddRazorRuntimeCompilation()
+                    .AddJsonOptions(options =>
                     {
-                        context.Response.Redirect("/Tenant/Select");
-                        return;
-                    }
+                        options.JsonSerializerOptions.PropertyNamingPolicy = System.Text.Json.JsonNamingPolicy.CamelCase;
+                        options.JsonSerializerOptions.ReferenceHandler = System.Text.Json.Serialization.ReferenceHandler.IgnoreCycles;
+                    });
+
+                // ============================================
+                // 1️⃣3️⃣ Session Configuration
+                // ============================================
+                builder.Services.AddSession(options =>
+                {
+                    options.IdleTimeout = TimeSpan.FromMinutes(30);
+                    options.Cookie.HttpOnly = true;
+                    options.Cookie.IsEssential = true;
+                });
+
+                var app = builder.Build();
+
+                // ============================================
+                // 1️⃣4️⃣ Initialize Master Database & Default Tenant
+                // ============================================
+                await EnsureMasterDatabaseAsync(app.Services);
+
+                // ============================================
+                // 1️⃣5️⃣ Configure HTTP Pipeline
+                // ============================================
+                if (app.Environment.IsDevelopment())
+                {
+                    app.UseDeveloperExceptionPage();
                 }
                 else
                 {
-                    // Validate Tenant
-                    var isValid = await tenantService.ValidateTenantAsync(tenantId);
-                    if (!isValid)
+                    app.UseExceptionHandler("/Home/Error");
+                    app.UseHsts();
+                }
+
+                // ✅ Global Error Handler Middleware (يجب أن يكون أول middleware)
+                app.UseMiddleware<GlobalErrorHandlerMiddleware>();
+
+                app.UseHttpsRedirection();
+                app.UseStaticFiles();
+                app.UseRouting();
+
+                app.UseSession();
+
+                // ============================================
+                // 1️⃣6️⃣ Request Logging Middleware (Serilog)
+                // ============================================
+                app.UseSerilogRequestLogging(options =>
+                {
+                    options.EnrichDiagnosticContext = (diagnosticContext, httpContext) =>
                     {
-                        logger.LogWarning("Invalid tenant: {TenantId}", tenantId);
-                        context.Session.Remove("TenantId");
-                        context.Response.Redirect("/Tenant/Select");
+                        diagnosticContext.Set("RequestHost", httpContext.Request.Host.Value);
+                        diagnosticContext.Set("RequestScheme", httpContext.Request.Scheme);
+                        diagnosticContext.Set("RemoteIpAddress", httpContext.Connection.RemoteIpAddress);
+
+                        // إضافة Tenant ID للـ Logs
+                        var tenantId = httpContext.Session.GetString("TenantId");
+                        if (!string.IsNullOrEmpty(tenantId))
+                        {
+                            diagnosticContext.Set("TenantId", tenantId);
+                        }
+                    };
+                });
+
+                // ============================================
+                // 1️⃣7️⃣ Tenant Resolution Middleware (للـ MVC)
+                // ============================================
+                app.Use(async (context, next) =>
+                {
+                    var logger = context.RequestServices.GetRequiredService<ILogger<Program>>();
+
+                    // Skip tenant check for static files and public paths
+                    var path = context.Request.Path.Value?.ToLower();
+                    if (path != null && (
+                        path.StartsWith("/css/") ||
+                        path.StartsWith("/js/") ||
+                        path.StartsWith("/lib/") ||
+                        path.StartsWith("/images/") ||
+                        path.StartsWith("/favicon.ico") ||
+                        path.StartsWith("/tenant/select")))
+                    {
+                        await next();
                         return;
                     }
 
-                    logger.LogInformation("Processing request for tenant: {TenantId}", tenantId);
-                }
+                    var tenantService = context.RequestServices.GetRequiredService<ITenantService>();
+                    var tenantId = tenantService.GetCurrentTenantId();
 
-                await next();
-            });
+                    if (string.IsNullOrEmpty(tenantId))
+                    {
+                        // إذا مفيش Tenant في الـ Session، نعمل Redirect لصفحة اختيار الشركة
+                        if (!context.Request.Path.StartsWithSegments("/Tenant"))
+                        {
+                            logger.LogWarning("No tenant context found, redirecting to tenant selection");
+                            context.Response.Redirect("/Tenant/Select");
+                            return;
+                        }
+                    }
+                    else
+                    {
+                        // Validate Tenant
+                        var isValid = await tenantService.ValidateTenantAsync(tenantId);
+                        if (!isValid)
+                        {
+                            logger.LogWarning("Invalid tenant: {TenantId}", tenantId);
+                            context.Session.Remove("TenantId");
+                            context.Response.Redirect("/Tenant/Select");
+                            return;
+                        }
 
-            app.UseAuthorization();
+                        logger.LogInformation("Processing request for tenant: {TenantId}", tenantId);
+                    }
 
-            // ============================================
-            // 🔟 Map Routes
-            // ============================================
-            app.MapControllerRoute(
-                name: "areas",
-                pattern: "{area:exists}/{controller=Home}/{action=Index}/{id?}");
+                    await next();
+                });
 
-            app.MapControllerRoute(
-                name: "default",
-                pattern: "{controller=Home}/{action=Index}/{id?}")
-                .WithStaticAssets();
+                app.UseAuthorization();
 
-            await app.RunAsync();
+                // ============================================
+                // 1️⃣8️⃣ Map Routes
+                // ============================================
+                app.MapControllerRoute(
+                    name: "areas",
+                    pattern: "{area:exists}/{controller=Home}/{action=Index}/{id?}");
+
+                app.MapControllerRoute(
+                    name: "default",
+                    pattern: "{controller=Home}/{action=Index}/{id?}")
+                    .WithStaticAssets();
+
+                Log.Information("ModularERP application started successfully");
+                await app.RunAsync();
+            }
+            catch (Exception ex)
+            {
+                Log.Fatal(ex, "Application terminated unexpectedly");
+                throw;
+            }
+            finally
+            {
+                Log.CloseAndFlush();
+            }
         }
 
         // ============================================
@@ -202,11 +315,13 @@ namespace ModulerERP_MVC_
 
             try
             {
+                Log.Information("Initializing Master Database");
+
                 // إنشاء Master Database إذا مكانش موجود
                 await masterContext.Database.EnsureCreatedAsync();
                 await masterContext.Database.MigrateAsync();
 
-                logger.LogInformation("Master database initialized successfully");
+                Log.Information("Master database initialized successfully");
 
                 // إنشاء Default Tenant إذا مكانش موجود
                 if (!await masterContext.MasterCompanies.AnyAsync())
@@ -224,15 +339,22 @@ namespace ModulerERP_MVC_
                     masterContext.MasterCompanies.Add(defaultCompany);
                     await masterContext.SaveChangesAsync();
 
-                    logger.LogInformation("Created default company: {CompanyId}", defaultCompany.Id);
+                    Log.Information("Created default company: {CompanyId} - {CompanyName}",
+                        defaultCompany.Id, defaultCompany.Name);
 
                     // إنشاء قاعدة بيانات الـ Tenant
                     await masterDbService.CreateTenantDatabaseAsync(defaultCompany.Id);
+
+                    Log.Information("Default tenant database created successfully");
+                }
+                else
+                {
+                    Log.Information("Master database already contains companies");
                 }
             }
             catch (Exception ex)
             {
-                logger.LogError(ex, "Failed to initialize master database");
+                Log.Error(ex, "Failed to initialize master database");
                 throw;
             }
         }

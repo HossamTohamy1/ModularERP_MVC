@@ -4,7 +4,7 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
-using ModulerERP_MVC_.Modules.Data;
+using ModulerERP_MVC_.Data;
 
 #nullable disable
 
@@ -464,6 +464,8 @@ namespace ModulerERP_MVC_.Migrations
 
                     b.HasKey("Id");
 
+                    b.HasIndex("CurrencyCode");
+
                     b.ToTable("Companies");
                 });
 
@@ -474,22 +476,27 @@ namespace ModulerERP_MVC_.Migrations
                         .HasColumnType("nvarchar(3)");
 
                     b.Property<DateTime>("CreatedAt")
-                        .HasColumnType("datetime2");
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("datetime2")
+                        .HasDefaultValueSql("GETUTCDATE()");
 
                     b.Property<Guid?>("CreatedById")
                         .HasColumnType("uniqueidentifier");
 
                     b.Property<int>("Decimals")
-                        .HasColumnType("int");
-
-                    b.Property<Guid>("Id")
-                        .HasColumnType("uniqueidentifier");
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int")
+                        .HasDefaultValue(2);
 
                     b.Property<bool>("IsActive")
-                        .HasColumnType("bit");
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("bit")
+                        .HasDefaultValue(true);
 
                     b.Property<bool>("IsDeleted")
-                        .HasColumnType("bit");
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("bit")
+                        .HasDefaultValue(false);
 
                     b.Property<string>("Name")
                         .IsRequired()
@@ -509,9 +516,11 @@ namespace ModulerERP_MVC_.Migrations
 
                     b.HasKey("Code");
 
-                    b.HasIndex("Code")
-                        .IsUnique()
-                        .HasFilter("[IsDeleted] = 0");
+                    b.HasIndex("IsActive");
+
+                    b.HasIndex("IsDeleted");
+
+                    b.HasIndex("Name");
 
                     b.ToTable("Currencies");
                 });
@@ -1259,6 +1268,17 @@ namespace ModulerERP_MVC_.Migrations
                     b.Navigation("Currency");
 
                     b.Navigation("JournalAccount");
+                });
+
+            modelBuilder.Entity("ModulerERP_MVC_.Models.Finance.Company", b =>
+                {
+                    b.HasOne("ModulerERP_MVC_.Models.Finance.Currency", "Currency")
+                        .WithMany()
+                        .HasForeignKey("CurrencyCode")
+                        .OnDelete(DeleteBehavior.Restrict)
+                        .IsRequired();
+
+                    b.Navigation("Currency");
                 });
 
             modelBuilder.Entity("ModulerERP_MVC_.Models.Finance.Customer", b =>

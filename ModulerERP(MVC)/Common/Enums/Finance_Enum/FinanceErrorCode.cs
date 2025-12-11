@@ -39,7 +39,8 @@
         BankAccountHasVouchers = 2205,
         RequestCancelled=2206,
         DuplicateRecord= 2207,
-        Unauthorized= 2208,
+        DuplicateEntry=2209,
+        Unauthorized = 2208,
         // GL Account Errors
         GlAccountNotFound = 2301,
         GlAccountNotLeaf = 2302,
@@ -56,5 +57,10 @@
         AccessDenied = 2503,
         InvalidOperation=2504,
         ValidationFailed=2505,
+        CannotDeleteWithRelatedData= 2506,
+        CannotDeactivateCurrencyInUse = 2507,
+        DuplicateCurrencyCode = 2508,
+        CurrencyInUse = 2509,
+        CurrencyNotFound = 2510,
     }
 }

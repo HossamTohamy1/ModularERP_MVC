@@ -1,30 +1,27 @@
 ﻿<!DOCTYPE html>
-<html lang="ar" dir="rtl">
+<html lang="en">
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>@ViewData["Title"] - نظام إدارة الموارد</title>
+    <title>@ViewData["Title"] - Resource Management System</title>
 
-    <!-- Bootstrap RTL CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.rtl.min.css" rel="stylesheet">
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
 
     <!-- Font Awesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
 
-    <!-- Google Fonts - Cairo for better Arabic support -->
+    <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
 
     <!-- Custom CSS -->
     <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
 
     <style>
-        /* Inline CSS - مؤقت للتأكد من التطبيق */
         body {
-            font-family: 'Cairo', 'Segoe UI', Tahoma, sans-serif !important;
-            direction: rtl !important;
-            text-align: right !important;
+            font-family: 'Inter', 'Segoe UI', Tahoma, sans-serif !important;
             background-color: #f5f7fa !important;
         }
 
@@ -38,6 +35,51 @@
             box-shadow: 0 2px 8px rgba(0,0,0,.1) !important;
             background: white !important;
             padding: 1rem 0 !important;
+        }
+
+            /* Fix for dropdown menu position */
+            .navbar .dropdown-menu {
+                position: absolute !important;
+                left: 0 !important;
+                right: auto !important;
+                margin-top: 0.5rem !important;
+                min-width: 250px !important;
+                max-height: 80vh !important;
+                overflow-y: auto !important;
+                box-shadow: 0 4px 15px rgba(0,0,0,.15) !important;
+                border: none !important;
+                border-radius: 12px !important;
+            }
+
+        .dropdown-menu .dropdown-header {
+            font-weight: 700 !important;
+            font-size: 0.85rem !important;
+            color: #667eea !important;
+            padding: 0.75rem 1.5rem !important;
+            text-transform: uppercase !important;
+            letter-spacing: 0.5px !important;
+        }
+
+        .dropdown-menu .dropdown-item {
+            padding: 0.65rem 1.5rem !important;
+            transition: all 0.2s ease !important;
+            font-size: 0.95rem !important;
+        }
+
+            .dropdown-menu .dropdown-item:hover {
+                background: linear-gradient(135deg, #667eea 0%, #764ba2 100%) !important;
+                color: white !important;
+                padding-left: 1.75rem !important;
+            }
+
+            .dropdown-menu .dropdown-item[disabled] {
+                opacity: 0.5 !important;
+                cursor: not-allowed !important;
+            }
+
+        .dropdown-menu .dropdown-divider {
+            margin: 0.5rem 0 !important;
+            opacity: 0.1 !important;
         }
 
         .card {
@@ -114,12 +156,12 @@
 
         .alert-success {
             background: linear-gradient(135deg, #d4edda 0%, #c3e6cb 100%) !important;
-            border-right: 4px solid #38ef7d !important;
+            border-left: 4px solid #38ef7d !important;
         }
 
         .alert-danger {
             background: linear-gradient(135deg, #f8d7da 0%, #f5c6cb 100%) !important;
-            border-right: 4px solid #f5576c !important;
+            border-left: 4px solid #f5576c !important;
         }
 
         .form-control, .form-select {
@@ -173,6 +215,15 @@
             border-bottom: 3px solid #e9ecef !important;
             margin-bottom: 2rem !important;
         }
+
+        /* Ensure navbar is not overflowing */
+        .navbar-collapse {
+            overflow: visible !important;
+        }
+
+        .navbar-nav {
+            position: relative !important;
+        }
     </style>
 </head>
 <body>
@@ -181,7 +232,7 @@
             <div class="container-fluid">
                 <a class="navbar-brand fw-bold text-primary" asp-area="" asp-controller="Home" asp-action="Index">
                     <i class="fas fa-chart-line me-2"></i>
-                    نظام إدارة الموارد
+                    Resource Management System
                 </a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
                     <span class="navbar-toggler-icon"></span>
@@ -191,7 +242,7 @@
                         <li class="nav-item">
                             <a class="nav-link" asp-area="" asp-controller="Home" asp-action="Index">
                                 <i class="fas fa-home me-1"></i>
-                                الرئيسية
+                                Home
                             </a>
                         </li>
 
@@ -200,20 +251,42 @@
                             <a class="nav-link dropdown-toggle" href="#" id="financeDropdown" role="button"
                                data-bs-toggle="dropdown" aria-expanded="false">
                                 <i class="fas fa-coins me-1"></i>
-                                المالية
+                                Finance
                             </a>
                             <ul class="dropdown-menu" aria-labelledby="financeDropdown">
                                 <li>
-                                    <a class="dropdown-item" asp-area="Finance" asp-controller="Treasuries" asp-action="Index">
-                                        <i class="fas fa-money-bill-wave me-2"></i>
-                                        الخزائن
+                                    <h6 class="dropdown-header">
+                                        <i class="fas fa-cog me-2"></i>Configuration
+                                    </h6>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" asp-area="Finance" asp-controller="Currencies" asp-action="Index">
+                                        <i class="fas fa-dollar-sign me-2"></i>
+                                        Currencies
                                     </a>
                                 </li>
                                 <li><hr class="dropdown-divider"></li>
                                 <li>
+                                    <h6 class="dropdown-header">
+                                        <i class="fas fa-wallet me-2"></i>Cash Management
+                                    </h6>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" asp-area="Finance" asp-controller="Treasuries" asp-action="Index">
+                                        <i class="fas fa-money-bill-wave me-2"></i>
+                                        Treasuries
+                                    </a>
+                                </li>
+                                <li><hr class="dropdown-divider"></li>
+                                <li>
+                                    <h6 class="dropdown-header">
+                                        <i class="fas fa-university me-2"></i>Banking
+                                    </h6>
+                                </li>
+                                <li>
                                     <a class="dropdown-item" href="#" disabled>
-                                        <i class="fas fa-university me-2"></i>
-                                        الحسابات البنكية (قريباً)
+                                        <i class="fas fa-building-columns me-2"></i>
+                                        Bank Accounts (Coming Soon)
                                     </a>
                                 </li>
                             </ul>
@@ -229,12 +302,6 @@
             @RenderBody()
         </main>
     </div>
-
-    <footer class="footer text-center text-muted py-3 mt-5" style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: white !important;">
-        <div class="container">
-            <span style="color: white;">&copy; 2025 - نظام إدارة الموارد - جميع الحقوق محفوظة</span>
-        </div>
-    </footer>
 
     <!-- jQuery -->
     <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>

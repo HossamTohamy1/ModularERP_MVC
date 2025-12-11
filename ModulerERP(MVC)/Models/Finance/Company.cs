@@ -12,6 +12,9 @@ namespace ModulerERP_MVC_.Models.Finance
         [Required, MaxLength(3)]
         public string CurrencyCode { get; set; } = "EGP";
 
+        // Navigation property للـ Currency
+        public virtual Currency Currency { get; set; } = null!;
+
         public DateTime CreatedAt { get; set; } = DateTime.UtcNow;
 
         // Navigation properties

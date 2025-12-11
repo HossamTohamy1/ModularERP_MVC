@@ -3,7 +3,7 @@ using Microsoft.EntityFrameworkCore;
 using ModulerERP_MVC_.Common.Data;
 using ModulerERP_MVC_.Common.Enums.Finance_Enum;
 using ModulerERP_MVC_.Common.Models;
-using ModulerERP_MVC_.Modules.Data;
+using ModulerERP_MVC_.Data;
 
 public class MasterDbService : IMasterDbService
 {

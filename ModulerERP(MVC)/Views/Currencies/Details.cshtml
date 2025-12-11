@@ -1,0 +1,176 @@
+﻿@model ModulerERP_MVC_.Models.Finance.DTOs.CurrencyDto
+
+@{
+    ViewData["Title"] = "Currency Details";
+}
+
+<div class="row mb-4">
+    <div class="col-12">
+        <nav aria-label="breadcrumb">
+            <ol class="breadcrumb">
+                <li class="breadcrumb-item">
+                    <a asp-action="Index">
+                        <i class="fas fa-dollar-sign me-1"></i>Currencies
+                    </a>
+                </li>
+                <li class="breadcrumb-item active">Currency Details</li>
+            </ol>
+        </nav>
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-lg-8 mx-auto">
+        <div class="card">
+            <div class="card-header bg-primary text-white">
+                <h5 class="mb-0">
+                    <i class="fas fa-info-circle me-2"></i>Currency Details
+                </h5>
+            </div>
+            <div class="card-body">
+                <div class="row mb-3">
+                    <div class="col-md-3 text-muted">
+                        <i class="fas fa-barcode me-2"></i>Currency Code:
+                    </div>
+                    <div class="col-md-9">
+                        <strong class="fs-5 text-primary">@Model.Code</strong>
+                    </div>
+                </div>
+
+                <hr />
+
+                <div class="row mb-3">
+                    <div class="col-md-3 text-muted">
+                        <i class="fas fa-tag me-2"></i>Currency Name:
+                    </div>
+                    <div class="col-md-9">
+                        <strong>@Model.Name</strong>
+                    </div>
+                </div>
+
+                <hr />
+
+                <div class="row mb-3">
+                    <div class="col-md-3 text-muted">
+                        <i class="fas fa-money-bill-wave me-2"></i>Symbol:
+                    </div>
+                    <div class="col-md-9">
+                        <span class="badge bg-secondary fs-6">@Model.Symbol</span>
+                    </div>
+                </div>
+
+                <hr />
+
+                <div class="row mb-3">
+                    <div class="col-md-3 text-muted">
+                        <i class="fas fa-calculator me-2"></i>Decimal Places:
+                    </div>
+                    <div class="col-md-9">
+                        <strong>@Model.Decimals</strong>
+                        @switch (Model.Decimals)
+                        {
+                            case 0:
+                                <span class="text-muted">(No decimal places)</span>
+                                break;
+                            case 2:
+                                <span class="text-muted">(Standard format - e.g., 100.00)</span>
+                                break;
+                            case 3:
+                                <span class="text-muted">(Three decimal places - e.g., 100.000)</span>
+                                break;
+                            case 4:
+                                <span class="text-muted">(Four decimal places - e.g., 100.0000)</span>
+                                break;
+                        }
+                    </div>
+                </div>
+
+                <hr />
+
+                <div class="row mb-3">
+                    <div class="col-md-3 text-muted">
+                        <i class="fas fa-toggle-on me-2"></i>Status:
+                    </div>
+                    <div class="col-md-9">
+                        @if (Model.IsActive)
+                        {
+                            <span class="badge bg-success">
+                                <i class="fas fa-check-circle me-1"></i>Active
+                            </span>
+                            <span class="text-muted ms-2">This currency is currently active and can be used</span>
+                        }
+                        else
+                        {
+                            <span class="badge bg-danger">
+                                <i class="fas fa-times-circle me-1"></i>Inactive
+                            </span>
+                            <span class="text-muted ms-2">This currency is inactive and cannot be used</span>
+                        }
+                    </div>
+                </div>
+
+                <div class="alert alert-info mt-4">
+                    <i class="fas fa-info-circle me-2"></i>
+                    <strong>Currency Information</strong>
+                    <p class="mb-0 mt-2">
+                        This currency can be used across all finance modules including Treasuries,
+                        Bank Accounts, Vouchers, and Transactions. The decimal places setting determines
+                        how amounts will be displayed and calculated throughout the system.
+                    </p>
+                </div>
+
+                <div class="d-flex justify-content-between align-items-center mt-4 pt-3 border-top">
+                    <a asp-action="Index" class="btn btn-secondary">
+                        <i class="fas fa-arrow-left me-2"></i>Back to List
+                    </a>
+                    <div>
+                        <!-- ⭐ استخدم Code بدلاً من Id -->
+                        <a asp-action="Edit" asp-route-code="@Model.Code" class="btn btn-warning">
+                            <i class="fas fa-edit me-2"></i>Edit Currency
+                        </a>
+                        <button type="button"
+                                class="btn btn-danger"
+                                data-bs-toggle="modal"
+                                data-bs-target="#deleteModal">
+                            <i class="fas fa-trash me-2"></i>Delete Currency
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Delete Confirmation Modal -->
+<div class="modal fade" id="deleteModal" tabindex="-1">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header bg-danger text-white">
+                <h5 class="modal-title">
+                    <i class="fas fa-exclamation-triangle me-2"></i>Confirm Delete
+                </h5>
+                <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal"></button>
+            </div>
+            <div class="modal-body">
+                <p>Are you sure you want to delete this currency?</p>
+                <div class="alert alert-warning">
+                    <strong>@Model.Code - @Model.Name</strong>
+                </div>
+                <p class="text-danger">
+                    <i class="fas fa-exclamation-circle me-1"></i>
+                    This action cannot be undone if the currency is not in use.
+                </p>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
+                <!-- ⭐ استخدم Code بدلاً من Id -->
+                <form asp-action="Delete" asp-route-code="@Model.Code" method="post" style="display: inline;">
+                    @Html.AntiForgeryToken()
+                    <button type="submit" class="btn btn-danger">
+                        <i class="fas fa-trash me-2"></i>Delete
+                    </button>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>

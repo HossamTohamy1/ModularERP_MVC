@@ -1,6 +1,6 @@
 ﻿using ModularERP.Common.Models;
 using ModulerERP_MVC_.Common.Enums.Finance_Enum;
-using ModulerERP_MVC_.Modules.Data;
+using ModulerERP_MVC_.Data;
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 

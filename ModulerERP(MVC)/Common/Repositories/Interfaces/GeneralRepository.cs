@@ -1,7 +1,7 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.ChangeTracking;
 using ModularERP.Common.Models;
-using ModulerERP_MVC_.Modules.Data;
+using ModulerERP_MVC_.Data;
 using System.Linq.Expressions;
 
 namespace ModulerERP_MVC_.Common.Repositories.Interfaces

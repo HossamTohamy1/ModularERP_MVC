@@ -1,0 +1,453 @@
+﻿@using ModulerERP_MVC_.Finance.Treasuries.ViewModels
+@model TreasuryViewModel
+@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+@{
+    ViewData["Title"] = "Add New Treasury";
+}
+
+<div class="container-fluid">
+    <!-- Header with Breadcrumb -->
+    <div class="row mb-4 align-items-center header-section">
+        <div class="col-md-12">
+            <div class="d-flex justify-content-between align-items-center flex-wrap">
+                <div class="mb-3 mb-md-0">
+                    <h2 class="mb-2 page-title">
+                        <span class="title-icon">
+                            <i class="fas fa-plus-circle"></i>
+                        </span>
+                        @ViewData["Title"]
+                    </h2>
+                    <nav aria-label="breadcrumb">
+                        <ol class="breadcrumb mb-0 custom-breadcrumb">
+                            <li class="breadcrumb-item">
+                                <a asp-action="Index">
+                                    <i class="fas fa-money-bill-wave me-1"></i>Treasuries
+                                </a>
+                            </li>
+                            <li class="breadcrumb-item active" aria-current="page">
+                                <i class="fas fa-angle-right me-1"></i>Add New
+                            </li>
+                        </ol>
+                    </nav>
+                </div>
+                <div>
+                    <a asp-action="Index" class="btn btn-outline-secondary btn-back">
+                        <i class="fas fa-arrow-left me-2"></i>Back to List
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Form Card -->
+    <div class="row">
+        <div class="col-lg-8 col-xl-7 mx-auto">
+            <div class="card shadow-lg border-0 form-card">
+                <div class="card-header text-white">
+                    <h5 class="mb-0 d-flex align-items-center">
+                        <span class="header-icon me-2">
+                            <i class="fas fa-file-alt"></i>
+                        </span>
+                        Treasury Information
+                    </h5>
+                </div>
+                <div class="card-body p-4">
+                    <form asp-action="Create" method="post">
+                        <div asp-validation-summary="ModelOnly" class="alert alert-danger validation-alert" role="alert"></div>
+
+                        <!-- Treasury Name & Company -->
+                        <div class="row mb-4">
+                            <div class="col-md-6">
+                                <label asp-for="Name" class="form-label fw-bold custom-label">
+                                    <i class="fas fa-signature label-icon"></i>
+                                    @Html.DisplayNameFor(m => m.Name)
+                                    <span class="text-danger">*</span>
+                                </label>
+                                <div class="input-group-custom">
+                                    <input asp-for="Name"
+                                           class="form-control form-control-lg custom-input"
+                                           placeholder="e.g. Main Treasury"
+                                           autofocus />
+                                </div>
+                                <span asp-validation-for="Name" class="text-danger small validation-text"></span>
+                            </div>
+                            <div class="col-md-6">
+                                <label asp-for="CompanyId" class="form-label fw-bold custom-label">
+                                    <i class="fas fa-building label-icon"></i>
+                                    @Html.DisplayNameFor(m => m.CompanyId)
+                                    <span class="text-danger">*</span>
+                                </label>
+                                <select asp-for="CompanyId"
+                                        class="form-select form-select-lg custom-select"
+                                        asp-items="ViewBag.Companies">
+                                    <option value="">-- Select Company --</option>
+                                </select>
+                                <span asp-validation-for="CompanyId" class="text-danger small validation-text"></span>
+                            </div>
+                        </div>
+
+                        <!-- Currency & Status -->
+                        <div class="row mb-4">
+                            <div class="col-md-6">
+                                <label asp-for="CurrencyCode" class="form-label fw-bold custom-label">
+                                    <i class="fas fa-money-bill label-icon"></i>
+                                    @Html.DisplayNameFor(m => m.CurrencyCode)
+                                    <span class="text-danger">*</span>
+                                </label>
+                                <select asp-for="CurrencyCode"
+                                        class="form-select form-select-lg custom-select"
+                                        asp-items="ViewBag.Currencies">
+                                    <option value="">-- Select Currency --</option>
+                                </select>
+                                <span asp-validation-for="CurrencyCode" class="text-danger small validation-text"></span>
+                            </div>
+                            <div class="col-md-6">
+                                <label asp-for="Status" class="form-label fw-bold custom-label">
+                                    <i class="fas fa-toggle-on label-icon"></i>
+                                    @Html.DisplayNameFor(m => m.Status)
+                                    <span class="text-danger">*</span>
+                                </label>
+                                <select asp-for="Status" class="form-select form-select-lg custom-select">
+                                    <option value="0">✓ Active</option>
+                                    <option value="1">✗ Inactive</option>
+                                </select>
+                                <span asp-validation-for="Status" class="text-danger small validation-text"></span>
+                            </div>
+                        </div>
+
+                        <!-- Journal Account -->
+                        <div class="row mb-4">
+                            <div class="col-md-12">
+                                <label asp-for="JournalAccountId" class="form-label fw-bold custom-label">
+                                    <i class="fas fa-book label-icon"></i>
+                                    @Html.DisplayNameFor(m => m.JournalAccountId)
+                                    <span class="text-muted small ms-1">(Optional)</span>
+                                </label>
+                                <select asp-for="JournalAccountId"
+                                        class="form-select form-select-lg custom-select"
+                                        asp-items="ViewBag.GlAccounts">
+                                    <option value="">-- Select Journal Account (Optional) --</option>
+                                </select>
+                                <span asp-validation-for="JournalAccountId" class="text-danger small validation-text"></span>
+                                <div class="form-text custom-hint">
+                                    <i class="fas fa-info-circle me-1"></i>
+                                    Accounting journal account associated with this treasury
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Description -->
+                        <div class="mb-4">
+                            <label asp-for="Description" class="form-label fw-bold custom-label">
+                                <i class="fas fa-align-left label-icon"></i>
+                                @Html.DisplayNameFor(m => m.Description)
+                                <span class="text-muted small ms-1">(Optional)</span>
+                            </label>
+                            <textarea asp-for="Description"
+                                      class="form-control custom-textarea"
+                                      rows="4"
+                                      placeholder="Enter a brief description of the treasury..."></textarea>
+                            <span asp-validation-for="Description" class="text-danger small validation-text"></span>
+                        </div>
+
+                        <!-- Info Alert -->
+                        <div class="alert custom-alert d-flex align-items-center" role="alert">
+                            <div class="alert-icon">
+                                <i class="fas fa-info-circle"></i>
+                            </div>
+                            <div>
+                                <strong>Note:</strong> Fields marked with <span class="text-danger fw-bold">*</span> are required
+                            </div>
+                        </div>
+
+                        <!-- Action Buttons -->
+                        <div class="d-flex justify-content-between pt-4 border-top button-group">
+                            <a asp-action="Index" class="btn btn-lg btn-cancel">
+                                <i class="fas fa-times me-2"></i>Cancel
+                            </a>
+                            <button type="submit" class="btn btn-lg btn-save px-5">
+                                <i class="fas fa-save me-2"></i>Save Treasury
+                            </button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+
+    <script>
+        $(document).ready(function() {
+            // Add animation to form
+            $('.form-card').hide().fadeIn(600);
+
+            // Focus on first input with delay
+            setTimeout(function() {
+                $('input[asp-for="Name"]').focus();
+            }, 300);
+
+            // Add focus effect to inputs
+            $('.custom-input, .custom-select, .custom-textarea').focus(function() {
+                $(this).parent().addClass('focused');
+            }).blur(function() {
+                $(this).parent().removeClass('focused');
+            });
+        });
+    </script>
+}
+
+<style>
+    /* Header Section */
+    .header-section {
+        padding-bottom: 1.5rem;
+        border-bottom: 3px solid #e9ecef;
+        margin-bottom: 2rem !important;
+    }
+
+    .page-title {
+        font-weight: 700;
+        color: #2c3e50;
+        display: flex;
+        align-items: center;
+    }
+
+    .title-icon {
+        width: 45px;
+        height: 45px;
+        background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+        border-radius: 12px;
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        color: white;
+        font-size: 1.3rem;
+        margin-right: 0.75rem;
+        box-shadow: 0 4px 12px rgba(102, 126, 234, 0.3);
+    }
+
+    /* Breadcrumb */
+    .custom-breadcrumb {
+        background: transparent;
+        padding: 0.5rem 0;
+        font-size: 0.95rem;
+    }
+
+        .custom-breadcrumb .breadcrumb-item a {
+            color: #667eea;
+            text-decoration: none;
+            transition: color 0.3s ease;
+        }
+
+            .custom-breadcrumb .breadcrumb-item a:hover {
+                color: #764ba2;
+            }
+
+        .custom-breadcrumb .breadcrumb-item.active {
+            color: #6c757d;
+        }
+
+    /* Back Button */
+    .btn-back {
+        border: 2px solid #6c757d;
+        color: #6c757d;
+        font-weight: 600;
+        border-radius: 10px;
+        padding: 0.6rem 1.5rem;
+        transition: all 0.3s ease;
+    }
+
+        .btn-back:hover {
+            background: #6c757d;
+            color: white;
+            transform: translateY(-2px);
+            box-shadow: 0 4px 12px rgba(108, 117, 125, 0.3);
+        }
+
+    /* Form Card */
+    .form-card {
+        border-radius: 15px;
+        overflow: hidden;
+        animation: slideUp 0.6s ease;
+    }
+
+    @@keyframes slideUp {
+        from {
+            opacity: 0;
+            transform: translateY(30px);
+        }
+
+        to {
+            opacity: 1;
+            transform: translateY(0);
+        }
+    }
+
+    .card-header {
+        background: linear-gradient(135deg, #667eea 0%, #764ba2 100%) !important;
+        padding: 1.5rem !important;
+        border: none !important;
+    }
+
+    .header-icon {
+        width: 40px;
+        height: 40px;
+        background: rgba(255, 255, 255, 0.2);
+        border-radius: 10px;
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 1.1rem;
+    }
+
+    /* Labels */
+    .custom-label {
+        color: #2c3e50;
+        font-size: 0.95rem;
+        margin-bottom: 0.5rem;
+        display: flex;
+        align-items: center;
+    }
+
+    .label-icon {
+        color: #667eea;
+        margin-right: 0.5rem;
+        font-size: 1rem;
+    }
+
+    /* Input Fields */
+    .input-group-custom {
+        position: relative;
+    }
+
+    .custom-input, .custom-select {
+        border: 2px solid #e5e5e5;
+        border-radius: 10px;
+        padding: 0.75rem 1rem;
+        transition: all 0.3s ease;
+        font-size: 1rem;
+    }
+
+        .custom-input:focus, .custom-select:focus {
+            border-color: #667eea;
+            box-shadow: 0 0 0 0.25rem rgba(102, 126, 234, 0.15);
+            transform: translateY(-2px);
+        }
+
+    .custom-textarea {
+        border: 2px solid #e5e5e5;
+        border-radius: 10px;
+        padding: 0.75rem 1rem;
+        transition: all 0.3s ease;
+        font-size: 1rem;
+        resize: vertical;
+    }
+
+        .custom-textarea:focus {
+            border-color: #667eea;
+            box-shadow: 0 0 0 0.25rem rgba(102, 126, 234, 0.15);
+        }
+
+    /* Hint Text */
+    .custom-hint {
+        color: #6c757d;
+        font-size: 0.875rem;
+        margin-top: 0.5rem;
+        padding: 0.5rem 0.75rem;
+        background: #f8f9fa;
+        border-radius: 8px;
+        border-left: 3px solid #667eea;
+    }
+
+    /* Validation Text */
+    .validation-text {
+        display: block;
+        margin-top: 0.5rem;
+        font-size: 0.875rem;
+    }
+
+    /* Custom Alert */
+    .custom-alert {
+        background: linear-gradient(135deg, #e3f2fd 0%, #bbdefb 100%);
+        border: none;
+        border-left: 4px solid #2196f3;
+        border-radius: 10px;
+        padding: 1rem 1.25rem;
+    }
+
+    .alert-icon {
+        width: 45px;
+        height: 45px;
+        background: linear-gradient(135deg, #2196f3 0%, #1976d2 100%);
+        border-radius: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: white;
+        font-size: 1.3rem;
+        margin-right: 1rem;
+        flex-shrink: 0;
+    }
+
+    /* Validation Alert */
+    .validation-alert {
+        border-radius: 10px;
+        border-left: 4px solid #dc3545;
+        background: linear-gradient(135deg, #f8d7da 0%, #f5c6cb 100%);
+    }
+
+    /* Buttons */
+    .button-group {
+        margin-top: 1.5rem;
+        padding-top: 1.5rem;
+    }
+
+    .btn-cancel {
+        background: white;
+        border: 2px solid #6c757d;
+        color: #6c757d;
+        font-weight: 600;
+        border-radius: 10px;
+        transition: all 0.3s ease;
+    }
+
+        .btn-cancel:hover {
+            background: #6c757d;
+            color: white;
+            transform: translateY(-2px);
+            box-shadow: 0 4px 12px rgba(108, 117, 125, 0.3);
+        }
+
+    .btn-save {
+        background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+        border: none;
+        color: white;
+        font-weight: 600;
+        border-radius: 10px;
+        transition: all 0.3s ease;
+        box-shadow: 0 4px 12px rgba(102, 126, 234, 0.3);
+    }
+
+        .btn-save:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 6px 20px rgba(102, 126, 234, 0.4);
+        }
+
+    /* Responsive */
+    @@media (max-width: 768px) {
+        .button-group {
+            flex-direction: column;
+            gap: 1rem;
+        }
+
+        .btn-cancel, .btn-save {
+            width: 100%;
+        }
+    }
+</style>
