@@ -3,6 +3,7 @@ using ModulerERP_MVC_.Common.Enums.Finance_Enum;
 using ModulerERP_MVC_.Common.Extensions;
 using ModulerERP_MVC_.Common.ViewModel;
 using ModulerERP_MVC_.Finance.Currencies.Repositories;
+using ModulerERP_MVC_.Finance.Currencies.ViewModels;
 using ModulerERP_MVC_.Models.Finance;
 using ModulerERP_MVC_.Models.Finance.DTOs;
 
@@ -23,6 +24,8 @@ namespace ModulerERP_MVC_.Finance.Currencies.Services
             _mapper = mapper;
             _logger = logger;
         }
+
+        #region API Methods (DTOs)
 
         public async Task<ResponseViewModel<IEnumerable<CurrencyDto>>> GetAllCurrenciesAsync()
         {
@@ -50,17 +53,14 @@ namespace ModulerERP_MVC_.Finance.Currencies.Services
 
         public async Task<ResponseViewModel<CreateCurrencyDto>> CreateCurrencyAsync(CreateCurrencyDto dto)
         {
-            // ⭐ تأكد إن الـ Code uppercase
             dto.Code = dto.Code.ToUpperInvariant();
 
-            // ⭐ شوف لو الـ Code موجود (حتى لو ممسوح)
             var existingCurrency = await _repository.GetCurrencyByCodeIncludingDeletedAsync(dto.Code);
 
             if (existingCurrency != null)
             {
                 if (existingCurrency.IsDeleted)
                 {
-                    // ⭐ لو ممسوح، ارجعه (restore)
                     existingCurrency.Name = dto.Name;
                     existingCurrency.Symbol = dto.Symbol;
                     existingCurrency.Decimals = dto.Decimals;
@@ -76,7 +76,6 @@ namespace ModulerERP_MVC_.Finance.Currencies.Services
                 }
                 else
                 {
-                    // ⭐ لو موجود فعلاً
                     throw new BusinessLogicException(
                         $"Currency code '{dto.Code}' already exists",
                         "Finance",
@@ -84,7 +83,6 @@ namespace ModulerERP_MVC_.Finance.Currencies.Services
                 }
             }
 
-            // ⭐ لو مش موجود خالص، أضفه
             var currency = new Currency
             {
                 Code = dto.Code,
@@ -112,7 +110,6 @@ namespace ModulerERP_MVC_.Finance.Currencies.Services
                     $"Currency '{dto.Code}' not found",
                     FinanceErrorCode.CurrencyNotFound);
 
-            // ⭐ حدث البيانات
             existing.Name = dto.Name;
             existing.Symbol = dto.Symbol;
             existing.Decimals = dto.Decimals;
@@ -147,5 +144,36 @@ namespace ModulerERP_MVC_.Finance.Currencies.Services
                 true,
                 "Currency deleted successfully");
         }
+
+        #endregion
+
+        #region View Methods (ViewModels)
+
+        public async Task<ResponseViewModel<IEnumerable<CurrencyListViewModel>>> GetAllCurrenciesForViewAsync()
+        {
+            try
+            {
+                _logger.LogInformation("Service: Getting all currencies for view");
+
+                var currencies = await _repository.GetAllAsync();
+                var viewModels = _mapper.Map<IEnumerable<CurrencyListViewModel>>(currencies);
+
+                _logger.LogInformation("Service: Successfully retrieved {Count} currencies for view", viewModels.Count());
+
+                return ResponseViewModel<IEnumerable<CurrencyListViewModel>>.Success(
+                    viewModels,
+                    $"Retrieved {viewModels.Count()} currencies successfully");
+            }
+            catch (Exception ex)
+            {
+                _logger.LogError(ex, "Service: Error occurred while getting currencies for view");
+                throw new BusinessLogicException(
+                    "Failed to retrieve currencies",
+                    "Finance",
+                    FinanceErrorCode.DatabaseError);
+            }
+        }
+
+        #endregion
     }
 }

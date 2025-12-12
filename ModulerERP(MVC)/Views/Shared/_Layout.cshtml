@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>@ViewData["Title"] - Resource Management System</title>
+    <title>@ViewData["Title"] - ModulerERP Finance</title>
 
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
@@ -18,11 +18,13 @@
 
     <!-- Custom CSS -->
     <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    @RenderSection("Styles", required: false)
 
     <style>
         body {
             font-family: 'Inter', 'Segoe UI', Tahoma, sans-serif !important;
             background-color: #f5f7fa !important;
+            min-height: 100vh;
         }
 
         .container-fluid {
@@ -31,81 +33,156 @@
             margin: 0 auto !important;
         }
 
+        /* Navbar Styling */
         .navbar {
             box-shadow: 0 2px 8px rgba(0,0,0,.1) !important;
-            background: white !important;
+            background: linear-gradient(135deg, #ffffff 0%, #f8f9fa 100%) !important;
             padding: 1rem 0 !important;
+            border-bottom: 3px solid #667eea !important;
         }
 
-            /* Fix for dropdown menu position */
-            .navbar .dropdown-menu {
-                position: absolute !important;
-                left: 0 !important;
-                right: auto !important;
-                margin-top: 0.5rem !important;
-                min-width: 250px !important;
-                max-height: 80vh !important;
-                overflow-y: auto !important;
-                box-shadow: 0 4px 15px rgba(0,0,0,.15) !important;
-                border: none !important;
-                border-radius: 12px !important;
+        .navbar-brand {
+            font-size: 1.5rem !important;
+            font-weight: 700 !important;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+
+        .nav-link {
+            font-weight: 600 !important;
+            color: #495057 !important;
+            padding: 0.75rem 1.25rem !important;
+            border-radius: 8px !important;
+            transition: all 0.3s ease !important;
+            margin: 0 0.25rem !important;
+        }
+
+            .nav-link:hover {
+                background: linear-gradient(135deg, #667eea 0%, #764ba2 100%) !important;
+                color: white !important;
+                transform: translateY(-2px) !important;
             }
+
+            .nav-link.active {
+                background: linear-gradient(135deg, #667eea 0%, #764ba2 100%) !important;
+                color: white !important;
+            }
+
+        /* Dropdown Menu Styling */
+        .navbar .dropdown-menu {
+            position: absolute !important;
+            left: 0 !important;
+            right: auto !important;
+            margin-top: 0.5rem !important;
+            min-width: 280px !important;
+            max-height: 80vh !important;
+            overflow-y: auto !important;
+            box-shadow: 0 8px 25px rgba(0,0,0,.15) !important;
+            border: none !important;
+            border-radius: 12px !important;
+            padding: 0.75rem 0 !important;
+        }
 
         .dropdown-menu .dropdown-header {
             font-weight: 700 !important;
             font-size: 0.85rem !important;
             color: #667eea !important;
-            padding: 0.75rem 1.5rem !important;
+            padding: 0.75rem 1.5rem 0.5rem !important;
             text-transform: uppercase !important;
             letter-spacing: 0.5px !important;
+            background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%) !important;
+            margin-bottom: 0.5rem !important;
         }
 
         .dropdown-menu .dropdown-item {
-            padding: 0.65rem 1.5rem !important;
+            padding: 0.75rem 1.5rem !important;
             transition: all 0.2s ease !important;
             font-size: 0.95rem !important;
+            font-weight: 500 !important;
+            color: #495057 !important;
         }
 
             .dropdown-menu .dropdown-item:hover {
                 background: linear-gradient(135deg, #667eea 0%, #764ba2 100%) !important;
                 color: white !important;
-                padding-left: 1.75rem !important;
+                padding-left: 2rem !important;
             }
 
             .dropdown-menu .dropdown-item[disabled] {
                 opacity: 0.5 !important;
                 cursor: not-allowed !important;
+                background: transparent !important;
             }
+
+                .dropdown-menu .dropdown-item[disabled]:hover {
+                    color: #6c757d !important;
+                    padding-left: 1.5rem !important;
+                }
 
         .dropdown-menu .dropdown-divider {
             margin: 0.5rem 0 !important;
-            opacity: 0.1 !important;
+            opacity: 0.15 !important;
+            border-top: 2px solid #dee2e6 !important;
         }
 
+        /* Card Styling */
         .card {
             border: none !important;
             border-radius: 15px !important;
             box-shadow: 0 4px 15px rgba(0,0,0,.08) !important;
             margin-bottom: 1.5rem !important;
+            transition: all 0.3s ease !important;
         }
+
+            .card:hover {
+                box-shadow: 0 8px 25px rgba(0,0,0,.12) !important;
+                transform: translateY(-2px) !important;
+            }
 
         .card-header {
             background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%) !important;
             border-bottom: 2px solid #e9ecef !important;
             padding: 1.25rem 1.5rem !important;
             border-radius: 15px 15px 0 0 !important;
+            font-weight: 600 !important;
         }
+
+            .card-header.bg-primary {
+                background: linear-gradient(135deg, #667eea 0%, #764ba2 100%) !important;
+                border-bottom: none !important;
+            }
+
+            .card-header.bg-info {
+                background: linear-gradient(135deg, #17a2b8 0%, #138496 100%) !important;
+                border-bottom: none !important;
+            }
+
+            .card-header.bg-warning {
+                background: linear-gradient(135deg, #ffc107 0%, #ff9800 100%) !important;
+                border-bottom: none !important;
+            }
+
+            .card-header.bg-danger {
+                background: linear-gradient(135deg, #dc3545 0%, #c82333 100%) !important;
+                border-bottom: none !important;
+            }
 
         .card-body {
             padding: 1.5rem !important;
         }
 
+        /* Table Styling */
         .table thead th {
             background: linear-gradient(135deg, #667eea 0%, #764ba2 100%) !important;
             color: white !important;
             font-weight: 600 !important;
             padding: 1rem 0.75rem !important;
             border: none !important;
+            text-transform: uppercase !important;
+            font-size: 0.875rem !important;
+            letter-spacing: 0.5px !important;
         }
 
         .table tbody tr {
@@ -115,18 +192,20 @@
             .table tbody tr:hover {
                 background-color: #f8f9fa !important;
                 transform: scale(1.002) !important;
+                box-shadow: 0 2px 8px rgba(0,0,0,.05) !important;
             }
 
+        /* Button Styling */
         .btn {
             border-radius: 8px !important;
             padding: 0.5rem 1.25rem !important;
             font-weight: 600 !important;
             transition: all 0.3s ease !important;
+            border: none !important;
         }
 
         .btn-primary {
             background: linear-gradient(135deg, #667eea 0%, #764ba2 100%) !important;
-            border: none !important;
         }
 
             .btn-primary:hover {
@@ -134,6 +213,44 @@
                 box-shadow: 0 4px 12px rgba(102, 126, 234, 0.4) !important;
             }
 
+        .btn-success {
+            background: linear-gradient(135deg, #11998e 0%, #38ef7d 100%) !important;
+        }
+
+            .btn-success:hover {
+                transform: translateY(-2px) !important;
+                box-shadow: 0 4px 12px rgba(56, 239, 125, 0.4) !important;
+            }
+
+        .btn-warning {
+            background: linear-gradient(135deg, #ffc107 0%, #ff9800 100%) !important;
+            color: #212529 !important;
+        }
+
+            .btn-warning:hover {
+                transform: translateY(-2px) !important;
+                box-shadow: 0 4px 12px rgba(255, 193, 7, 0.4) !important;
+            }
+
+        .btn-danger {
+            background: linear-gradient(135deg, #dc3545 0%, #c82333 100%) !important;
+        }
+
+            .btn-danger:hover {
+                transform: translateY(-2px) !important;
+                box-shadow: 0 4px 12px rgba(220, 53, 69, 0.4) !important;
+            }
+
+        .btn-info {
+            background: linear-gradient(135deg, #17a2b8 0%, #138496 100%) !important;
+        }
+
+            .btn-info:hover {
+                transform: translateY(-2px) !important;
+                box-shadow: 0 4px 12px rgba(23, 162, 184, 0.4) !important;
+            }
+
+        /* Badge Styling */
         .badge {
             padding: 0.45rem 0.85rem !important;
             font-weight: 600 !important;
@@ -148,26 +265,56 @@
                 background: linear-gradient(135deg, #fa709a 0%, #fee140 100%) !important;
             }
 
+            .badge.bg-info {
+                background: linear-gradient(135deg, #17a2b8 0%, #20c9e7 100%) !important;
+            }
+
+            .badge.bg-warning {
+                background: linear-gradient(135deg, #ffc107 0%, #ffeb3b 100%) !important;
+            }
+
+            .badge.bg-primary {
+                background: linear-gradient(135deg, #667eea 0%, #764ba2 100%) !important;
+            }
+
+        /* Alert Styling */
         .alert {
             border-radius: 12px !important;
             border: none !important;
             box-shadow: 0 2px 8px rgba(0,0,0,.08) !important;
+            border-left: 4px solid !important;
         }
 
         .alert-success {
             background: linear-gradient(135deg, #d4edda 0%, #c3e6cb 100%) !important;
-            border-left: 4px solid #38ef7d !important;
+            border-left-color: #38ef7d !important;
+            color: #155724 !important;
         }
 
         .alert-danger {
             background: linear-gradient(135deg, #f8d7da 0%, #f5c6cb 100%) !important;
-            border-left: 4px solid #f5576c !important;
+            border-left-color: #f5576c !important;
+            color: #721c24 !important;
         }
 
+        .alert-warning {
+            background: linear-gradient(135deg, #fff3cd 0%, #ffe69c 100%) !important;
+            border-left-color: #ffc107 !important;
+            color: #856404 !important;
+        }
+
+        .alert-info {
+            background: linear-gradient(135deg, #d1ecf1 0%, #bee5eb 100%) !important;
+            border-left-color: #17a2b8 !important;
+            color: #0c5460 !important;
+        }
+
+        /* Form Styling */
         .form-control, .form-select {
             border-radius: 8px !important;
             border: 2px solid #e5e5e5 !important;
             padding: 0.625rem 1rem !important;
+            transition: all 0.3s ease !important;
         }
 
             .form-control:focus, .form-select:focus {
@@ -175,48 +322,53 @@
                 box-shadow: 0 0 0 0.2rem rgba(102, 126, 234, 0.15) !important;
             }
 
+        .form-control-lg, .form-select-lg {
+            padding: 0.75rem 1.25rem !important;
+            font-size: 1.1rem !important;
+        }
+
+        /* Empty State */
         .text-center.py-5 {
             padding: 4rem 2rem !important;
             background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%) !important;
             border-radius: 12px !important;
         }
 
+        /* Button Group */
         .btn-group .btn {
             padding: 0.375rem 0.75rem !important;
             margin: 0 2px !important;
         }
 
-        .btn-outline-info:hover {
-            background: #17a2b8 !important;
-            color: white !important;
+        /* Breadcrumb */
+        .breadcrumb {
+            background: transparent !important;
+            padding: 0 !important;
+            margin: 0 !important;
         }
 
-        .btn-outline-success:hover {
-            background: #38ef7d !important;
-            color: white !important;
+        .breadcrumb-item a {
+            color: #667eea !important;
+            text-decoration: none !important;
+            transition: all 0.2s ease !important;
         }
 
-        .btn-outline-warning:hover {
-            background: #ffc107 !important;
-            color: white !important;
+            .breadcrumb-item a:hover {
+                color: #764ba2 !important;
+            }
+
+        .breadcrumb-item.active {
+            color: #6c757d !important;
         }
 
-        .btn-outline-danger:hover {
-            background: #dc3545 !important;
-            color: white !important;
-        }
-
-        h2, h5, h6 {
-            font-weight: 700 !important;
-        }
-
+        /* Page Header */
         .row.mb-4.align-items-center {
             padding-bottom: 1.5rem !important;
             border-bottom: 3px solid #e9ecef !important;
             margin-bottom: 2rem !important;
         }
 
-        /* Ensure navbar is not overflowing */
+        /* Navbar overflow fix */
         .navbar-collapse {
             overflow: visible !important;
         }
@@ -224,15 +376,40 @@
         .navbar-nav {
             position: relative !important;
         }
+
+        /* Headings */
+        h2, h5, h6 {
+            font-weight: 700 !important;
+        }
+
+        /* Scrollbar Styling */
+        ::-webkit-scrollbar {
+            width: 10px;
+            height: 10px;
+        }
+
+        ::-webkit-scrollbar-track {
+            background: #f1f1f1;
+            border-radius: 10px;
+        }
+
+        ::-webkit-scrollbar-thumb {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            border-radius: 10px;
+        }
+
+            ::-webkit-scrollbar-thumb:hover {
+                background: linear-gradient(135deg, #764ba2 0%, #667eea 100%);
+            }
     </style>
 </head>
 <body>
     <header>
-        <nav class="navbar navbar-expand-lg navbar-light bg-white">
+        <nav class="navbar navbar-expand-lg navbar-light">
             <div class="container-fluid">
-                <a class="navbar-brand fw-bold text-primary" asp-area="" asp-controller="Home" asp-action="Index">
+                <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">
                     <i class="fas fa-chart-line me-2"></i>
-                    Resource Management System
+                    ModulerERP Finance
                 </a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
                     <span class="navbar-toggler-icon"></span>
@@ -253,31 +430,50 @@
                                 <i class="fas fa-coins me-1"></i>
                                 Finance
                             </a>
-                            <ul class="dropdown-menu" aria-labelledby="financeDropdown">
+                            <ul class="dropdown-menu shadow-lg" aria-labelledby="financeDropdown">
+                                <!-- Configuration Section -->
                                 <li>
                                     <h6 class="dropdown-header">
                                         <i class="fas fa-cog me-2"></i>Configuration
                                     </h6>
                                 </li>
                                 <li>
-                                    <a class="dropdown-item" asp-area="Finance" asp-controller="Currencies" asp-action="Index">
+                                    <a class="dropdown-item" asp-controller="Companies" asp-action="Index">
+                                        <i class="fas fa-building me-2"></i>
+                                        Companies
+                                    </a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" asp-controller="Currencies" asp-action="Index">
                                         <i class="fas fa-dollar-sign me-2"></i>
                                         Currencies
                                     </a>
                                 </li>
+                                <li>
+                                    <a class="dropdown-item" asp-controller="GlAccounts" asp-action="Index">
+                                        <i class="fas fa-book me-2"></i>
+                                        Chart of Accounts
+                                    </a>
+                                </li>
+
                                 <li><hr class="dropdown-divider"></li>
+
+                                <!-- Cash Management Section -->
                                 <li>
                                     <h6 class="dropdown-header">
                                         <i class="fas fa-wallet me-2"></i>Cash Management
                                     </h6>
                                 </li>
                                 <li>
-                                    <a class="dropdown-item" asp-area="Finance" asp-controller="Treasuries" asp-action="Index">
+                                    <a class="dropdown-item" asp-controller="Treasuries" asp-action="Index">
                                         <i class="fas fa-money-bill-wave me-2"></i>
                                         Treasuries
                                     </a>
                                 </li>
+
                                 <li><hr class="dropdown-divider"></li>
+
+                                <!-- Banking Section -->
                                 <li>
                                     <h6 class="dropdown-header">
                                         <i class="fas fa-university me-2"></i>Banking
@@ -287,6 +483,48 @@
                                     <a class="dropdown-item" href="#" disabled>
                                         <i class="fas fa-building-columns me-2"></i>
                                         Bank Accounts (Coming Soon)
+                                    </a>
+                                </li>
+
+                                <li><hr class="dropdown-divider"></li>
+
+                                <!-- Vouchers Section -->
+                                <li>
+                                    <h6 class="dropdown-header">
+                                        <i class="fas fa-file-invoice me-2"></i>Vouchers
+                                    </h6>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href="#" disabled>
+                                        <i class="fas fa-money-bill-transfer me-2"></i>
+                                        Expense Vouchers (Coming Soon)
+                                    </a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href="#" disabled>
+                                        <i class="fas fa-hand-holding-dollar me-2"></i>
+                                        Income Vouchers (Coming Soon)
+                                    </a>
+                                </li>
+
+                                <li><hr class="dropdown-divider"></li>
+
+                                <!-- Reports Section -->
+                                <li>
+                                    <h6 class="dropdown-header">
+                                        <i class="fas fa-chart-bar me-2"></i>Reports
+                                    </h6>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href="#" disabled>
+                                        <i class="fas fa-file-invoice-dollar me-2"></i>
+                                        Cashbook (Coming Soon)
+                                    </a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href="#" disabled>
+                                        <i class="fas fa-receipt me-2"></i>
+                                        Expense Report (Coming Soon)
                                     </a>
                                 </li>
                             </ul>
@@ -311,8 +549,8 @@
 
     <!-- Custom Scripts -->
     <script>
-        // Auto-hide alerts after 5 seconds
         $(document).ready(function() {
+            // Auto-hide alerts after 5 seconds
             setTimeout(function() {
                 $('.alert').fadeOut('slow');
             }, 5000);
@@ -322,7 +560,14 @@
             $('.nav-link').each(function() {
                 var href = $(this).attr('href');
                 if (path.indexOf(href) === 0 && href !== '/') {
-                    $(this).addClass('active fw-bold');
+                    $(this).addClass('active');
+                }
+            });
+
+            $('.dropdown-item').each(function() {
+                var href = $(this).attr('href');
+                if (path.indexOf(href) === 0 && href !== '/' && href !== '#') {
+                    $(this).closest('.dropdown').find('.nav-link').addClass('active');
                 }
             });
 

@@ -15,7 +15,6 @@ namespace ModulerERP_MVC_.Finance.Currencies.Repositories
 
         public async Task<IEnumerable<Currency>> GetAllAsync()
         {
-            // ✅ شيل الـ Where - الفلتر هيتطبق من الـ DbContext تلقائياً
             return await _context.Currencies
                 .OrderBy(c => c.Name)
                 .ToListAsync();
@@ -23,8 +22,6 @@ namespace ModulerERP_MVC_.Finance.Currencies.Repositories
 
         public async Task<Currency?> GetCurrencyByCodeAsync(string code)
         {
-            // ✅ الحل: استخدم FirstOrDefaultAsync مباشرة
-            // الـ Global Query Filter هيطبق !IsDeleted تلقائياً
             code = code?.Trim().ToUpper() ?? string.Empty;
 
             return await _context.Currencies
@@ -39,6 +36,12 @@ namespace ModulerERP_MVC_.Finance.Currencies.Repositories
                 .AnyAsync(c => c.Code == code);
         }
 
+        // ✅ الـ Method الناقص - Alias for CodeExistsAsync
+        public async Task<bool> CurrencyExistsByCodeAsync(string code)
+        {
+            return await CodeExistsAsync(code);
+        }
+
         public async Task<Currency?> GetCurrencyByCodeIncludingDeletedAsync(string code)
         {
             code = code?.Trim().ToUpper() ?? string.Empty;
@@ -50,7 +53,6 @@ namespace ModulerERP_MVC_.Finance.Currencies.Repositories
 
         public async Task AddAsync(Currency currency)
         {
-            // ✅ تنظيف الـ Code قبل الإضافة
             currency.Code = currency.Code?.Trim().ToUpperInvariant() ?? string.Empty;
 
             _context.Currencies.Add(currency);
@@ -64,7 +66,6 @@ namespace ModulerERP_MVC_.Finance.Currencies.Repositories
             await _context.SaveChangesAsync();
         }
 
-        // ✅ Soft Delete (الافتراضي)
         public async Task DeleteAsync(string code)
         {
             var currency = await GetCurrencyByCodeAsync(code);
@@ -76,10 +77,8 @@ namespace ModulerERP_MVC_.Finance.Currencies.Repositories
             }
         }
 
-        // ✅ Hard Delete (حذف نهائي من Database)
         public async Task HardDeleteAsync(string code)
         {
-            // ⭐ استخدم IgnoreQueryFilters عشان تلاقي حتى الممسوح
             var currency = await GetCurrencyByCodeIncludingDeletedAsync(code);
             if (currency != null)
             {
@@ -99,7 +98,6 @@ namespace ModulerERP_MVC_.Finance.Currencies.Repositories
             return vouchers || treasuries || bankAccounts;
         }
 
-        // ✅ Restore - استرجاع عملة ممسوحة
         public async Task<bool> RestoreAsync(string code)
         {
             var currency = await GetCurrencyByCodeIncludingDeletedAsync(code);

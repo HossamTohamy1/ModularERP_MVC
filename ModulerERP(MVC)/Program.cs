@@ -12,6 +12,7 @@ using ModulerERP_MVC_.Common.Repositories.Interfaces;
 using ModulerERP_MVC_.Data;
 using ModulerERP_MVC_.Finance.Currencies.Repositories;
 using ModulerERP_MVC_.Finance.Currencies.Services;
+using ModulerERP_MVC_.Finance.GlAccounts.Services;
 using ModulerERP_MVC_.Finance.ServieceForValidationAndmapping;
 using ModulerERP_MVC_.Finance.Treasuries.Services;
 using Serilog;
@@ -121,6 +122,7 @@ namespace ModulerERP_MVC_
                 // ============================================
                 builder.Services.AddScoped(typeof(IGeneralRepository<>), typeof(GeneralRepository<>));
                 builder.Services.AddScoped<ICurrencyRepository, CurrencyRepository>();
+                builder.Services.AddScoped<IGlAccountService, GlAccountService>();
 
                 // 3. Register Services
                 builder.Services.AddScoped<ICurrencyService, CurrencyService>();

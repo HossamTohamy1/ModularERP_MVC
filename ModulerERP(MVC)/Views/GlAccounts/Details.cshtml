@@ -1,0 +1,183 @@
+﻿@using ModulerERP_MVC_.Finance.GlAccounts.ViewModels
+@using ModulerERP_MVC_.Common.Enums.Finance_Enum
+@model GlAccountViewModel
+@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+    ViewData["Title"] = "GL Account Details";
+}
+
+<div class="container-fluid">
+    <!-- Header -->
+    <div class="row mb-4 align-items-center">
+        <div class="col-md-12">
+            <div class="d-flex justify-content-between align-items-center">
+                <div>
+                    <h2 class="mb-2">
+                        <i class="fas fa-info-circle text-info me-2"></i>
+                        @ViewData["Title"]
+                    </h2>
+                    <nav aria-label="breadcrumb">
+                        <ol class="breadcrumb mb-0">
+                            <li class="breadcrumb-item">
+                                <a asp-action="Index">
+                                    <i class="fas fa-book me-1"></i>GL Accounts
+                                </a>
+                            </li>
+                            <li class="breadcrumb-item active">Details</li>
+                        </ol>
+                    </nav>
+                </div>
+                <div>
+                    <a asp-action="Edit" asp-route-id="@Model.Id" class="btn btn-warning me-2">
+                        <i class="fas fa-edit me-2"></i>Edit
+                    </a>
+                    <a asp-action="Index" class="btn btn-outline-secondary">
+                        <i class="fas fa-arrow-left me-2"></i>Back to List
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Details Card -->
+    <div class="row">
+        <div class="col-lg-8 mx-auto">
+            <div class="card shadow-sm">
+                <div class="card-header bg-info text-white">
+                    <h5 class="mb-0">
+                        <i class="fas fa-file-alt me-2"></i>Account Information
+                    </h5>
+                </div>
+                <div class="card-body">
+                    <dl class="row mb-0">
+                        <!-- Code -->
+                        <dt class="col-sm-4 text-muted mb-3">
+                            <i class="fas fa-hashtag text-info me-2"></i>
+                            @Html.DisplayNameFor(m => m.Code)
+                        </dt>
+                        <dd class="col-sm-8 mb-3">
+                            <span class="badge bg-secondary bg-opacity-10 text-secondary border border-secondary fs-5">
+                                @Model.Code
+                            </span>
+                        </dd>
+
+                        <!-- Name -->
+                        <dt class="col-sm-4 text-muted mb-3">
+                            <i class="fas fa-signature text-info me-2"></i>
+                            @Html.DisplayNameFor(m => m.Name)
+                        </dt>
+                        <dd class="col-sm-8 mb-3">
+                            <strong class="fs-5">@Model.Name</strong>
+                        </dd>
+
+                        <!-- Type -->
+                        <dt class="col-sm-4 text-muted mb-3">
+                            <i class="fas fa-layer-group text-info me-2"></i>
+                            @Html.DisplayNameFor(m => m.Type)
+                        </dt>
+                        <dd class="col-sm-8 mb-3">
+                            @switch (Model.Type)
+                            {
+                                case AccountType.Asset:
+                                    <span class="badge bg-success fs-6">
+                                        <i class="fas fa-coins me-1"></i>Asset
+                                    </span>
+                                    break;
+                                case AccountType.Liability:
+                                    <span class="badge bg-danger fs-6">
+                                        <i class="fas fa-file-invoice-dollar me-1"></i>Liability
+                                    </span>
+                                    break;
+                                case AccountType.Equity:
+                                    <span class="badge bg-primary fs-6">
+                                        <i class="fas fa-balance-scale me-1"></i>Equity
+                                    </span>
+                                    break;
+                                case AccountType.Revenue:
+                                    <span class="badge bg-info fs-6">
+                                        <i class="fas fa-arrow-down me-1"></i>Revenue
+                                    </span>
+                                    break;
+                                case AccountType.Expense:
+                                    <span class="badge bg-warning text-dark fs-6">
+                                        <i class="fas fa-arrow-up me-1"></i>Expense
+                                    </span>
+                                    break;
+                            }
+                        </dd>
+
+                        <!-- Company -->
+                        <dt class="col-sm-4 text-muted mb-3">
+                            <i class="fas fa-building text-info me-2"></i>
+                            @Html.DisplayNameFor(m => m.CompanyName)
+                        </dt>
+                        <dd class="col-sm-8 mb-3">
+                            <strong>@Model.CompanyName</strong>
+                        </dd>
+
+                        <!-- Is Leaf -->
+                        <dt class="col-sm-4 text-muted mb-3">
+                            <i class="fas fa-sitemap text-info me-2"></i>
+                            @Html.DisplayNameFor(m => m.IsLeaf)
+                        </dt>
+                        <dd class="col-sm-8 mb-3">
+                            @if (Model.IsLeaf)
+                            {
+                                <span class="badge bg-success bg-opacity-10 text-success fs-6">
+                                    <i class="fas fa-check me-1"></i>Yes
+                                </span>
+                                <small class="text-muted d-block mt-2">
+                                    <i class="fas fa-info-circle me-1"></i>
+                                    This account can have transactions posted directly to it
+                                </small>
+                            }
+                            else
+                            {
+                                <span class="badge bg-secondary bg-opacity-10 text-secondary fs-6">
+                                    <i class="fas fa-times me-1"></i>No
+                                </span>
+                                <small class="text-muted d-block mt-2">
+                                    <i class="fas fa-info-circle me-1"></i>
+                                    This is a parent/header account
+                                </small>
+                            }
+                        </dd>
+
+                        <!-- Created Date -->
+                        <dt class="col-sm-4 text-muted mb-0">
+                            <i class="fas fa-calendar text-info me-2"></i>
+                            @Html.DisplayNameFor(m => m.CreatedAt)
+                        </dt>
+                        <dd class="col-sm-8 mb-0">
+                            <i class="far fa-calendar-alt me-1"></i>
+                            @Model.CreatedAt.ToString("MMMM dd, yyyy 'at' hh:mm tt")
+                        </dd>
+                    </dl>
+                </div>
+                <div class="card-footer bg-light">
+                    <div class="d-flex justify-content-between">
+                        <a asp-action="Delete" asp-route-id="@Model.Id" class="btn btn-danger">
+                            <i class="fas fa-trash me-2"></i>Delete
+                        </a>
+                        <div>
+                            <a asp-action="Edit" asp-route-id="@Model.Id" class="btn btn-warning me-2">
+                                <i class="fas fa-edit me-2"></i>Edit
+                            </a>
+                            <a asp-action="Index" class="btn btn-secondary">
+                                <i class="fas fa-list me-2"></i>Back to List
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    <script>
+        $(document).ready(function() {
+            $('.card').hide().fadeIn(500);
+        });
+    </script>
+}

@@ -62,5 +62,9 @@
         DuplicateCurrencyCode = 2508,
         CurrencyInUse = 2509,
         CurrencyNotFound = 2510,
+        CompanyHasRelatedData = 2511,
+        CompanyAlreadyExists = 2512,
+        InvalidCurrencyCode = 2513,
+        DuplicateTreasuryName = 2514,
     }
 }

@@ -3,6 +3,198 @@
   "WorkspaceRootPath": "C:\\Users\\hossny D. monkey\\source\\repos\\ModulerERP(MVC)\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{8200DEBC-7CE8-8FDF-4205-C73F3946168D}|ModulerERP(MVC)\\ModulerERP(MVC).csproj|c:\\users\\hossny d. monkey\\source\\repos\\modulererp(mvc)\\modulererp(mvc)\\views\\treasuries\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8200DEBC-7CE8-8FDF-4205-C73F3946168D}|ModulerERP(MVC)\\ModulerERP(MVC).csproj|solutionrelative:modulererp(mvc)\\views\\treasuries\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8200DEBC-7CE8-8FDF-4205-C73F3946168D}|ModulerERP(MVC)\\ModulerERP(MVC).csproj|c:\\users\\hossny d. monkey\\source\\repos\\modulererp(mvc)\\modulererp(mvc)\\views\\glaccounts\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8200DEBC-7CE8-8FDF-4205-C73F3946168D}|ModulerERP(MVC)\\ModulerERP(MVC).csproj|solutionrelative:modulererp(mvc)\\views\\glaccounts\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8200DEBC-7CE8-8FDF-4205-C73F3946168D}|ModulerERP(MVC)\\ModulerERP(MVC).csproj|c:\\users\\hossny d. monkey\\source\\repos\\modulererp(mvc)\\modulererp(mvc)\\views\\companies\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8200DEBC-7CE8-8FDF-4205-C73F3946168D}|ModulerERP(MVC)\\ModulerERP(MVC).csproj|solutionrelative:modulererp(mvc)\\views\\companies\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8200DEBC-7CE8-8FDF-4205-C73F3946168D}|ModulerERP(MVC)\\ModulerERP(MVC).csproj|c:\\users\\hossny d. monkey\\source\\repos\\modulererp(mvc)\\modulererp(mvc)\\views\\glaccounts\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8200DEBC-7CE8-8FDF-4205-C73F3946168D}|ModulerERP(MVC)\\ModulerERP(MVC).csproj|solutionrelative:modulererp(mvc)\\views\\glaccounts\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8200DEBC-7CE8-8FDF-4205-C73F3946168D}|ModulerERP(MVC)\\ModulerERP(MVC).csproj|c:\\users\\hossny d. monkey\\source\\repos\\modulererp(mvc)\\modulererp(mvc)\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8200DEBC-7CE8-8FDF-4205-C73F3946168D}|ModulerERP(MVC)\\ModulerERP(MVC).csproj|solutionrelative:modulererp(mvc)\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8200DEBC-7CE8-8FDF-4205-C73F3946168D}|ModulerERP(MVC)\\ModulerERP(MVC).csproj|c:\\users\\hossny d. monkey\\source\\repos\\modulererp(mvc)\\modulererp(mvc)\\views\\companies\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8200DEBC-7CE8-8FDF-4205-C73F3946168D}|ModulerERP(MVC)\\ModulerERP(MVC).csproj|solutionrelative:modulererp(mvc)\\views\\companies\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8200DEBC-7CE8-8FDF-4205-C73F3946168D}|ModulerERP(MVC)\\ModulerERP(MVC).csproj|c:\\users\\hossny d. monkey\\source\\repos\\modulererp(mvc)\\modulererp(mvc)\\finance\\company\\controllers\\companiescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8200DEBC-7CE8-8FDF-4205-C73F3946168D}|ModulerERP(MVC)\\ModulerERP(MVC).csproj|solutionrelative:modulererp(mvc)\\finance\\company\\controllers\\companiescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8200DEBC-7CE8-8FDF-4205-C73F3946168D}|ModulerERP(MVC)\\ModulerERP(MVC).csproj|c:\\users\\hossny d. monkey\\source\\repos\\modulererp(mvc)\\modulererp(mvc)\\finance\\treasuries\\controllers\\treasuriescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8200DEBC-7CE8-8FDF-4205-C73F3946168D}|ModulerERP(MVC)\\ModulerERP(MVC).csproj|solutionrelative:modulererp(mvc)\\finance\\treasuries\\controllers\\treasuriescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8200DEBC-7CE8-8FDF-4205-C73F3946168D}|ModulerERP(MVC)\\ModulerERP(MVC).csproj|c:\\users\\hossny d. monkey\\source\\repos\\modulererp(mvc)\\modulererp(mvc)\\views\\companies\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8200DEBC-7CE8-8FDF-4205-C73F3946168D}|ModulerERP(MVC)\\ModulerERP(MVC).csproj|solutionrelative:modulererp(mvc)\\views\\companies\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8200DEBC-7CE8-8FDF-4205-C73F3946168D}|ModulerERP(MVC)\\ModulerERP(MVC).csproj|c:\\users\\hossny d. monkey\\source\\repos\\modulererp(mvc)\\modulererp(mvc)\\views\\companies\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8200DEBC-7CE8-8FDF-4205-C73F3946168D}|ModulerERP(MVC)\\ModulerERP(MVC).csproj|solutionrelative:modulererp(mvc)\\views\\companies\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8200DEBC-7CE8-8FDF-4205-C73F3946168D}|ModulerERP(MVC)\\ModulerERP(MVC).csproj|c:\\users\\hossny d. monkey\\source\\repos\\modulererp(mvc)\\modulererp(mvc)\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8200DEBC-7CE8-8FDF-4205-C73F3946168D}|ModulerERP(MVC)\\ModulerERP(MVC).csproj|solutionrelative:modulererp(mvc)\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8200DEBC-7CE8-8FDF-4205-C73F3946168D}|ModulerERP(MVC)\\ModulerERP(MVC).csproj|c:\\users\\hossny d. monkey\\source\\repos\\modulererp(mvc)\\modulererp(mvc)\\views\\glaccounts\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8200DEBC-7CE8-8FDF-4205-C73F3946168D}|ModulerERP(MVC)\\ModulerERP(MVC).csproj|solutionrelative:modulererp(mvc)\\views\\glaccounts\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8200DEBC-7CE8-8FDF-4205-C73F3946168D}|ModulerERP(MVC)\\ModulerERP(MVC).csproj|c:\\users\\hossny d. monkey\\source\\repos\\modulererp(mvc)\\modulererp(mvc)\\views\\glaccounts\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8200DEBC-7CE8-8FDF-4205-C73F3946168D}|ModulerERP(MVC)\\ModulerERP(MVC).csproj|solutionrelative:modulererp(mvc)\\views\\glaccounts\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8200DEBC-7CE8-8FDF-4205-C73F3946168D}|ModulerERP(MVC)\\ModulerERP(MVC).csproj|c:\\users\\hossny d. monkey\\source\\repos\\modulererp(mvc)\\modulererp(mvc)\\views\\glaccounts\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8200DEBC-7CE8-8FDF-4205-C73F3946168D}|ModulerERP(MVC)\\ModulerERP(MVC).csproj|solutionrelative:modulererp(mvc)\\views\\glaccounts\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8200DEBC-7CE8-8FDF-4205-C73F3946168D}|ModulerERP(MVC)\\ModulerERP(MVC).csproj|c:\\users\\hossny d. monkey\\source\\repos\\modulererp(mvc)\\modulererp(mvc)\\finance\\glaccounts\\controllers\\glaccountscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8200DEBC-7CE8-8FDF-4205-C73F3946168D}|ModulerERP(MVC)\\ModulerERP(MVC).csproj|solutionrelative:modulererp(mvc)\\finance\\glaccounts\\controllers\\glaccountscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8200DEBC-7CE8-8FDF-4205-C73F3946168D}|ModulerERP(MVC)\\ModulerERP(MVC).csproj|c:\\users\\hossny d. monkey\\source\\repos\\modulererp(mvc)\\modulererp(mvc)\\finance\\glaccounts\\services\\glaccountservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8200DEBC-7CE8-8FDF-4205-C73F3946168D}|ModulerERP(MVC)\\ModulerERP(MVC).csproj|solutionrelative:modulererp(mvc)\\finance\\glaccounts\\services\\glaccountservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8200DEBC-7CE8-8FDF-4205-C73F3946168D}|ModulerERP(MVC)\\ModulerERP(MVC).csproj|c:\\users\\hossny d. monkey\\source\\repos\\modulererp(mvc)\\modulererp(mvc)\\finance\\glaccounts\\services\\iglaccountservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8200DEBC-7CE8-8FDF-4205-C73F3946168D}|ModulerERP(MVC)\\ModulerERP(MVC).csproj|solutionrelative:modulererp(mvc)\\finance\\glaccounts\\services\\iglaccountservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8200DEBC-7CE8-8FDF-4205-C73F3946168D}|ModulerERP(MVC)\\ModulerERP(MVC).csproj|c:\\users\\hossny d. monkey\\source\\repos\\modulererp(mvc)\\modulererp(mvc)\\finance\\glaccounts\\viewmodels\\glaccountviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8200DEBC-7CE8-8FDF-4205-C73F3946168D}|ModulerERP(MVC)\\ModulerERP(MVC).csproj|solutionrelative:modulererp(mvc)\\finance\\glaccounts\\viewmodels\\glaccountviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8200DEBC-7CE8-8FDF-4205-C73F3946168D}|ModulerERP(MVC)\\ModulerERP(MVC).csproj|c:\\users\\hossny d. monkey\\source\\repos\\modulererp(mvc)\\modulererp(mvc)\\views\\treasuries\\balance.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8200DEBC-7CE8-8FDF-4205-C73F3946168D}|ModulerERP(MVC)\\ModulerERP(MVC).csproj|solutionrelative:modulererp(mvc)\\views\\treasuries\\balance.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8200DEBC-7CE8-8FDF-4205-C73F3946168D}|ModulerERP(MVC)\\ModulerERP(MVC).csproj|c:\\users\\hossny d. monkey\\source\\repos\\modulererp(mvc)\\modulererp(mvc)\\finance\\treasuries\\viewmodels\\treasurydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8200DEBC-7CE8-8FDF-4205-C73F3946168D}|ModulerERP(MVC)\\ModulerERP(MVC).csproj|solutionrelative:modulererp(mvc)\\finance\\treasuries\\viewmodels\\treasurydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8200DEBC-7CE8-8FDF-4205-C73F3946168D}|ModulerERP(MVC)\\ModulerERP(MVC).csproj|c:\\users\\hossny d. monkey\\source\\repos\\modulererp(mvc)\\modulererp(mvc)\\models\\finance\\voucherattachment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8200DEBC-7CE8-8FDF-4205-C73F3946168D}|ModulerERP(MVC)\\ModulerERP(MVC).csproj|solutionrelative:modulererp(mvc)\\models\\finance\\voucherattachment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8200DEBC-7CE8-8FDF-4205-C73F3946168D}|ModulerERP(MVC)\\ModulerERP(MVC).csproj|c:\\users\\hossny d. monkey\\source\\repos\\modulererp(mvc)\\modulererp(mvc)\\models\\finance\\treasury.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8200DEBC-7CE8-8FDF-4205-C73F3946168D}|ModulerERP(MVC)\\ModulerERP(MVC).csproj|solutionrelative:modulererp(mvc)\\models\\finance\\treasury.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8200DEBC-7CE8-8FDF-4205-C73F3946168D}|ModulerERP(MVC)\\ModulerERP(MVC).csproj|c:\\users\\hossny d. monkey\\source\\repos\\modulererp(mvc)\\modulererp(mvc)\\models\\finance\\vouchertax.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8200DEBC-7CE8-8FDF-4205-C73F3946168D}|ModulerERP(MVC)\\ModulerERP(MVC).csproj|solutionrelative:modulererp(mvc)\\models\\finance\\vouchertax.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8200DEBC-7CE8-8FDF-4205-C73F3946168D}|ModulerERP(MVC)\\ModulerERP(MVC).csproj|c:\\users\\hossny d. monkey\\source\\repos\\modulererp(mvc)\\modulererp(mvc)\\models\\finance\\taxprofilecomponent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8200DEBC-7CE8-8FDF-4205-C73F3946168D}|ModulerERP(MVC)\\ModulerERP(MVC).csproj|solutionrelative:modulererp(mvc)\\models\\finance\\taxprofilecomponent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8200DEBC-7CE8-8FDF-4205-C73F3946168D}|ModulerERP(MVC)\\ModulerERP(MVC).csproj|c:\\users\\hossny d. monkey\\source\\repos\\modulererp(mvc)\\modulererp(mvc)\\models\\finance\\taxprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8200DEBC-7CE8-8FDF-4205-C73F3946168D}|ModulerERP(MVC)\\ModulerERP(MVC).csproj|solutionrelative:modulererp(mvc)\\models\\finance\\taxprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8200DEBC-7CE8-8FDF-4205-C73F3946168D}|ModulerERP(MVC)\\ModulerERP(MVC).csproj|c:\\users\\hossny d. monkey\\source\\repos\\modulererp(mvc)\\modulererp(mvc)\\models\\finance\\taxcomponent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8200DEBC-7CE8-8FDF-4205-C73F3946168D}|ModulerERP(MVC)\\ModulerERP(MVC).csproj|solutionrelative:modulererp(mvc)\\models\\finance\\taxcomponent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8200DEBC-7CE8-8FDF-4205-C73F3946168D}|ModulerERP(MVC)\\ModulerERP(MVC).csproj|c:\\users\\hossny d. monkey\\source\\repos\\modulererp(mvc)\\modulererp(mvc)\\models\\finance\\glaccount.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8200DEBC-7CE8-8FDF-4205-C73F3946168D}|ModulerERP(MVC)\\ModulerERP(MVC).csproj|solutionrelative:modulererp(mvc)\\models\\finance\\glaccount.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8200DEBC-7CE8-8FDF-4205-C73F3946168D}|ModulerERP(MVC)\\ModulerERP(MVC).csproj|c:\\users\\hossny d. monkey\\source\\repos\\modulererp(mvc)\\modulererp(mvc)\\models\\finance\\currency.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8200DEBC-7CE8-8FDF-4205-C73F3946168D}|ModulerERP(MVC)\\ModulerERP(MVC).csproj|solutionrelative:modulererp(mvc)\\models\\finance\\currency.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8200DEBC-7CE8-8FDF-4205-C73F3946168D}|ModulerERP(MVC)\\ModulerERP(MVC).csproj|c:\\users\\hossny d. monkey\\source\\repos\\modulererp(mvc)\\modulererp(mvc)\\models\\finance\\company.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8200DEBC-7CE8-8FDF-4205-C73F3946168D}|ModulerERP(MVC)\\ModulerERP(MVC).csproj|solutionrelative:modulererp(mvc)\\models\\finance\\company.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8200DEBC-7CE8-8FDF-4205-C73F3946168D}|ModulerERP(MVC)\\ModulerERP(MVC).csproj|c:\\users\\hossny d. monkey\\source\\repos\\modulererp(mvc)\\modulererp(mvc)\\common\\viewmodel\\responseviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8200DEBC-7CE8-8FDF-4205-C73F3946168D}|ModulerERP(MVC)\\ModulerERP(MVC).csproj|solutionrelative:modulererp(mvc)\\common\\viewmodel\\responseviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8200DEBC-7CE8-8FDF-4205-C73F3946168D}|ModulerERP(MVC)\\ModulerERP(MVC).csproj|c:\\users\\hossny d. monkey\\source\\repos\\modulererp(mvc)\\modulererp(mvc)\\models\\finance\\voucher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8200DEBC-7CE8-8FDF-4205-C73F3946168D}|ModulerERP(MVC)\\ModulerERP(MVC).csproj|solutionrelative:modulererp(mvc)\\models\\finance\\voucher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8200DEBC-7CE8-8FDF-4205-C73F3946168D}|ModulerERP(MVC)\\ModulerERP(MVC).csproj|c:\\users\\hossny d. monkey\\source\\repos\\modulererp(mvc)\\modulererp(mvc)\\views\\companies\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8200DEBC-7CE8-8FDF-4205-C73F3946168D}|ModulerERP(MVC)\\ModulerERP(MVC).csproj|solutionrelative:modulererp(mvc)\\views\\companies\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8200DEBC-7CE8-8FDF-4205-C73F3946168D}|ModulerERP(MVC)\\ModulerERP(MVC).csproj|c:\\users\\hossny d. monkey\\source\\repos\\modulererp(mvc)\\modulererp(mvc)\\finance\\company\\viewmodels\\createcompanyviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8200DEBC-7CE8-8FDF-4205-C73F3946168D}|ModulerERP(MVC)\\ModulerERP(MVC).csproj|solutionrelative:modulererp(mvc)\\finance\\company\\viewmodels\\createcompanyviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8200DEBC-7CE8-8FDF-4205-C73F3946168D}|ModulerERP(MVC)\\ModulerERP(MVC).csproj|c:\\users\\hossny d. monkey\\source\\repos\\modulererp(mvc)\\modulererp(mvc)\\finance\\company\\viewmodels\\updatecompanyviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8200DEBC-7CE8-8FDF-4205-C73F3946168D}|ModulerERP(MVC)\\ModulerERP(MVC).csproj|solutionrelative:modulererp(mvc)\\finance\\company\\viewmodels\\updatecompanyviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8200DEBC-7CE8-8FDF-4205-C73F3946168D}|ModulerERP(MVC)\\ModulerERP(MVC).csproj|c:\\users\\hossny d. monkey\\source\\repos\\modulererp(mvc)\\modulererp(mvc)\\finance\\company\\services\\companyservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8200DEBC-7CE8-8FDF-4205-C73F3946168D}|ModulerERP(MVC)\\ModulerERP(MVC).csproj|solutionrelative:modulererp(mvc)\\finance\\company\\services\\companyservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8200DEBC-7CE8-8FDF-4205-C73F3946168D}|ModulerERP(MVC)\\ModulerERP(MVC).csproj|c:\\users\\hossny d. monkey\\source\\repos\\modulererp(mvc)\\modulererp(mvc)\\finance\\currencies\\repositories\\currencyrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8200DEBC-7CE8-8FDF-4205-C73F3946168D}|ModulerERP(MVC)\\ModulerERP(MVC).csproj|solutionrelative:modulererp(mvc)\\finance\\currencies\\repositories\\currencyrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8200DEBC-7CE8-8FDF-4205-C73F3946168D}|ModulerERP(MVC)\\ModulerERP(MVC).csproj|c:\\users\\hossny d. monkey\\source\\repos\\modulererp(mvc)\\modulererp(mvc)\\finance\\currencies\\repositories\\icurrencyrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8200DEBC-7CE8-8FDF-4205-C73F3946168D}|ModulerERP(MVC)\\ModulerERP(MVC).csproj|solutionrelative:modulererp(mvc)\\finance\\currencies\\repositories\\icurrencyrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8200DEBC-7CE8-8FDF-4205-C73F3946168D}|ModulerERP(MVC)\\ModulerERP(MVC).csproj|c:\\users\\hossny d. monkey\\source\\repos\\modulererp(mvc)\\modulererp(mvc)\\finance\\currencies\\services\\currencyservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8200DEBC-7CE8-8FDF-4205-C73F3946168D}|ModulerERP(MVC)\\ModulerERP(MVC).csproj|solutionrelative:modulererp(mvc)\\finance\\currencies\\services\\currencyservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8200DEBC-7CE8-8FDF-4205-C73F3946168D}|ModulerERP(MVC)\\ModulerERP(MVC).csproj|c:\\users\\hossny d. monkey\\source\\repos\\modulererp(mvc)\\modulererp(mvc)\\finance\\currencies\\services\\icurrencyservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8200DEBC-7CE8-8FDF-4205-C73F3946168D}|ModulerERP(MVC)\\ModulerERP(MVC).csproj|solutionrelative:modulererp(mvc)\\finance\\currencies\\services\\icurrencyservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8200DEBC-7CE8-8FDF-4205-C73F3946168D}|ModulerERP(MVC)\\ModulerERP(MVC).csproj|c:\\users\\hossny d. monkey\\source\\repos\\modulererp(mvc)\\modulererp(mvc)\\finance\\currencies\\mapping\\currencymappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8200DEBC-7CE8-8FDF-4205-C73F3946168D}|ModulerERP(MVC)\\ModulerERP(MVC).csproj|solutionrelative:modulererp(mvc)\\finance\\currencies\\mapping\\currencymappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8200DEBC-7CE8-8FDF-4205-C73F3946168D}|ModulerERP(MVC)\\ModulerERP(MVC).csproj|c:\\users\\hossny d. monkey\\source\\repos\\modulererp(mvc)\\modulererp(mvc)\\finance\\currencies\\viewmodels\\currencylistviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8200DEBC-7CE8-8FDF-4205-C73F3946168D}|ModulerERP(MVC)\\ModulerERP(MVC).csproj|solutionrelative:modulererp(mvc)\\finance\\currencies\\viewmodels\\currencylistviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8200DEBC-7CE8-8FDF-4205-C73F3946168D}|ModulerERP(MVC)\\ModulerERP(MVC).csproj|c:\\users\\hossny d. monkey\\source\\repos\\modulererp(mvc)\\modulererp(mvc)\\finance\\servieceforvalidationandmapping\\serviceregistration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8200DEBC-7CE8-8FDF-4205-C73F3946168D}|ModulerERP(MVC)\\ModulerERP(MVC).csproj|solutionrelative:modulererp(mvc)\\finance\\servieceforvalidationandmapping\\serviceregistration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8200DEBC-7CE8-8FDF-4205-C73F3946168D}|ModulerERP(MVC)\\ModulerERP(MVC).csproj|c:\\users\\hossny d. monkey\\source\\repos\\modulererp(mvc)\\modulererp(mvc)\\finance\\company\\repositories\\companyrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8200DEBC-7CE8-8FDF-4205-C73F3946168D}|ModulerERP(MVC)\\ModulerERP(MVC).csproj|solutionrelative:modulererp(mvc)\\finance\\company\\repositories\\companyrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8200DEBC-7CE8-8FDF-4205-C73F3946168D}|ModulerERP(MVC)\\ModulerERP(MVC).csproj|c:\\users\\hossny d. monkey\\source\\repos\\modulererp(mvc)\\modulererp(mvc)\\finance\\company\\repositories\\icompanyrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8200DEBC-7CE8-8FDF-4205-C73F3946168D}|ModulerERP(MVC)\\ModulerERP(MVC).csproj|solutionrelative:modulererp(mvc)\\finance\\company\\repositories\\icompanyrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8200DEBC-7CE8-8FDF-4205-C73F3946168D}|ModulerERP(MVC)\\ModulerERP(MVC).csproj|c:\\users\\hossny d. monkey\\source\\repos\\modulererp(mvc)\\modulererp(mvc)\\finance\\company\\services\\icompanyservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8200DEBC-7CE8-8FDF-4205-C73F3946168D}|ModulerERP(MVC)\\ModulerERP(MVC).csproj|solutionrelative:modulererp(mvc)\\finance\\company\\services\\icompanyservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8200DEBC-7CE8-8FDF-4205-C73F3946168D}|ModulerERP(MVC)\\ModulerERP(MVC).csproj|c:\\users\\hossny d. monkey\\source\\repos\\modulererp(mvc)\\modulererp(mvc)\\finance\\company\\mapping\\companymappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8200DEBC-7CE8-8FDF-4205-C73F3946168D}|ModulerERP(MVC)\\ModulerERP(MVC).csproj|solutionrelative:modulererp(mvc)\\finance\\company\\mapping\\companymappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8200DEBC-7CE8-8FDF-4205-C73F3946168D}|ModulerERP(MVC)\\ModulerERP(MVC).csproj|c:\\users\\hossny d. monkey\\source\\repos\\modulererp(mvc)\\modulererp(mvc)\\finance\\company\\viewmodels\\companydetailsviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8200DEBC-7CE8-8FDF-4205-C73F3946168D}|ModulerERP(MVC)\\ModulerERP(MVC).csproj|solutionrelative:modulererp(mvc)\\finance\\company\\viewmodels\\companydetailsviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8200DEBC-7CE8-8FDF-4205-C73F3946168D}|ModulerERP(MVC)\\ModulerERP(MVC).csproj|c:\\users\\hossny d. monkey\\source\\repos\\modulererp(mvc)\\modulererp(mvc)\\finance\\company\\viewmodels\\companylistviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8200DEBC-7CE8-8FDF-4205-C73F3946168D}|ModulerERP(MVC)\\ModulerERP(MVC).csproj|solutionrelative:modulererp(mvc)\\finance\\company\\viewmodels\\companylistviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{8200DEBC-7CE8-8FDF-4205-C73F3946168D}|ModulerERP(MVC)\\ModulerERP(MVC).csproj|c:\\users\\hossny d. monkey\\source\\repos\\modulererp(mvc)\\modulererp(mvc)\\views\\treasuries\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{8200DEBC-7CE8-8FDF-4205-C73F3946168D}|ModulerERP(MVC)\\ModulerERP(MVC).csproj|solutionrelative:modulererp(mvc)\\views\\treasuries\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
@@ -13,10 +205,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{8200DEBC-7CE8-8FDF-4205-C73F3946168D}|ModulerERP(MVC)\\ModulerERP(MVC).csproj|c:\\users\\hossny d. monkey\\source\\repos\\modulererp(mvc)\\modulererp(mvc)\\views\\tenant\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{8200DEBC-7CE8-8FDF-4205-C73F3946168D}|ModulerERP(MVC)\\ModulerERP(MVC).csproj|solutionrelative:modulererp(mvc)\\views\\tenant\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8200DEBC-7CE8-8FDF-4205-C73F3946168D}|ModulerERP(MVC)\\ModulerERP(MVC).csproj|c:\\users\\hossny d. monkey\\source\\repos\\modulererp(mvc)\\modulererp(mvc)\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{8200DEBC-7CE8-8FDF-4205-C73F3946168D}|ModulerERP(MVC)\\ModulerERP(MVC).csproj|solutionrelative:modulererp(mvc)\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{8200DEBC-7CE8-8FDF-4205-C73F3946168D}|ModulerERP(MVC)\\ModulerERP(MVC).csproj|c:\\users\\hossny d. monkey\\source\\repos\\modulererp(mvc)\\modulererp(mvc)\\views\\currencies\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -47,36 +235,12 @@
       "RelativeMoniker": "D:0:0:{8200DEBC-7CE8-8FDF-4205-C73F3946168D}|ModulerERP(MVC)\\ModulerERP(MVC).csproj|solutionrelative:modulererp(mvc)\\finance\\currencies\\controllers\\currenciescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8200DEBC-7CE8-8FDF-4205-C73F3946168D}|ModulerERP(MVC)\\ModulerERP(MVC).csproj|c:\\users\\hossny d. monkey\\source\\repos\\modulererp(mvc)\\modulererp(mvc)\\models\\finance\\currency.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8200DEBC-7CE8-8FDF-4205-C73F3946168D}|ModulerERP(MVC)\\ModulerERP(MVC).csproj|solutionrelative:modulererp(mvc)\\models\\finance\\currency.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8200DEBC-7CE8-8FDF-4205-C73F3946168D}|ModulerERP(MVC)\\ModulerERP(MVC).csproj|c:\\users\\hossny d. monkey\\source\\repos\\modulererp(mvc)\\modulererp(mvc)\\finance\\currencies\\repositories\\currencyrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8200DEBC-7CE8-8FDF-4205-C73F3946168D}|ModulerERP(MVC)\\ModulerERP(MVC).csproj|solutionrelative:modulererp(mvc)\\finance\\currencies\\repositories\\currencyrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8200DEBC-7CE8-8FDF-4205-C73F3946168D}|ModulerERP(MVC)\\ModulerERP(MVC).csproj|c:\\users\\hossny d. monkey\\source\\repos\\modulererp(mvc)\\modulererp(mvc)\\finance\\currencies\\mapping\\currencymappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8200DEBC-7CE8-8FDF-4205-C73F3946168D}|ModulerERP(MVC)\\ModulerERP(MVC).csproj|solutionrelative:modulererp(mvc)\\finance\\currencies\\mapping\\currencymappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8200DEBC-7CE8-8FDF-4205-C73F3946168D}|ModulerERP(MVC)\\ModulerERP(MVC).csproj|c:\\users\\hossny d. monkey\\source\\repos\\modulererp(mvc)\\modulererp(mvc)\\finance\\currencies\\services\\currencyservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8200DEBC-7CE8-8FDF-4205-C73F3946168D}|ModulerERP(MVC)\\ModulerERP(MVC).csproj|solutionrelative:modulererp(mvc)\\finance\\currencies\\services\\currencyservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{8200DEBC-7CE8-8FDF-4205-C73F3946168D}|ModulerERP(MVC)\\ModulerERP(MVC).csproj|c:\\users\\hossny d. monkey\\source\\repos\\modulererp(mvc)\\modulererp(mvc)\\data\\modulesdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8200DEBC-7CE8-8FDF-4205-C73F3946168D}|ModulerERP(MVC)\\ModulerERP(MVC).csproj|solutionrelative:modulererp(mvc)\\data\\modulesdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{8200DEBC-7CE8-8FDF-4205-C73F3946168D}|ModulerERP(MVC)\\ModulerERP(MVC).csproj|c:\\users\\hossny d. monkey\\source\\repos\\modulererp(mvc)\\modulererp(mvc)\\models\\finance\\dtos\\currencydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8200DEBC-7CE8-8FDF-4205-C73F3946168D}|ModulerERP(MVC)\\ModulerERP(MVC).csproj|solutionrelative:modulererp(mvc)\\models\\finance\\dtos\\currencydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8200DEBC-7CE8-8FDF-4205-C73F3946168D}|ModulerERP(MVC)\\ModulerERP(MVC).csproj|c:\\users\\hossny d. monkey\\source\\repos\\modulererp(mvc)\\modulererp(mvc)\\common\\viewmodel\\responseviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8200DEBC-7CE8-8FDF-4205-C73F3946168D}|ModulerERP(MVC)\\ModulerERP(MVC).csproj|solutionrelative:modulererp(mvc)\\common\\viewmodel\\responseviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8200DEBC-7CE8-8FDF-4205-C73F3946168D}|ModulerERP(MVC)\\ModulerERP(MVC).csproj|c:\\users\\hossny d. monkey\\source\\repos\\modulererp(mvc)\\modulererp(mvc)\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8200DEBC-7CE8-8FDF-4205-C73F3946168D}|ModulerERP(MVC)\\ModulerERP(MVC).csproj|solutionrelative:modulererp(mvc)\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{8200DEBC-7CE8-8FDF-4205-C73F3946168D}|ModulerERP(MVC)\\ModulerERP(MVC).csproj|c:\\users\\hossny d. monkey\\source\\repos\\modulererp(mvc)\\modulererp(mvc)\\common\\services\\tenantservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -103,36 +267,8 @@
       "RelativeMoniker": "D:0:0:{8200DEBC-7CE8-8FDF-4205-C73F3946168D}|ModulerERP(MVC)\\ModulerERP(MVC).csproj|solutionrelative:modulererp(mvc)\\common\\extensions\\baseapplicationexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8200DEBC-7CE8-8FDF-4205-C73F3946168D}|ModulerERP(MVC)\\ModulerERP(MVC).csproj|c:\\users\\hossny d. monkey\\source\\repos\\modulererp(mvc)\\modulererp(mvc)\\finance\\currencies\\repositories\\icurrencyrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8200DEBC-7CE8-8FDF-4205-C73F3946168D}|ModulerERP(MVC)\\ModulerERP(MVC).csproj|solutionrelative:modulererp(mvc)\\finance\\currencies\\repositories\\icurrencyrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8200DEBC-7CE8-8FDF-4205-C73F3946168D}|ModulerERP(MVC)\\ModulerERP(MVC).csproj|c:\\users\\hossny d. monkey\\source\\repos\\modulererp(mvc)\\modulererp(mvc)\\finance\\currencies\\services\\icurrencyservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8200DEBC-7CE8-8FDF-4205-C73F3946168D}|ModulerERP(MVC)\\ModulerERP(MVC).csproj|solutionrelative:modulererp(mvc)\\finance\\currencies\\services\\icurrencyservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\hossny D. monkey\\source\\repos\\ModulerERP(MVC)\\ModulerERP(MVC)\\Migrations\\Tenant\\20251211195610_ChangeCurency.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:ModulerERP(MVC)\\Migrations\\Tenant\\20251211195610_ChangeCurency.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8200DEBC-7CE8-8FDF-4205-C73F3946168D}|ModulerERP(MVC)\\ModulerERP(MVC).csproj|c:\\users\\hossny d. monkey\\source\\repos\\modulererp(mvc)\\modulererp(mvc)\\finance\\servieceforvalidationandmapping\\serviceregistration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8200DEBC-7CE8-8FDF-4205-C73F3946168D}|ModulerERP(MVC)\\ModulerERP(MVC).csproj|solutionrelative:modulererp(mvc)\\finance\\servieceforvalidationandmapping\\serviceregistration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8200DEBC-7CE8-8FDF-4205-C73F3946168D}|ModulerERP(MVC)\\ModulerERP(MVC).csproj|c:\\users\\hossny d. monkey\\source\\repos\\modulererp(mvc)\\modulererp(mvc)\\models\\finance\\company.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8200DEBC-7CE8-8FDF-4205-C73F3946168D}|ModulerERP(MVC)\\ModulerERP(MVC).csproj|solutionrelative:modulererp(mvc)\\models\\finance\\company.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{8200DEBC-7CE8-8FDF-4205-C73F3946168D}|ModulerERP(MVC)\\ModulerERP(MVC).csproj|c:\\users\\hossny d. monkey\\source\\repos\\modulererp(mvc)\\modulererp(mvc)\\common\\repositories\\interfaces\\generalrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8200DEBC-7CE8-8FDF-4205-C73F3946168D}|ModulerERP(MVC)\\ModulerERP(MVC).csproj|solutionrelative:modulererp(mvc)\\common\\repositories\\interfaces\\generalrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\hossny D. monkey\\source\\repos\\ModulerERP(MVC)\\ModulerERP(MVC)\\Migrations\\Tenant\\20251211193048_changeCurncy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:ModulerERP(MVC)\\Migrations\\Tenant\\20251211193048_changeCurncy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8200DEBC-7CE8-8FDF-4205-C73F3946168D}|ModulerERP(MVC)\\ModulerERP(MVC).csproj|c:\\users\\hossny d. monkey\\source\\repos\\modulererp(mvc)\\modulererp(mvc)\\models\\finance\\treasury.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8200DEBC-7CE8-8FDF-4205-C73F3946168D}|ModulerERP(MVC)\\ModulerERP(MVC).csproj|solutionrelative:modulererp(mvc)\\models\\finance\\treasury.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{8200DEBC-7CE8-8FDF-4205-C73F3946168D}|ModulerERP(MVC)\\ModulerERP(MVC).csproj|c:\\users\\hossny d. monkey\\source\\repos\\modulererp(mvc)\\modulererp(mvc)\\common\\models\\mastercompany.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -141,10 +277,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{8200DEBC-7CE8-8FDF-4205-C73F3946168D}|ModulerERP(MVC)\\ModulerERP(MVC).csproj|c:\\users\\hossny d. monkey\\source\\repos\\modulererp(mvc)\\modulererp(mvc)\\common\\repositories\\interfaces\\igeneralrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8200DEBC-7CE8-8FDF-4205-C73F3946168D}|ModulerERP(MVC)\\ModulerERP(MVC).csproj|solutionrelative:modulererp(mvc)\\common\\repositories\\interfaces\\igeneralrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8200DEBC-7CE8-8FDF-4205-C73F3946168D}|ModulerERP(MVC)\\ModulerERP(MVC).csproj|c:\\users\\hossny d. monkey\\source\\repos\\modulererp(mvc)\\modulererp(mvc)\\views\\treasuries\\balance.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{8200DEBC-7CE8-8FDF-4205-C73F3946168D}|ModulerERP(MVC)\\ModulerERP(MVC).csproj|solutionrelative:modulererp(mvc)\\views\\treasuries\\balance.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{8200DEBC-7CE8-8FDF-4205-C73F3946168D}|ModulerERP(MVC)\\ModulerERP(MVC).csproj|c:\\users\\hossny d. monkey\\source\\repos\\modulererp(mvc)\\modulererp(mvc)\\common\\behaviors\\validationbehavior.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -169,18 +301,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{8200DEBC-7CE8-8FDF-4205-C73F3946168D}|ModulerERP(MVC)\\ModulerERP(MVC).csproj|c:\\users\\hossny d. monkey\\source\\repos\\modulererp(mvc)\\modulererp(mvc)\\finance\\treasuries\\services\\treasuryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8200DEBC-7CE8-8FDF-4205-C73F3946168D}|ModulerERP(MVC)\\ModulerERP(MVC).csproj|solutionrelative:modulererp(mvc)\\finance\\treasuries\\services\\treasuryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8200DEBC-7CE8-8FDF-4205-C73F3946168D}|ModulerERP(MVC)\\ModulerERP(MVC).csproj|c:\\users\\hossny d. monkey\\source\\repos\\modulererp(mvc)\\modulererp(mvc)\\finance\\treasuries\\controllers\\treasuriescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8200DEBC-7CE8-8FDF-4205-C73F3946168D}|ModulerERP(MVC)\\ModulerERP(MVC).csproj|solutionrelative:modulererp(mvc)\\finance\\treasuries\\controllers\\treasuriescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8200DEBC-7CE8-8FDF-4205-C73F3946168D}|ModulerERP(MVC)\\ModulerERP(MVC).csproj|c:\\users\\hossny d. monkey\\source\\repos\\modulererp(mvc)\\modulererp(mvc)\\finance\\treasuries\\viewmodels\\treasurydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8200DEBC-7CE8-8FDF-4205-C73F3946168D}|ModulerERP(MVC)\\ModulerERP(MVC).csproj|solutionrelative:modulererp(mvc)\\finance\\treasuries\\viewmodels\\treasurydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8200DEBC-7CE8-8FDF-4205-C73F3946168D}|ModulerERP(MVC)\\ModulerERP(MVC).csproj|c:\\users\\hossny d. monkey\\source\\repos\\modulererp(mvc)\\modulererp(mvc)\\views\\treasuries\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{8200DEBC-7CE8-8FDF-4205-C73F3946168D}|ModulerERP(MVC)\\ModulerERP(MVC).csproj|solutionrelative:modulererp(mvc)\\views\\treasuries\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{8200DEBC-7CE8-8FDF-4205-C73F3946168D}|ModulerERP(MVC)\\ModulerERP(MVC).csproj|c:\\users\\hossny d. monkey\\source\\repos\\modulererp(mvc)\\modulererp(mvc)\\views\\treasuries\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -250,22 +370,6 @@
       "RelativeMoniker": "D:0:0:{8200DEBC-7CE8-8FDF-4205-C73F3946168D}|ModulerERP(MVC)\\ModulerERP(MVC).csproj|solutionrelative:modulererp(mvc)\\migrations\\20251210213558_init.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8200DEBC-7CE8-8FDF-4205-C73F3946168D}|ModulerERP(MVC)\\ModulerERP(MVC).csproj|c:\\users\\hossny d. monkey\\source\\repos\\modulererp(mvc)\\modulererp(mvc)\\models\\finance\\taxprofilecomponent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8200DEBC-7CE8-8FDF-4205-C73F3946168D}|ModulerERP(MVC)\\ModulerERP(MVC).csproj|solutionrelative:modulererp(mvc)\\models\\finance\\taxprofilecomponent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8200DEBC-7CE8-8FDF-4205-C73F3946168D}|ModulerERP(MVC)\\ModulerERP(MVC).csproj|c:\\users\\hossny d. monkey\\source\\repos\\modulererp(mvc)\\modulererp(mvc)\\models\\finance\\voucher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8200DEBC-7CE8-8FDF-4205-C73F3946168D}|ModulerERP(MVC)\\ModulerERP(MVC).csproj|solutionrelative:modulererp(mvc)\\models\\finance\\voucher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8200DEBC-7CE8-8FDF-4205-C73F3946168D}|ModulerERP(MVC)\\ModulerERP(MVC).csproj|c:\\users\\hossny d. monkey\\source\\repos\\modulererp(mvc)\\modulererp(mvc)\\models\\finance\\taxprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8200DEBC-7CE8-8FDF-4205-C73F3946168D}|ModulerERP(MVC)\\ModulerERP(MVC).csproj|solutionrelative:modulererp(mvc)\\models\\finance\\taxprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8200DEBC-7CE8-8FDF-4205-C73F3946168D}|ModulerERP(MVC)\\ModulerERP(MVC).csproj|c:\\users\\hossny d. monkey\\source\\repos\\modulererp(mvc)\\modulererp(mvc)\\models\\finance\\taxcomponent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8200DEBC-7CE8-8FDF-4205-C73F3946168D}|ModulerERP(MVC)\\ModulerERP(MVC).csproj|solutionrelative:modulererp(mvc)\\models\\finance\\taxcomponent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{8200DEBC-7CE8-8FDF-4205-C73F3946168D}|ModulerERP(MVC)\\ModulerERP(MVC).csproj|c:\\users\\hossny d. monkey\\source\\repos\\modulererp(mvc)\\modulererp(mvc)\\common\\enums\\finance_enum\\taxratetype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8200DEBC-7CE8-8FDF-4205-C73F3946168D}|ModulerERP(MVC)\\ModulerERP(MVC).csproj|solutionrelative:modulererp(mvc)\\common\\enums\\finance_enum\\taxratetype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -288,6 +392,14 @@
     {
       "AbsoluteMoniker": "D:0:0:{8200DEBC-7CE8-8FDF-4205-C73F3946168D}|ModulerERP(MVC)\\ModulerERP(MVC).csproj|c:\\users\\hossny d. monkey\\source\\repos\\modulererp(mvc)\\modulererp(mvc)\\migrations\\tenant\\20251211122228_addcurrency.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8200DEBC-7CE8-8FDF-4205-C73F3946168D}|ModulerERP(MVC)\\ModulerERP(MVC).csproj|solutionrelative:modulererp(mvc)\\migrations\\tenant\\20251211122228_addcurrency.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8200DEBC-7CE8-8FDF-4205-C73F3946168D}|ModulerERP(MVC)\\ModulerERP(MVC).csproj|c:\\users\\hossny d. monkey\\source\\repos\\modulererp(mvc)\\modulererp(mvc)\\migrations\\tenant\\20251211195610_changecurency.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8200DEBC-7CE8-8FDF-4205-C73F3946168D}|ModulerERP(MVC)\\ModulerERP(MVC).csproj|solutionrelative:modulererp(mvc)\\migrations\\tenant\\20251211195610_changecurency.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8200DEBC-7CE8-8FDF-4205-C73F3946168D}|ModulerERP(MVC)\\ModulerERP(MVC).csproj|c:\\users\\hossny d. monkey\\source\\repos\\modulererp(mvc)\\modulererp(mvc)\\migrations\\tenant\\20251211193048_changecurncy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8200DEBC-7CE8-8FDF-4205-C73F3946168D}|ModulerERP(MVC)\\ModulerERP(MVC).csproj|solutionrelative:modulererp(mvc)\\migrations\\tenant\\20251211193048_changecurncy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -297,427 +409,284 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 7,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\hossny D. monkey\\source\\repos\\ModulerERP(MVC)\\ModulerERP(MVC)\\Views\\Currencies\\Index.cshtml",
-              "RelativeDocumentMoniker": "ModulerERP(MVC)\\Views\\Currencies\\Index.cshtml",
-              "ToolTip": "C:\\Users\\hossny D. monkey\\source\\repos\\ModulerERP(MVC)\\ModulerERP(MVC)\\Views\\Currencies\\Index.cshtml",
-              "RelativeToolTip": "ModulerERP(MVC)\\Views\\Currencies\\Index.cshtml",
-              "ViewState": "AgIAAEcAAAAAAAAAAAAcwFAAAABfAAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\hossny D. monkey\\source\\repos\\ModulerERP(MVC)\\ModulerERP(MVC)\\Views\\Companies\\Delete.cshtml",
+              "RelativeDocumentMoniker": "ModulerERP(MVC)\\Views\\Companies\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\hossny D. monkey\\source\\repos\\ModulerERP(MVC)\\ModulerERP(MVC)\\Views\\Companies\\Delete.cshtml",
+              "RelativeToolTip": "ModulerERP(MVC)\\Views\\Companies\\Delete.cshtml",
+              "ViewState": "AgIAAOIAAAAAAAAAAAAAAMcAAAAXAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-12-11T15:53:39.112Z",
+              "WhenOpened": "2025-12-12T08:59:18.827Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\hossny D. monkey\\source\\repos\\ModulerERP(MVC)\\ModulerERP(MVC)\\Views\\Companies\\Details.cshtml",
+              "RelativeDocumentMoniker": "ModulerERP(MVC)\\Views\\Companies\\Details.cshtml",
+              "ToolTip": "C:\\Users\\hossny D. monkey\\source\\repos\\ModulerERP(MVC)\\ModulerERP(MVC)\\Views\\Companies\\Details.cshtml",
+              "RelativeToolTip": "ModulerERP(MVC)\\Views\\Companies\\Details.cshtml",
+              "ViewState": "AgIAABsAAAAAAAAAAAAAAC8AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-12T08:58:49.841Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "CompaniesController.cs",
+              "DocumentMoniker": "C:\\Users\\hossny D. monkey\\source\\repos\\ModulerERP(MVC)\\ModulerERP(MVC)\\Finance\\Company\\Controllers\\CompaniesController.cs",
+              "RelativeDocumentMoniker": "ModulerERP(MVC)\\Finance\\Company\\Controllers\\CompaniesController.cs",
+              "ToolTip": "C:\\Users\\hossny D. monkey\\source\\repos\\ModulerERP(MVC)\\ModulerERP(MVC)\\Finance\\Company\\Controllers\\CompaniesController.cs",
+              "RelativeToolTip": "ModulerERP(MVC)\\Finance\\Company\\Controllers\\CompaniesController.cs",
+              "ViewState": "AgIAACgBAAAAAAAAAAAYwDwBAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-12T08:54:06.378Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\hossny D. monkey\\source\\repos\\ModulerERP(MVC)\\ModulerERP(MVC)\\Views\\GlAccounts\\Delete.cshtml",
+              "RelativeDocumentMoniker": "ModulerERP(MVC)\\Views\\GlAccounts\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\hossny D. monkey\\source\\repos\\ModulerERP(MVC)\\ModulerERP(MVC)\\Views\\GlAccounts\\Delete.cshtml",
+              "RelativeToolTip": "ModulerERP(MVC)\\Views\\GlAccounts\\Delete.cshtml",
+              "ViewState": "AgIAAEMBAAAAAAAAAAAAADMBAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-12T14:42:10.17Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "_Layout.cshtml",
               "DocumentMoniker": "C:\\Users\\hossny D. monkey\\source\\repos\\ModulerERP(MVC)\\ModulerERP(MVC)\\Views\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "ModulerERP(MVC)\\Views\\Shared\\_Layout.cshtml",
               "ToolTip": "C:\\Users\\hossny D. monkey\\source\\repos\\ModulerERP(MVC)\\ModulerERP(MVC)\\Views\\Shared\\_Layout.cshtml",
               "RelativeToolTip": "ModulerERP(MVC)\\Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AgIAAD4BAAAAAAAAAAAkwFIBAAAHAAAAAAAAAA==",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAEwCUAAAA8AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-12-10T22:00:14.309Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Create.cshtml",
-              "DocumentMoniker": "C:\\Users\\hossny D. monkey\\source\\repos\\ModulerERP(MVC)\\ModulerERP(MVC)\\Views\\Currencies\\Create.cshtml",
-              "RelativeDocumentMoniker": "ModulerERP(MVC)\\Views\\Currencies\\Create.cshtml",
-              "ToolTip": "C:\\Users\\hossny D. monkey\\source\\repos\\ModulerERP(MVC)\\ModulerERP(MVC)\\Views\\Currencies\\Create.cshtml",
-              "RelativeToolTip": "ModulerERP(MVC)\\Views\\Currencies\\Create.cshtml",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAAA8AAAArAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\hossny D. monkey\\source\\repos\\ModulerERP(MVC)\\ModulerERP(MVC)\\Views\\Treasuries\\Delete.cshtml",
+              "RelativeDocumentMoniker": "ModulerERP(MVC)\\Views\\Treasuries\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\hossny D. monkey\\source\\repos\\ModulerERP(MVC)\\ModulerERP(MVC)\\Views\\Treasuries\\Delete.cshtml",
+              "RelativeToolTip": "ModulerERP(MVC)\\Views\\Treasuries\\Delete.cshtml",
+              "ViewState": "AgIAAIIAAAAAAAAAAAAUwJkAAAAmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-12-11T15:55:49.713Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Details.cshtml",
-              "DocumentMoniker": "C:\\Users\\hossny D. monkey\\source\\repos\\ModulerERP(MVC)\\ModulerERP(MVC)\\Views\\Currencies\\Details.cshtml",
-              "RelativeDocumentMoniker": "ModulerERP(MVC)\\Views\\Currencies\\Details.cshtml",
-              "ToolTip": "C:\\Users\\hossny D. monkey\\source\\repos\\ModulerERP(MVC)\\ModulerERP(MVC)\\Views\\Currencies\\Details.cshtml",
-              "RelativeToolTip": "ModulerERP(MVC)\\Views\\Currencies\\Details.cshtml",
-              "ViewState": "AgIAAGAAAAAAAAAAAAAtwGgAAABKAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-12-11T15:56:43.392Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Edit.cshtml",
-              "DocumentMoniker": "C:\\Users\\hossny D. monkey\\source\\repos\\ModulerERP(MVC)\\ModulerERP(MVC)\\Views\\Currencies\\Edit.cshtml",
-              "RelativeDocumentMoniker": "ModulerERP(MVC)\\Views\\Currencies\\Edit.cshtml",
-              "ToolTip": "C:\\Users\\hossny D. monkey\\source\\repos\\ModulerERP(MVC)\\ModulerERP(MVC)\\Views\\Currencies\\Edit.cshtml",
-              "RelativeToolTip": "ModulerERP(MVC)\\Views\\Currencies\\Edit.cshtml",
-              "ViewState": "AgIAAAcAAAAAAAAAAAAtwA8AAAArAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-12-11T15:56:11.942Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Create.cshtml",
-              "DocumentMoniker": "C:\\Users\\hossny D. monkey\\source\\repos\\ModulerERP(MVC)\\ModulerERP(MVC)\\Views\\Tenant\\Create.cshtml",
-              "RelativeDocumentMoniker": "ModulerERP(MVC)\\Views\\Tenant\\Create.cshtml",
-              "ToolTip": "C:\\Users\\hossny D. monkey\\source\\repos\\ModulerERP(MVC)\\ModulerERP(MVC)\\Views\\Tenant\\Create.cshtml",
-              "RelativeToolTip": "ModulerERP(MVC)\\Views\\Tenant\\Create.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAnAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-12-11T08:40:01.301Z",
+              "WhenOpened": "2025-12-10T21:59:23.963Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Select.cshtml",
-              "DocumentMoniker": "C:\\Users\\hossny D. monkey\\source\\repos\\ModulerERP(MVC)\\ModulerERP(MVC)\\Views\\Tenant\\Select.cshtml",
-              "RelativeDocumentMoniker": "ModulerERP(MVC)\\Views\\Tenant\\Select.cshtml",
-              "ToolTip": "C:\\Users\\hossny D. monkey\\source\\repos\\ModulerERP(MVC)\\ModulerERP(MVC)\\Views\\Tenant\\Select.cshtml",
-              "RelativeToolTip": "ModulerERP(MVC)\\Views\\Tenant\\Select.cshtml",
-              "ViewState": "AgIAAPMAAAAAAAAAAAAkwAcBAAAIAAAAAAAAAA==",
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\hossny D. monkey\\source\\repos\\ModulerERP(MVC)\\ModulerERP(MVC)\\Views\\GlAccounts\\Edit.cshtml",
+              "RelativeDocumentMoniker": "ModulerERP(MVC)\\Views\\GlAccounts\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\hossny D. monkey\\source\\repos\\ModulerERP(MVC)\\ModulerERP(MVC)\\Views\\GlAccounts\\Edit.cshtml",
+              "RelativeToolTip": "ModulerERP(MVC)\\Views\\GlAccounts\\Edit.cshtml",
+              "ViewState": "AgIAAIwAAAAAAAAAAAAUwKQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-12-11T08:39:39.555Z",
+              "WhenOpened": "2025-12-12T14:41:48.548Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Create.cshtml",
-              "DocumentMoniker": "C:\\Users\\hossny D. monkey\\source\\repos\\ModulerERP(MVC)\\ModulerERP(MVC)\\Views\\Treasuries\\Create.cshtml",
-              "RelativeDocumentMoniker": "ModulerERP(MVC)\\Views\\Treasuries\\Create.cshtml",
-              "ToolTip": "C:\\Users\\hossny D. monkey\\source\\repos\\ModulerERP(MVC)\\ModulerERP(MVC)\\Views\\Treasuries\\Create.cshtml",
-              "RelativeToolTip": "ModulerERP(MVC)\\Views\\Treasuries\\Create.cshtml",
-              "ViewState": "AgIAALABAAAAAAAAAAAmwLoBAAAgAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-12-10T21:58:29.315Z",
+              "DocumentIndex": 7,
+              "Title": "TreasuriesController.cs",
+              "DocumentMoniker": "C:\\Users\\hossny D. monkey\\source\\repos\\ModulerERP(MVC)\\ModulerERP(MVC)\\Finance\\Treasuries\\Controllers\\TreasuriesController.cs",
+              "RelativeDocumentMoniker": "ModulerERP(MVC)\\Finance\\Treasuries\\Controllers\\TreasuriesController.cs",
+              "ToolTip": "C:\\Users\\hossny D. monkey\\source\\repos\\ModulerERP(MVC)\\ModulerERP(MVC)\\Finance\\Treasuries\\Controllers\\TreasuriesController.cs",
+              "RelativeToolTip": "ModulerERP(MVC)\\Finance\\Treasuries\\Controllers\\TreasuriesController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC4BAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-10T21:45:48.229Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 8,
-              "Title": "BankAccountStatus.cs",
-              "DocumentMoniker": "C:\\Users\\hossny D. monkey\\source\\repos\\ModulerERP(MVC)\\ModulerERP(MVC)\\Common\\Enums\\Finance_Enum\\BankAccountStatus.cs",
-              "RelativeDocumentMoniker": "ModulerERP(MVC)\\Common\\Enums\\Finance_Enum\\BankAccountStatus.cs",
-              "ToolTip": "C:\\Users\\hossny D. monkey\\source\\repos\\ModulerERP(MVC)\\ModulerERP(MVC)\\Common\\Enums\\Finance_Enum\\BankAccountStatus.cs",
-              "RelativeToolTip": "ModulerERP(MVC)\\Common\\Enums\\Finance_Enum\\BankAccountStatus.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-11T21:10:19.511Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "CurrencyMappingProfile.cs",
-              "DocumentMoniker": "C:\\Users\\hossny D. monkey\\source\\repos\\ModulerERP(MVC)\\ModulerERP(MVC)\\Finance\\Currencies\\Mapping\\CurrencyMappingProfile.cs",
-              "RelativeDocumentMoniker": "ModulerERP(MVC)\\Finance\\Currencies\\Mapping\\CurrencyMappingProfile.cs",
-              "ToolTip": "C:\\Users\\hossny D. monkey\\source\\repos\\ModulerERP(MVC)\\ModulerERP(MVC)\\Finance\\Currencies\\Mapping\\CurrencyMappingProfile.cs",
-              "RelativeToolTip": "ModulerERP(MVC)\\Finance\\Currencies\\Mapping\\CurrencyMappingProfile.cs",
-              "ViewState": "AgIAABcAAAAAAAAAAAAgwBkAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-11T15:50:52.329Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "CurrenciesController.cs",
-              "DocumentMoniker": "C:\\Users\\hossny D. monkey\\source\\repos\\ModulerERP(MVC)\\ModulerERP(MVC)\\Finance\\Currencies\\Controllers\\CurrenciesController.cs",
-              "RelativeDocumentMoniker": "ModulerERP(MVC)\\Finance\\Currencies\\Controllers\\CurrenciesController.cs",
-              "ToolTip": "C:\\Users\\hossny D. monkey\\source\\repos\\ModulerERP(MVC)\\ModulerERP(MVC)\\Finance\\Currencies\\Controllers\\CurrenciesController.cs",
-              "RelativeToolTip": "ModulerERP(MVC)\\Finance\\Currencies\\Controllers\\CurrenciesController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAG8AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-11T15:52:17.558Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "Currency.cs",
-              "DocumentMoniker": "C:\\Users\\hossny D. monkey\\source\\repos\\ModulerERP(MVC)\\ModulerERP(MVC)\\Models\\Finance\\Currency.cs",
-              "RelativeDocumentMoniker": "ModulerERP(MVC)\\Models\\Finance\\Currency.cs",
-              "ToolTip": "C:\\Users\\hossny D. monkey\\source\\repos\\ModulerERP(MVC)\\ModulerERP(MVC)\\Models\\Finance\\Currency.cs",
-              "RelativeToolTip": "ModulerERP(MVC)\\Models\\Finance\\Currency.cs",
-              "ViewState": "AgIAAAUAAAAAAAAAAAA+wBgAAAAYAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-11T18:48:26.488Z",
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\hossny D. monkey\\source\\repos\\ModulerERP(MVC)\\ModulerERP(MVC)\\Views\\Companies\\Index.cshtml",
+              "RelativeDocumentMoniker": "ModulerERP(MVC)\\Views\\Companies\\Index.cshtml",
+              "ToolTip": "C:\\Users\\hossny D. monkey\\source\\repos\\ModulerERP(MVC)\\ModulerERP(MVC)\\Views\\Companies\\Index.cshtml",
+              "RelativeToolTip": "ModulerERP(MVC)\\Views\\Companies\\Index.cshtml",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAUwI4AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-12T08:56:54.352Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 9,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\hossny D. monkey\\source\\repos\\ModulerERP(MVC)\\ModulerERP(MVC)\\appsettings.json",
-              "RelativeDocumentMoniker": "ModulerERP(MVC)\\appsettings.json",
-              "ToolTip": "C:\\Users\\hossny D. monkey\\source\\repos\\ModulerERP(MVC)\\ModulerERP(MVC)\\appsettings.json",
-              "RelativeToolTip": "ModulerERP(MVC)\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAACCAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-12-10T21:20:39.863Z",
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\hossny D. monkey\\source\\repos\\ModulerERP(MVC)\\ModulerERP(MVC)\\Views\\Companies\\Create.cshtml",
+              "RelativeDocumentMoniker": "ModulerERP(MVC)\\Views\\Companies\\Create.cshtml",
+              "ToolTip": "C:\\Users\\hossny D. monkey\\source\\repos\\ModulerERP(MVC)\\ModulerERP(MVC)\\Views\\Companies\\Create.cshtml",
+              "RelativeToolTip": "ModulerERP(MVC)\\Views\\Companies\\Create.cshtml",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAAC4AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-12T08:57:24.827Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "CurrencyService.cs",
-              "DocumentMoniker": "C:\\Users\\hossny D. monkey\\source\\repos\\ModulerERP(MVC)\\ModulerERP(MVC)\\Finance\\Currencies\\Services\\CurrencyService.cs",
-              "RelativeDocumentMoniker": "ModulerERP(MVC)\\Finance\\Currencies\\Services\\CurrencyService.cs",
-              "ToolTip": "C:\\Users\\hossny D. monkey\\source\\repos\\ModulerERP(MVC)\\ModulerERP(MVC)\\Finance\\Currencies\\Services\\CurrencyService.cs",
-              "RelativeToolTip": "ModulerERP(MVC)\\Finance\\Currencies\\Services\\CurrencyService.cs",
-              "ViewState": "AgIAAHwAAAAAAAAAAAAtwIIAAAAMAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-11T15:51:35.4Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "CurrencyRepository.cs",
-              "DocumentMoniker": "C:\\Users\\hossny D. monkey\\source\\repos\\ModulerERP(MVC)\\ModulerERP(MVC)\\Finance\\Currencies\\Repositories\\CurrencyRepository.cs",
-              "RelativeDocumentMoniker": "ModulerERP(MVC)\\Finance\\Currencies\\Repositories\\CurrencyRepository.cs",
-              "ToolTip": "C:\\Users\\hossny D. monkey\\source\\repos\\ModulerERP(MVC)\\ModulerERP(MVC)\\Finance\\Currencies\\Repositories\\CurrencyRepository.cs",
-              "RelativeToolTip": "ModulerERP(MVC)\\Finance\\Currencies\\Repositories\\CurrencyRepository.cs",
-              "ViewState": "AgIAAG4AAAAAAAAAAAAwwHMAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-11T15:48:28.791Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "ModulesDbContext.cs",
-              "DocumentMoniker": "C:\\Users\\hossny D. monkey\\source\\repos\\ModulerERP(MVC)\\ModulerERP(MVC)\\Data\\ModulesDbContext.cs",
-              "RelativeDocumentMoniker": "ModulerERP(MVC)\\Data\\ModulesDbContext.cs",
-              "ToolTip": "C:\\Users\\hossny D. monkey\\source\\repos\\ModulerERP(MVC)\\ModulerERP(MVC)\\Data\\ModulesDbContext.cs",
-              "RelativeToolTip": "ModulerERP(MVC)\\Data\\ModulesDbContext.cs",
-              "ViewState": "AgIAAHwAAAAAAAAAAAAnwIUAAAA5AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-10T20:59:16.811Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "CurrencyDto.cs",
-              "DocumentMoniker": "C:\\Users\\hossny D. monkey\\source\\repos\\ModulerERP(MVC)\\ModulerERP(MVC)\\Models\\Finance\\DTOs\\CurrencyDto.cs",
-              "RelativeDocumentMoniker": "ModulerERP(MVC)\\Models\\Finance\\DTOs\\CurrencyDto.cs",
-              "ToolTip": "C:\\Users\\hossny D. monkey\\source\\repos\\ModulerERP(MVC)\\ModulerERP(MVC)\\Models\\Finance\\DTOs\\CurrencyDto.cs",
-              "RelativeToolTip": "ModulerERP(MVC)\\Models\\Finance\\DTOs\\CurrencyDto.cs",
-              "ViewState": "AgIAAA0AAAAAAAAAAAAqwBsAAAAtAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-11T15:50:33.364Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "TenantService.cs",
-              "DocumentMoniker": "C:\\Users\\hossny D. monkey\\source\\repos\\ModulerERP(MVC)\\ModulerERP(MVC)\\Common\\Services\\TenantService.cs",
-              "RelativeDocumentMoniker": "ModulerERP(MVC)\\Common\\Services\\TenantService.cs",
-              "ToolTip": "C:\\Users\\hossny D. monkey\\source\\repos\\ModulerERP(MVC)\\ModulerERP(MVC)\\Common\\Services\\TenantService.cs",
-              "RelativeToolTip": "ModulerERP(MVC)\\Common\\Services\\TenantService.cs",
-              "ViewState": "AgIAAK4AAAAAAAAAAAAlwLcAAAAEAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-11T08:42:31.357Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 10,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\hossny D. monkey\\source\\repos\\ModulerERP(MVC)\\ModulerERP(MVC)\\Program.cs",
               "RelativeDocumentMoniker": "ModulerERP(MVC)\\Program.cs",
               "ToolTip": "C:\\Users\\hossny D. monkey\\source\\repos\\ModulerERP(MVC)\\ModulerERP(MVC)\\Program.cs",
               "RelativeToolTip": "ModulerERP(MVC)\\Program.cs",
-              "ViewState": "AgIAAGoAAAAAAAAAAAAlwHQAAAAQAAAAAAAAAA==",
+              "ViewState": "AgIAAHEAAAAAAAAAAAAlwHwAAABOAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-12-10T21:24:09.577Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "ResponseViewModel.cs",
-              "DocumentMoniker": "C:\\Users\\hossny D. monkey\\source\\repos\\ModulerERP(MVC)\\ModulerERP(MVC)\\Common\\ViewModel\\ResponseViewModel.cs",
-              "RelativeDocumentMoniker": "ModulerERP(MVC)\\Common\\ViewModel\\ResponseViewModel.cs",
-              "ToolTip": "C:\\Users\\hossny D. monkey\\source\\repos\\ModulerERP(MVC)\\ModulerERP(MVC)\\Common\\ViewModel\\ResponseViewModel.cs",
-              "RelativeToolTip": "ModulerERP(MVC)\\Common\\ViewModel\\ResponseViewModel.cs",
-              "ViewState": "AgIAABMAAAAAAAAAAAAhwBsAAAAIAAAAAAAAAA==",
+              "DocumentIndex": 11,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\hossny D. monkey\\source\\repos\\ModulerERP(MVC)\\ModulerERP(MVC)\\Views\\GlAccounts\\Details.cshtml",
+              "RelativeDocumentMoniker": "ModulerERP(MVC)\\Views\\GlAccounts\\Details.cshtml",
+              "ToolTip": "C:\\Users\\hossny D. monkey\\source\\repos\\ModulerERP(MVC)\\ModulerERP(MVC)\\Views\\GlAccounts\\Details.cshtml",
+              "RelativeToolTip": "ModulerERP(MVC)\\Views\\GlAccounts\\Details.cshtml",
+              "ViewState": "AgIAAJgAAAAAAAAAAAAgwLYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-12T14:41:24.162Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\hossny D. monkey\\source\\repos\\ModulerERP(MVC)\\ModulerERP(MVC)\\Views\\GlAccounts\\Index.cshtml",
+              "RelativeDocumentMoniker": "ModulerERP(MVC)\\Views\\GlAccounts\\Index.cshtml",
+              "ToolTip": "C:\\Users\\hossny D. monkey\\source\\repos\\ModulerERP(MVC)\\ModulerERP(MVC)\\Views\\GlAccounts\\Index.cshtml",
+              "RelativeToolTip": "ModulerERP(MVC)\\Views\\GlAccounts\\Index.cshtml",
+              "ViewState": "AgIAAOAAAAAAAAAAAAAgwP4AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-12T14:36:47.463Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\hossny D. monkey\\source\\repos\\ModulerERP(MVC)\\ModulerERP(MVC)\\Views\\GlAccounts\\Create.cshtml",
+              "RelativeDocumentMoniker": "ModulerERP(MVC)\\Views\\GlAccounts\\Create.cshtml",
+              "ToolTip": "C:\\Users\\hossny D. monkey\\source\\repos\\ModulerERP(MVC)\\ModulerERP(MVC)\\Views\\GlAccounts\\Create.cshtml",
+              "RelativeToolTip": "ModulerERP(MVC)\\Views\\GlAccounts\\Create.cshtml",
+              "ViewState": "AgIAAH0AAAAAAAAAAAAgwJ0AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-12T14:38:03.944Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "GlAccountsController.cs",
+              "DocumentMoniker": "C:\\Users\\hossny D. monkey\\source\\repos\\ModulerERP(MVC)\\ModulerERP(MVC)\\Finance\\GlAccounts\\Controllers\\GlAccountsController.cs",
+              "RelativeDocumentMoniker": "ModulerERP(MVC)\\Finance\\GlAccounts\\Controllers\\GlAccountsController.cs",
+              "ToolTip": "C:\\Users\\hossny D. monkey\\source\\repos\\ModulerERP(MVC)\\ModulerERP(MVC)\\Finance\\GlAccounts\\Controllers\\GlAccountsController.cs",
+              "RelativeToolTip": "ModulerERP(MVC)\\Finance\\GlAccounts\\Controllers\\GlAccountsController.cs",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAYwAwAAAAEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-11T07:57:56.79Z",
+              "WhenOpened": "2025-12-12T14:34:03.236Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "GlAccountService.cs",
+              "DocumentMoniker": "C:\\Users\\hossny D. monkey\\source\\repos\\ModulerERP(MVC)\\ModulerERP(MVC)\\Finance\\GlAccounts\\Services\\GlAccountService.cs",
+              "RelativeDocumentMoniker": "ModulerERP(MVC)\\Finance\\GlAccounts\\Services\\GlAccountService.cs",
+              "ToolTip": "C:\\Users\\hossny D. monkey\\source\\repos\\ModulerERP(MVC)\\ModulerERP(MVC)\\Finance\\GlAccounts\\Services\\GlAccountService.cs",
+              "RelativeToolTip": "ModulerERP(MVC)\\Finance\\GlAccounts\\Services\\GlAccountService.cs",
+              "ViewState": "AgIAAOgAAAAAAAAAAAAAwPYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-12T14:31:37.416Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "IGlAccountService.cs",
+              "DocumentMoniker": "C:\\Users\\hossny D. monkey\\source\\repos\\ModulerERP(MVC)\\ModulerERP(MVC)\\Finance\\GlAccounts\\Services\\IGlAccountService.cs",
+              "RelativeDocumentMoniker": "ModulerERP(MVC)\\Finance\\GlAccounts\\Services\\IGlAccountService.cs",
+              "ToolTip": "C:\\Users\\hossny D. monkey\\source\\repos\\ModulerERP(MVC)\\ModulerERP(MVC)\\Finance\\GlAccounts\\Services\\IGlAccountService.cs",
+              "RelativeToolTip": "ModulerERP(MVC)\\Finance\\GlAccounts\\Services\\IGlAccountService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-12T14:31:02.882Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "GlAccountViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\hossny D. monkey\\source\\repos\\ModulerERP(MVC)\\ModulerERP(MVC)\\Finance\\GlAccounts\\ViewModels\\GlAccountViewModel.cs",
+              "RelativeDocumentMoniker": "ModulerERP(MVC)\\Finance\\GlAccounts\\ViewModels\\GlAccountViewModel.cs",
+              "ToolTip": "C:\\Users\\hossny D. monkey\\source\\repos\\ModulerERP(MVC)\\ModulerERP(MVC)\\Finance\\GlAccounts\\ViewModels\\GlAccountViewModel.cs",
+              "RelativeToolTip": "ModulerERP(MVC)\\Finance\\GlAccounts\\ViewModels\\GlAccountViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-12T14:30:30.913Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 20,
-              "Title": "MasterDbService.cs",
-              "DocumentMoniker": "C:\\Users\\hossny D. monkey\\source\\repos\\ModulerERP(MVC)\\ModulerERP(MVC)\\Common\\Services\\MasterDbService.cs",
-              "RelativeDocumentMoniker": "ModulerERP(MVC)\\Common\\Services\\MasterDbService.cs",
-              "ToolTip": "C:\\Users\\hossny D. monkey\\source\\repos\\ModulerERP(MVC)\\ModulerERP(MVC)\\Common\\Services\\MasterDbService.cs",
-              "RelativeToolTip": "ModulerERP(MVC)\\Common\\Services\\MasterDbService.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAwBUAAAAEAAAAAAAAAA==",
+              "Title": "VoucherAttachment.cs",
+              "DocumentMoniker": "C:\\Users\\hossny D. monkey\\source\\repos\\ModulerERP(MVC)\\ModulerERP(MVC)\\Models\\Finance\\VoucherAttachment.cs",
+              "RelativeDocumentMoniker": "ModulerERP(MVC)\\Models\\Finance\\VoucherAttachment.cs",
+              "ToolTip": "C:\\Users\\hossny D. monkey\\source\\repos\\ModulerERP(MVC)\\ModulerERP(MVC)\\Models\\Finance\\VoucherAttachment.cs",
+              "RelativeToolTip": "ModulerERP(MVC)\\Models\\Finance\\VoucherAttachment.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAA8AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-11T08:43:05.234Z",
+              "WhenOpened": "2025-12-12T14:10:34.945Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "TreasuryDto.cs",
+              "DocumentMoniker": "C:\\Users\\hossny D. monkey\\source\\repos\\ModulerERP(MVC)\\ModulerERP(MVC)\\Finance\\Treasuries\\ViewModels\\TreasuryDto.cs",
+              "RelativeDocumentMoniker": "ModulerERP(MVC)\\Finance\\Treasuries\\ViewModels\\TreasuryDto.cs",
+              "ToolTip": "C:\\Users\\hossny D. monkey\\source\\repos\\ModulerERP(MVC)\\ModulerERP(MVC)\\Finance\\Treasuries\\ViewModels\\TreasuryDto.cs",
+              "RelativeToolTip": "ModulerERP(MVC)\\Finance\\Treasuries\\ViewModels\\TreasuryDto.cs",
+              "ViewState": "AgIAAEcAAAAAAAAAAAAmwFsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-10T21:43:31.753Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Balance.cshtml",
+              "DocumentMoniker": "C:\\Users\\hossny D. monkey\\source\\repos\\ModulerERP(MVC)\\ModulerERP(MVC)\\Views\\Treasuries\\Balance.cshtml",
+              "RelativeDocumentMoniker": "ModulerERP(MVC)\\Views\\Treasuries\\Balance.cshtml",
+              "ToolTip": "C:\\Users\\hossny D. monkey\\source\\repos\\ModulerERP(MVC)\\ModulerERP(MVC)\\Views\\Treasuries\\Balance.cshtml",
+              "RelativeToolTip": "ModulerERP(MVC)\\Views\\Treasuries\\Balance.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAO4AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-10T21:59:34.839Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 21,
-              "Title": "MasterDbContext.cs",
-              "DocumentMoniker": "C:\\Users\\hossny D. monkey\\source\\repos\\ModulerERP(MVC)\\ModulerERP(MVC)\\Common\\Data\\MasterDbContext.cs",
-              "RelativeDocumentMoniker": "ModulerERP(MVC)\\Common\\Data\\MasterDbContext.cs",
-              "ToolTip": "C:\\Users\\hossny D. monkey\\source\\repos\\ModulerERP(MVC)\\ModulerERP(MVC)\\Common\\Data\\MasterDbContext.cs",
-              "RelativeToolTip": "ModulerERP(MVC)\\Common\\Data\\MasterDbContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-11T08:41:35.421Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 23,
-              "Title": "NotFoundException.cs",
-              "DocumentMoniker": "C:\\Users\\hossny D. monkey\\source\\repos\\ModulerERP(MVC)\\ModulerERP(MVC)\\Common\\Extensions\\NotFoundException.cs",
-              "RelativeDocumentMoniker": "ModulerERP(MVC)\\Common\\Extensions\\NotFoundException.cs",
-              "ToolTip": "C:\\Users\\hossny D. monkey\\source\\repos\\ModulerERP(MVC)\\ModulerERP(MVC)\\Common\\Extensions\\NotFoundException.cs",
-              "RelativeToolTip": "ModulerERP(MVC)\\Common\\Extensions\\NotFoundException.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAlwAsAAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-11T08:34:03.292Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 24,
-              "Title": "BaseApplicationException.cs",
-              "DocumentMoniker": "C:\\Users\\hossny D. monkey\\source\\repos\\ModulerERP(MVC)\\ModulerERP(MVC)\\Common\\Extensions\\BaseApplicationException.cs",
-              "RelativeDocumentMoniker": "ModulerERP(MVC)\\Common\\Extensions\\BaseApplicationException.cs",
-              "ToolTip": "C:\\Users\\hossny D. monkey\\source\\repos\\ModulerERP(MVC)\\ModulerERP(MVC)\\Common\\Extensions\\BaseApplicationException.cs",
-              "RelativeToolTip": "ModulerERP(MVC)\\Common\\Extensions\\BaseApplicationException.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAIA3wBAAAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-11T08:01:31.974Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 25,
-              "Title": "ICurrencyRepository.cs",
-              "DocumentMoniker": "C:\\Users\\hossny D. monkey\\source\\repos\\ModulerERP(MVC)\\ModulerERP(MVC)\\Finance\\Currencies\\Repositories\\ICurrencyRepository.cs",
-              "RelativeDocumentMoniker": "ModulerERP(MVC)\\Finance\\Currencies\\Repositories\\ICurrencyRepository.cs",
-              "ToolTip": "C:\\Users\\hossny D. monkey\\source\\repos\\ModulerERP(MVC)\\ModulerERP(MVC)\\Finance\\Currencies\\Repositories\\ICurrencyRepository.cs",
-              "RelativeToolTip": "ModulerERP(MVC)\\Finance\\Currencies\\Repositories\\ICurrencyRepository.cs",
-              "ViewState": "AgIAAAEAAAAAAAAAAAASwAcAAAApAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-11T15:44:29.923Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 22,
-              "Title": "GlobalErrorHandlerMiddleware.cs",
-              "DocumentMoniker": "C:\\Users\\hossny D. monkey\\source\\repos\\ModulerERP(MVC)\\ModulerERP(MVC)\\Common\\Middleware\\GlobalErrorHandlerMiddleware.cs",
-              "RelativeDocumentMoniker": "ModulerERP(MVC)\\Common\\Middleware\\GlobalErrorHandlerMiddleware.cs",
-              "ToolTip": "C:\\Users\\hossny D. monkey\\source\\repos\\ModulerERP(MVC)\\ModulerERP(MVC)\\Common\\Middleware\\GlobalErrorHandlerMiddleware.cs",
-              "RelativeToolTip": "ModulerERP(MVC)\\Common\\Middleware\\GlobalErrorHandlerMiddleware.cs",
-              "ViewState": "AgIAABgAAAAAAAAAAAAlwCcAAAAUAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-11T08:34:06.893Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 28,
-              "Title": "ServiceRegistration.cs",
-              "DocumentMoniker": "C:\\Users\\hossny D. monkey\\source\\repos\\ModulerERP(MVC)\\ModulerERP(MVC)\\Finance\\ServieceForValidationAndmapping\\ServiceRegistration.cs",
-              "RelativeDocumentMoniker": "ModulerERP(MVC)\\Finance\\ServieceForValidationAndmapping\\ServiceRegistration.cs",
-              "ToolTip": "C:\\Users\\hossny D. monkey\\source\\repos\\ModulerERP(MVC)\\ModulerERP(MVC)\\Finance\\ServieceForValidationAndmapping\\ServiceRegistration.cs",
-              "RelativeToolTip": "ModulerERP(MVC)\\Finance\\ServieceForValidationAndmapping\\ServiceRegistration.cs",
-              "ViewState": "AgIAAAUAAAAAAAAAAAAAwBAAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-11T13:22:18.919Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 26,
-              "Title": "ICurrencyService.cs",
-              "DocumentMoniker": "C:\\Users\\hossny D. monkey\\source\\repos\\ModulerERP(MVC)\\ModulerERP(MVC)\\Finance\\Currencies\\Services\\ICurrencyService.cs",
-              "RelativeDocumentMoniker": "ModulerERP(MVC)\\Finance\\Currencies\\Services\\ICurrencyService.cs",
-              "ToolTip": "C:\\Users\\hossny D. monkey\\source\\repos\\ModulerERP(MVC)\\ModulerERP(MVC)\\Finance\\Currencies\\Services\\ICurrencyService.cs",
-              "RelativeToolTip": "ModulerERP(MVC)\\Finance\\Currencies\\Services\\ICurrencyService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAxAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-11T15:51:14.249Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 27,
-              "Title": "20251211195610_ChangeCurency.cs",
-              "DocumentMoniker": "C:\\Users\\hossny D. monkey\\source\\repos\\ModulerERP(MVC)\\ModulerERP(MVC)\\Migrations\\Tenant\\20251211195610_ChangeCurency.cs",
-              "RelativeDocumentMoniker": "ModulerERP(MVC)\\Migrations\\Tenant\\20251211195610_ChangeCurency.cs",
-              "ToolTip": "C:\\Users\\hossny D. monkey\\source\\repos\\ModulerERP(MVC)\\ModulerERP(MVC)\\Migrations\\Tenant\\20251211195610_ChangeCurency.cs",
-              "RelativeToolTip": "ModulerERP(MVC)\\Migrations\\Tenant\\20251211195610_ChangeCurency.cs",
-              "ViewState": "AgIAAA0AAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-11T19:56:10.42Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 29,
-              "Title": "Company.cs",
-              "DocumentMoniker": "C:\\Users\\hossny D. monkey\\source\\repos\\ModulerERP(MVC)\\ModulerERP(MVC)\\Models\\Finance\\Company.cs",
-              "RelativeDocumentMoniker": "ModulerERP(MVC)\\Models\\Finance\\Company.cs",
-              "ToolTip": "C:\\Users\\hossny D. monkey\\source\\repos\\ModulerERP(MVC)\\ModulerERP(MVC)\\Models\\Finance\\Company.cs",
-              "RelativeToolTip": "ModulerERP(MVC)\\Models\\Finance\\Company.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAA4AAAArAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-11T12:17:22.607Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 30,
-              "Title": "GeneralRepository.cs",
-              "DocumentMoniker": "C:\\Users\\hossny D. monkey\\source\\repos\\ModulerERP(MVC)\\ModulerERP(MVC)\\Common\\Repositories\\Interfaces\\GeneralRepository.cs",
-              "RelativeDocumentMoniker": "ModulerERP(MVC)\\Common\\Repositories\\Interfaces\\GeneralRepository.cs",
-              "ToolTip": "C:\\Users\\hossny D. monkey\\source\\repos\\ModulerERP(MVC)\\ModulerERP(MVC)\\Common\\Repositories\\Interfaces\\GeneralRepository.cs",
-              "RelativeToolTip": "ModulerERP(MVC)\\Common\\Repositories\\Interfaces\\GeneralRepository.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAYwBIAAAAeAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-11T08:34:07.654Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 31,
-              "Title": "20251211193048_changeCurncy.cs",
-              "DocumentMoniker": "C:\\Users\\hossny D. monkey\\source\\repos\\ModulerERP(MVC)\\ModulerERP(MVC)\\Migrations\\Tenant\\20251211193048_changeCurncy.cs",
-              "RelativeDocumentMoniker": "ModulerERP(MVC)\\Migrations\\Tenant\\20251211193048_changeCurncy.cs",
-              "ToolTip": "C:\\Users\\hossny D. monkey\\source\\repos\\ModulerERP(MVC)\\ModulerERP(MVC)\\Migrations\\Tenant\\20251211193048_changeCurncy.cs",
-              "RelativeToolTip": "ModulerERP(MVC)\\Migrations\\Tenant\\20251211193048_changeCurncy.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-11T19:30:48.844Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 32,
               "Title": "Treasury.cs",
               "DocumentMoniker": "C:\\Users\\hossny D. monkey\\source\\repos\\ModulerERP(MVC)\\ModulerERP(MVC)\\Models\\Finance\\Treasury.cs",
               "RelativeDocumentMoniker": "ModulerERP(MVC)\\Models\\Finance\\Treasury.cs",
@@ -730,7 +699,599 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "VoucherTax.cs",
+              "DocumentMoniker": "C:\\Users\\hossny D. monkey\\source\\repos\\ModulerERP(MVC)\\ModulerERP(MVC)\\Models\\Finance\\VoucherTax.cs",
+              "RelativeDocumentMoniker": "ModulerERP(MVC)\\Models\\Finance\\VoucherTax.cs",
+              "ToolTip": "C:\\Users\\hossny D. monkey\\source\\repos\\ModulerERP(MVC)\\ModulerERP(MVC)\\Models\\Finance\\VoucherTax.cs",
+              "RelativeToolTip": "ModulerERP(MVC)\\Models\\Finance\\VoucherTax.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-12T14:10:35.104Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "TaxProfile.cs",
+              "DocumentMoniker": "C:\\Users\\hossny D. monkey\\source\\repos\\ModulerERP(MVC)\\ModulerERP(MVC)\\Models\\Finance\\TaxProfile.cs",
+              "RelativeDocumentMoniker": "ModulerERP(MVC)\\Models\\Finance\\TaxProfile.cs",
+              "ToolTip": "C:\\Users\\hossny D. monkey\\source\\repos\\ModulerERP(MVC)\\ModulerERP(MVC)\\Models\\Finance\\TaxProfile.cs",
+              "RelativeToolTip": "ModulerERP(MVC)\\Models\\Finance\\TaxProfile.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-10T21:18:20.397Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "TaxComponent.cs",
+              "DocumentMoniker": "C:\\Users\\hossny D. monkey\\source\\repos\\ModulerERP(MVC)\\ModulerERP(MVC)\\Models\\Finance\\TaxComponent.cs",
+              "RelativeDocumentMoniker": "ModulerERP(MVC)\\Models\\Finance\\TaxComponent.cs",
+              "ToolTip": "C:\\Users\\hossny D. monkey\\source\\repos\\ModulerERP(MVC)\\ModulerERP(MVC)\\Models\\Finance\\TaxComponent.cs",
+              "RelativeToolTip": "ModulerERP(MVC)\\Models\\Finance\\TaxComponent.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-10T21:08:26.293Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "GlAccount.cs",
+              "DocumentMoniker": "C:\\Users\\hossny D. monkey\\source\\repos\\ModulerERP(MVC)\\ModulerERP(MVC)\\Models\\Finance\\GlAccount.cs",
+              "RelativeDocumentMoniker": "ModulerERP(MVC)\\Models\\Finance\\GlAccount.cs",
+              "ToolTip": "C:\\Users\\hossny D. monkey\\source\\repos\\ModulerERP(MVC)\\ModulerERP(MVC)\\Models\\Finance\\GlAccount.cs",
+              "RelativeToolTip": "ModulerERP(MVC)\\Models\\Finance\\GlAccount.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-12T14:10:34.425Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "Company.cs",
+              "DocumentMoniker": "C:\\Users\\hossny D. monkey\\source\\repos\\ModulerERP(MVC)\\ModulerERP(MVC)\\Models\\Finance\\Company.cs",
+              "RelativeDocumentMoniker": "ModulerERP(MVC)\\Models\\Finance\\Company.cs",
+              "ToolTip": "C:\\Users\\hossny D. monkey\\source\\repos\\ModulerERP(MVC)\\ModulerERP(MVC)\\Models\\Finance\\Company.cs",
+              "RelativeToolTip": "ModulerERP(MVC)\\Models\\Finance\\Company.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-11T12:17:22.607Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "TaxProfileComponent.cs",
+              "DocumentMoniker": "C:\\Users\\hossny D. monkey\\source\\repos\\ModulerERP(MVC)\\ModulerERP(MVC)\\Models\\Finance\\TaxProfileComponent.cs",
+              "RelativeDocumentMoniker": "ModulerERP(MVC)\\Models\\Finance\\TaxProfileComponent.cs",
+              "ToolTip": "C:\\Users\\hossny D. monkey\\source\\repos\\ModulerERP(MVC)\\ModulerERP(MVC)\\Models\\Finance\\TaxProfileComponent.cs",
+              "RelativeToolTip": "ModulerERP(MVC)\\Models\\Finance\\TaxProfileComponent.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAowCMAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-10T21:29:09.445Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "ResponseViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\hossny D. monkey\\source\\repos\\ModulerERP(MVC)\\ModulerERP(MVC)\\Common\\ViewModel\\ResponseViewModel.cs",
+              "RelativeDocumentMoniker": "ModulerERP(MVC)\\Common\\ViewModel\\ResponseViewModel.cs",
+              "ToolTip": "C:\\Users\\hossny D. monkey\\source\\repos\\ModulerERP(MVC)\\ModulerERP(MVC)\\Common\\ViewModel\\ResponseViewModel.cs",
+              "RelativeToolTip": "ModulerERP(MVC)\\Common\\ViewModel\\ResponseViewModel.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAIA3wBsAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-11T07:57:56.79Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "Currency.cs",
+              "DocumentMoniker": "C:\\Users\\hossny D. monkey\\source\\repos\\ModulerERP(MVC)\\ModulerERP(MVC)\\Models\\Finance\\Currency.cs",
+              "RelativeDocumentMoniker": "ModulerERP(MVC)\\Models\\Finance\\Currency.cs",
+              "ToolTip": "C:\\Users\\hossny D. monkey\\source\\repos\\ModulerERP(MVC)\\ModulerERP(MVC)\\Models\\Finance\\Currency.cs",
+              "RelativeToolTip": "ModulerERP(MVC)\\Models\\Finance\\Currency.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAqwBgAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-11T18:48:26.488Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "Voucher.cs",
+              "DocumentMoniker": "C:\\Users\\hossny D. monkey\\source\\repos\\ModulerERP(MVC)\\ModulerERP(MVC)\\Models\\Finance\\Voucher.cs",
+              "RelativeDocumentMoniker": "ModulerERP(MVC)\\Models\\Finance\\Voucher.cs",
+              "ToolTip": "C:\\Users\\hossny D. monkey\\source\\repos\\ModulerERP(MVC)\\ModulerERP(MVC)\\Models\\Finance\\Voucher.cs",
+              "RelativeToolTip": "ModulerERP(MVC)\\Models\\Finance\\Voucher.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAE4AAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-10T21:18:25.471Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\hossny D. monkey\\source\\repos\\ModulerERP(MVC)\\ModulerERP(MVC)\\Views\\Companies\\Edit.cshtml",
+              "RelativeDocumentMoniker": "ModulerERP(MVC)\\Views\\Companies\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\hossny D. monkey\\source\\repos\\ModulerERP(MVC)\\ModulerERP(MVC)\\Views\\Companies\\Edit.cshtml",
+              "RelativeToolTip": "ModulerERP(MVC)\\Views\\Companies\\Edit.cshtml",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAACgAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-12T08:58:01.904Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "CreateCompanyViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\hossny D. monkey\\source\\repos\\ModulerERP(MVC)\\ModulerERP(MVC)\\Finance\\Company\\ViewModels\\CreateCompanyViewModel.cs",
+              "RelativeDocumentMoniker": "ModulerERP(MVC)\\Finance\\Company\\ViewModels\\CreateCompanyViewModel.cs",
+              "ToolTip": "C:\\Users\\hossny D. monkey\\source\\repos\\ModulerERP(MVC)\\ModulerERP(MVC)\\Finance\\Company\\ViewModels\\CreateCompanyViewModel.cs",
+              "RelativeToolTip": "ModulerERP(MVC)\\Finance\\Company\\ViewModels\\CreateCompanyViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-12T08:48:04.683Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 33,
+              "Title": "UpdateCompanyViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\hossny D. monkey\\source\\repos\\ModulerERP(MVC)\\ModulerERP(MVC)\\Finance\\Company\\ViewModels\\UpdateCompanyViewModel.cs",
+              "RelativeDocumentMoniker": "ModulerERP(MVC)\\Finance\\Company\\ViewModels\\UpdateCompanyViewModel.cs",
+              "ToolTip": "C:\\Users\\hossny D. monkey\\source\\repos\\ModulerERP(MVC)\\ModulerERP(MVC)\\Finance\\Company\\ViewModels\\UpdateCompanyViewModel.cs",
+              "RelativeToolTip": "ModulerERP(MVC)\\Finance\\Company\\ViewModels\\UpdateCompanyViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-12T08:48:22.314Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "CompanyService.cs",
+              "DocumentMoniker": "C:\\Users\\hossny D. monkey\\source\\repos\\ModulerERP(MVC)\\ModulerERP(MVC)\\Finance\\Company\\Services\\CompanyService.cs",
+              "RelativeDocumentMoniker": "ModulerERP(MVC)\\Finance\\Company\\Services\\CompanyService.cs",
+              "ToolTip": "C:\\Users\\hossny D. monkey\\source\\repos\\ModulerERP(MVC)\\ModulerERP(MVC)\\Finance\\Company\\Services\\CompanyService.cs",
+              "RelativeToolTip": "ModulerERP(MVC)\\Finance\\Company\\Services\\CompanyService.cs",
+              "ViewState": "AgIAAOMAAAAAAAAAAAAkwPkAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-12T08:50:04.861Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "CurrencyRepository.cs",
+              "DocumentMoniker": "C:\\Users\\hossny D. monkey\\source\\repos\\ModulerERP(MVC)\\ModulerERP(MVC)\\Finance\\Currencies\\Repositories\\CurrencyRepository.cs",
+              "RelativeDocumentMoniker": "ModulerERP(MVC)\\Finance\\Currencies\\Repositories\\CurrencyRepository.cs",
+              "ToolTip": "C:\\Users\\hossny D. monkey\\source\\repos\\ModulerERP(MVC)\\ModulerERP(MVC)\\Finance\\Currencies\\Repositories\\CurrencyRepository.cs",
+              "RelativeToolTip": "ModulerERP(MVC)\\Finance\\Currencies\\Repositories\\CurrencyRepository.cs",
+              "ViewState": "AgIAAG0AAAAAAAAAAAAmwHsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-11T15:48:28.791Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "ICurrencyRepository.cs",
+              "DocumentMoniker": "C:\\Users\\hossny D. monkey\\source\\repos\\ModulerERP(MVC)\\ModulerERP(MVC)\\Finance\\Currencies\\Repositories\\ICurrencyRepository.cs",
+              "RelativeDocumentMoniker": "ModulerERP(MVC)\\Finance\\Currencies\\Repositories\\ICurrencyRepository.cs",
+              "ToolTip": "C:\\Users\\hossny D. monkey\\source\\repos\\ModulerERP(MVC)\\ModulerERP(MVC)\\Finance\\Currencies\\Repositories\\ICurrencyRepository.cs",
+              "RelativeToolTip": "ModulerERP(MVC)\\Finance\\Currencies\\Repositories\\ICurrencyRepository.cs",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAAAB4AAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-11T15:44:29.923Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "CurrencyService.cs",
+              "DocumentMoniker": "C:\\Users\\hossny D. monkey\\source\\repos\\ModulerERP(MVC)\\ModulerERP(MVC)\\Finance\\Currencies\\Services\\CurrencyService.cs",
+              "RelativeDocumentMoniker": "ModulerERP(MVC)\\Finance\\Currencies\\Services\\CurrencyService.cs",
+              "ToolTip": "C:\\Users\\hossny D. monkey\\source\\repos\\ModulerERP(MVC)\\ModulerERP(MVC)\\Finance\\Currencies\\Services\\CurrencyService.cs",
+              "RelativeToolTip": "ModulerERP(MVC)\\Finance\\Currencies\\Services\\CurrencyService.cs",
+              "ViewState": "AgIAAKQAAAAAAAAAAAAmwK0AAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-11T15:51:35.4Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "ICurrencyService.cs",
+              "DocumentMoniker": "C:\\Users\\hossny D. monkey\\source\\repos\\ModulerERP(MVC)\\ModulerERP(MVC)\\Finance\\Currencies\\Services\\ICurrencyService.cs",
+              "RelativeDocumentMoniker": "ModulerERP(MVC)\\Finance\\Currencies\\Services\\ICurrencyService.cs",
+              "ToolTip": "C:\\Users\\hossny D. monkey\\source\\repos\\ModulerERP(MVC)\\ModulerERP(MVC)\\Finance\\Currencies\\Services\\ICurrencyService.cs",
+              "RelativeToolTip": "ModulerERP(MVC)\\Finance\\Currencies\\Services\\ICurrencyService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-11T15:51:14.249Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "CurrencyMappingProfile.cs",
+              "DocumentMoniker": "C:\\Users\\hossny D. monkey\\source\\repos\\ModulerERP(MVC)\\ModulerERP(MVC)\\Finance\\Currencies\\Mapping\\CurrencyMappingProfile.cs",
+              "RelativeDocumentMoniker": "ModulerERP(MVC)\\Finance\\Currencies\\Mapping\\CurrencyMappingProfile.cs",
+              "ToolTip": "C:\\Users\\hossny D. monkey\\source\\repos\\ModulerERP(MVC)\\ModulerERP(MVC)\\Finance\\Currencies\\Mapping\\CurrencyMappingProfile.cs",
+              "RelativeToolTip": "ModulerERP(MVC)\\Finance\\Currencies\\Mapping\\CurrencyMappingProfile.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAAAQwB0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-11T15:50:52.329Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "CurrencyListViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\hossny D. monkey\\source\\repos\\ModulerERP(MVC)\\ModulerERP(MVC)\\Finance\\Currencies\\ViewModels\\CurrencyListViewModel.cs",
+              "RelativeDocumentMoniker": "ModulerERP(MVC)\\Finance\\Currencies\\ViewModels\\CurrencyListViewModel.cs",
+              "ToolTip": "C:\\Users\\hossny D. monkey\\source\\repos\\ModulerERP(MVC)\\ModulerERP(MVC)\\Finance\\Currencies\\ViewModels\\CurrencyListViewModel.cs",
+              "RelativeToolTip": "ModulerERP(MVC)\\Finance\\Currencies\\ViewModels\\CurrencyListViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-12T09:10:00.352Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "ServiceRegistration.cs",
+              "DocumentMoniker": "C:\\Users\\hossny D. monkey\\source\\repos\\ModulerERP(MVC)\\ModulerERP(MVC)\\Finance\\ServieceForValidationAndmapping\\ServiceRegistration.cs",
+              "RelativeDocumentMoniker": "ModulerERP(MVC)\\Finance\\ServieceForValidationAndmapping\\ServiceRegistration.cs",
+              "ToolTip": "C:\\Users\\hossny D. monkey\\source\\repos\\ModulerERP(MVC)\\ModulerERP(MVC)\\Finance\\ServieceForValidationAndmapping\\ServiceRegistration.cs",
+              "RelativeToolTip": "ModulerERP(MVC)\\Finance\\ServieceForValidationAndmapping\\ServiceRegistration.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAA3wCQAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-11T13:22:18.919Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "CompanyRepository.cs",
+              "DocumentMoniker": "C:\\Users\\hossny D. monkey\\source\\repos\\ModulerERP(MVC)\\ModulerERP(MVC)\\Finance\\Company\\Repositories\\CompanyRepository.cs",
+              "RelativeDocumentMoniker": "ModulerERP(MVC)\\Finance\\Company\\Repositories\\CompanyRepository.cs",
+              "ToolTip": "C:\\Users\\hossny D. monkey\\source\\repos\\ModulerERP(MVC)\\ModulerERP(MVC)\\Finance\\Company\\Repositories\\CompanyRepository.cs",
+              "RelativeToolTip": "ModulerERP(MVC)\\Finance\\Company\\Repositories\\CompanyRepository.cs",
+              "ViewState": "AgIAADoAAAAAAAAAAAAkwAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-12T08:47:02.102Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "ICompanyRepository.cs",
+              "DocumentMoniker": "C:\\Users\\hossny D. monkey\\source\\repos\\ModulerERP(MVC)\\ModulerERP(MVC)\\Finance\\Company\\Repositories\\ICompanyRepository.cs",
+              "RelativeDocumentMoniker": "ModulerERP(MVC)\\Finance\\Company\\Repositories\\ICompanyRepository.cs",
+              "ToolTip": "C:\\Users\\hossny D. monkey\\source\\repos\\ModulerERP(MVC)\\ModulerERP(MVC)\\Finance\\Company\\Repositories\\ICompanyRepository.cs",
+              "RelativeToolTip": "ModulerERP(MVC)\\Finance\\Company\\Repositories\\ICompanyRepository.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAxwAoAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-12T08:46:22.77Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "ICompanyService.cs",
+              "DocumentMoniker": "C:\\Users\\hossny D. monkey\\source\\repos\\ModulerERP(MVC)\\ModulerERP(MVC)\\Finance\\Company\\Services\\ICompanyService.cs",
+              "RelativeDocumentMoniker": "ModulerERP(MVC)\\Finance\\Company\\Services\\ICompanyService.cs",
+              "ToolTip": "C:\\Users\\hossny D. monkey\\source\\repos\\ModulerERP(MVC)\\ModulerERP(MVC)\\Finance\\Company\\Services\\ICompanyService.cs",
+              "RelativeToolTip": "ModulerERP(MVC)\\Finance\\Company\\Services\\ICompanyService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-12T08:49:39.595Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "CompanyMappingProfile.cs",
+              "DocumentMoniker": "C:\\Users\\hossny D. monkey\\source\\repos\\ModulerERP(MVC)\\ModulerERP(MVC)\\Finance\\Company\\Mapping\\CompanyMappingProfile.cs",
+              "RelativeDocumentMoniker": "ModulerERP(MVC)\\Finance\\Company\\Mapping\\CompanyMappingProfile.cs",
+              "ToolTip": "C:\\Users\\hossny D. monkey\\source\\repos\\ModulerERP(MVC)\\ModulerERP(MVC)\\Finance\\Company\\Mapping\\CompanyMappingProfile.cs",
+              "RelativeToolTip": "ModulerERP(MVC)\\Finance\\Company\\Mapping\\CompanyMappingProfile.cs",
+              "ViewState": "AgIAACkAAAAAAAAAAAAkwDwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-12T08:49:13.033Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "CompanyDetailsViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\hossny D. monkey\\source\\repos\\ModulerERP(MVC)\\ModulerERP(MVC)\\Finance\\Company\\ViewModels\\CompanyDetailsViewModel.cs",
+              "RelativeDocumentMoniker": "ModulerERP(MVC)\\Finance\\Company\\ViewModels\\CompanyDetailsViewModel.cs",
+              "ToolTip": "C:\\Users\\hossny D. monkey\\source\\repos\\ModulerERP(MVC)\\ModulerERP(MVC)\\Finance\\Company\\ViewModels\\CompanyDetailsViewModel.cs",
+              "RelativeToolTip": "ModulerERP(MVC)\\Finance\\Company\\ViewModels\\CompanyDetailsViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-12T08:48:40.079Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
+              "Title": "CompanyListViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\hossny D. monkey\\source\\repos\\ModulerERP(MVC)\\ModulerERP(MVC)\\Finance\\Company\\ViewModels\\CompanyListViewModel.cs",
+              "RelativeDocumentMoniker": "ModulerERP(MVC)\\Finance\\Company\\ViewModels\\CompanyListViewModel.cs",
+              "ToolTip": "C:\\Users\\hossny D. monkey\\source\\repos\\ModulerERP(MVC)\\ModulerERP(MVC)\\Finance\\Company\\ViewModels\\CompanyListViewModel.cs",
+              "RelativeToolTip": "ModulerERP(MVC)\\Finance\\Company\\ViewModels\\CompanyListViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-12T08:47:47.819Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 49,
+              "Title": "Select.cshtml",
+              "DocumentMoniker": "C:\\Users\\hossny D. monkey\\source\\repos\\ModulerERP(MVC)\\ModulerERP(MVC)\\Views\\Tenant\\Select.cshtml",
+              "RelativeDocumentMoniker": "ModulerERP(MVC)\\Views\\Tenant\\Select.cshtml",
+              "ToolTip": "C:\\Users\\hossny D. monkey\\source\\repos\\ModulerERP(MVC)\\ModulerERP(MVC)\\Views\\Tenant\\Select.cshtml",
+              "RelativeToolTip": "ModulerERP(MVC)\\Views\\Tenant\\Select.cshtml",
+              "ViewState": "AgIAAPMAAAAAAAAAAAAkwAcBAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-11T08:39:39.555Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 50,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\hossny D. monkey\\source\\repos\\ModulerERP(MVC)\\ModulerERP(MVC)\\Views\\Tenant\\Create.cshtml",
+              "RelativeDocumentMoniker": "ModulerERP(MVC)\\Views\\Tenant\\Create.cshtml",
+              "ToolTip": "C:\\Users\\hossny D. monkey\\source\\repos\\ModulerERP(MVC)\\ModulerERP(MVC)\\Views\\Tenant\\Create.cshtml",
+              "RelativeToolTip": "ModulerERP(MVC)\\Views\\Tenant\\Create.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-11T08:40:01.301Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 52,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\hossny D. monkey\\source\\repos\\ModulerERP(MVC)\\ModulerERP(MVC)\\Views\\Currencies\\Edit.cshtml",
+              "RelativeDocumentMoniker": "ModulerERP(MVC)\\Views\\Currencies\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\hossny D. monkey\\source\\repos\\ModulerERP(MVC)\\ModulerERP(MVC)\\Views\\Currencies\\Edit.cshtml",
+              "RelativeToolTip": "ModulerERP(MVC)\\Views\\Currencies\\Edit.cshtml",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAtwA8AAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-11T15:56:11.942Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 53,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\hossny D. monkey\\source\\repos\\ModulerERP(MVC)\\ModulerERP(MVC)\\Views\\Currencies\\Details.cshtml",
+              "RelativeDocumentMoniker": "ModulerERP(MVC)\\Views\\Currencies\\Details.cshtml",
+              "ToolTip": "C:\\Users\\hossny D. monkey\\source\\repos\\ModulerERP(MVC)\\ModulerERP(MVC)\\Views\\Currencies\\Details.cshtml",
+              "RelativeToolTip": "ModulerERP(MVC)\\Views\\Currencies\\Details.cshtml",
+              "ViewState": "AgIAAGAAAAAAAAAAAAAtwGgAAABKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-11T15:56:43.392Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 54,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\hossny D. monkey\\source\\repos\\ModulerERP(MVC)\\ModulerERP(MVC)\\Views\\Currencies\\Create.cshtml",
+              "RelativeDocumentMoniker": "ModulerERP(MVC)\\Views\\Currencies\\Create.cshtml",
+              "ToolTip": "C:\\Users\\hossny D. monkey\\source\\repos\\ModulerERP(MVC)\\ModulerERP(MVC)\\Views\\Currencies\\Create.cshtml",
+              "RelativeToolTip": "ModulerERP(MVC)\\Views\\Currencies\\Create.cshtml",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAA8AAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-11T15:55:49.713Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 48,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\hossny D. monkey\\source\\repos\\ModulerERP(MVC)\\ModulerERP(MVC)\\Views\\Treasuries\\Create.cshtml",
+              "RelativeDocumentMoniker": "ModulerERP(MVC)\\Views\\Treasuries\\Create.cshtml",
+              "ToolTip": "C:\\Users\\hossny D. monkey\\source\\repos\\ModulerERP(MVC)\\ModulerERP(MVC)\\Views\\Treasuries\\Create.cshtml",
+              "RelativeToolTip": "ModulerERP(MVC)\\Views\\Treasuries\\Create.cshtml",
+              "ViewState": "AgIAAJIBAAAAAAAAAAAmwJ8BAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-10T21:58:29.315Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 51,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\hossny D. monkey\\source\\repos\\ModulerERP(MVC)\\ModulerERP(MVC)\\Views\\Currencies\\Index.cshtml",
+              "RelativeDocumentMoniker": "ModulerERP(MVC)\\Views\\Currencies\\Index.cshtml",
+              "ToolTip": "C:\\Users\\hossny D. monkey\\source\\repos\\ModulerERP(MVC)\\ModulerERP(MVC)\\Views\\Currencies\\Index.cshtml",
+              "RelativeToolTip": "ModulerERP(MVC)\\Views\\Currencies\\Index.cshtml",
+              "ViewState": "AgIAAEcAAAAAAAAAAAAcwFAAAABfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-11T15:53:39.112Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 55,
+              "Title": "BankAccountStatus.cs",
+              "DocumentMoniker": "C:\\Users\\hossny D. monkey\\source\\repos\\ModulerERP(MVC)\\ModulerERP(MVC)\\Common\\Enums\\Finance_Enum\\BankAccountStatus.cs",
+              "RelativeDocumentMoniker": "ModulerERP(MVC)\\Common\\Enums\\Finance_Enum\\BankAccountStatus.cs",
+              "ToolTip": "C:\\Users\\hossny D. monkey\\source\\repos\\ModulerERP(MVC)\\ModulerERP(MVC)\\Common\\Enums\\Finance_Enum\\BankAccountStatus.cs",
+              "RelativeToolTip": "ModulerERP(MVC)\\Common\\Enums\\Finance_Enum\\BankAccountStatus.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-11T21:10:19.511Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 57,
+              "Title": "CurrenciesController.cs",
+              "DocumentMoniker": "C:\\Users\\hossny D. monkey\\source\\repos\\ModulerERP(MVC)\\ModulerERP(MVC)\\Finance\\Currencies\\Controllers\\CurrenciesController.cs",
+              "RelativeDocumentMoniker": "ModulerERP(MVC)\\Finance\\Currencies\\Controllers\\CurrenciesController.cs",
+              "ToolTip": "C:\\Users\\hossny D. monkey\\source\\repos\\ModulerERP(MVC)\\ModulerERP(MVC)\\Finance\\Currencies\\Controllers\\CurrenciesController.cs",
+              "RelativeToolTip": "ModulerERP(MVC)\\Finance\\Currencies\\Controllers\\CurrenciesController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAG8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-11T15:52:17.558Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 56,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\hossny D. monkey\\source\\repos\\ModulerERP(MVC)\\ModulerERP(MVC)\\appsettings.json",
+              "RelativeDocumentMoniker": "ModulerERP(MVC)\\appsettings.json",
+              "ToolTip": "C:\\Users\\hossny D. monkey\\source\\repos\\ModulerERP(MVC)\\ModulerERP(MVC)\\appsettings.json",
+              "RelativeToolTip": "ModulerERP(MVC)\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAACCAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-12-10T21:20:39.863Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 58,
+              "Title": "ModulesDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\hossny D. monkey\\source\\repos\\ModulerERP(MVC)\\ModulerERP(MVC)\\Data\\ModulesDbContext.cs",
+              "RelativeDocumentMoniker": "ModulerERP(MVC)\\Data\\ModulesDbContext.cs",
+              "ToolTip": "C:\\Users\\hossny D. monkey\\source\\repos\\ModulerERP(MVC)\\ModulerERP(MVC)\\Data\\ModulesDbContext.cs",
+              "RelativeToolTip": "ModulerERP(MVC)\\Data\\ModulesDbContext.cs",
+              "ViewState": "AgIAAHwAAAAAAAAAAAAnwIUAAAA5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-10T20:59:16.811Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 59,
+              "Title": "CurrencyDto.cs",
+              "DocumentMoniker": "C:\\Users\\hossny D. monkey\\source\\repos\\ModulerERP(MVC)\\ModulerERP(MVC)\\Models\\Finance\\DTOs\\CurrencyDto.cs",
+              "RelativeDocumentMoniker": "ModulerERP(MVC)\\Models\\Finance\\DTOs\\CurrencyDto.cs",
+              "ToolTip": "C:\\Users\\hossny D. monkey\\source\\repos\\ModulerERP(MVC)\\ModulerERP(MVC)\\Models\\Finance\\DTOs\\CurrencyDto.cs",
+              "RelativeToolTip": "ModulerERP(MVC)\\Models\\Finance\\DTOs\\CurrencyDto.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAqwBsAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-11T15:50:33.364Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 60,
+              "Title": "TenantService.cs",
+              "DocumentMoniker": "C:\\Users\\hossny D. monkey\\source\\repos\\ModulerERP(MVC)\\ModulerERP(MVC)\\Common\\Services\\TenantService.cs",
+              "RelativeDocumentMoniker": "ModulerERP(MVC)\\Common\\Services\\TenantService.cs",
+              "ToolTip": "C:\\Users\\hossny D. monkey\\source\\repos\\ModulerERP(MVC)\\ModulerERP(MVC)\\Common\\Services\\TenantService.cs",
+              "RelativeToolTip": "ModulerERP(MVC)\\Common\\Services\\TenantService.cs",
+              "ViewState": "AgIAAK4AAAAAAAAAAAAlwLcAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-11T08:42:31.357Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 61,
+              "Title": "MasterDbService.cs",
+              "DocumentMoniker": "C:\\Users\\hossny D. monkey\\source\\repos\\ModulerERP(MVC)\\ModulerERP(MVC)\\Common\\Services\\MasterDbService.cs",
+              "RelativeDocumentMoniker": "ModulerERP(MVC)\\Common\\Services\\MasterDbService.cs",
+              "ToolTip": "C:\\Users\\hossny D. monkey\\source\\repos\\ModulerERP(MVC)\\ModulerERP(MVC)\\Common\\Services\\MasterDbService.cs",
+              "RelativeToolTip": "ModulerERP(MVC)\\Common\\Services\\MasterDbService.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAwBUAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-11T08:43:05.234Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 62,
+              "Title": "MasterDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\hossny D. monkey\\source\\repos\\ModulerERP(MVC)\\ModulerERP(MVC)\\Common\\Data\\MasterDbContext.cs",
+              "RelativeDocumentMoniker": "ModulerERP(MVC)\\Common\\Data\\MasterDbContext.cs",
+              "ToolTip": "C:\\Users\\hossny D. monkey\\source\\repos\\ModulerERP(MVC)\\ModulerERP(MVC)\\Common\\Data\\MasterDbContext.cs",
+              "RelativeToolTip": "ModulerERP(MVC)\\Common\\Data\\MasterDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-11T08:41:35.421Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 64,
+              "Title": "NotFoundException.cs",
+              "DocumentMoniker": "C:\\Users\\hossny D. monkey\\source\\repos\\ModulerERP(MVC)\\ModulerERP(MVC)\\Common\\Extensions\\NotFoundException.cs",
+              "RelativeDocumentMoniker": "ModulerERP(MVC)\\Common\\Extensions\\NotFoundException.cs",
+              "ToolTip": "C:\\Users\\hossny D. monkey\\source\\repos\\ModulerERP(MVC)\\ModulerERP(MVC)\\Common\\Extensions\\NotFoundException.cs",
+              "RelativeToolTip": "ModulerERP(MVC)\\Common\\Extensions\\NotFoundException.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAlwAsAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-11T08:34:03.292Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 65,
+              "Title": "BaseApplicationException.cs",
+              "DocumentMoniker": "C:\\Users\\hossny D. monkey\\source\\repos\\ModulerERP(MVC)\\ModulerERP(MVC)\\Common\\Extensions\\BaseApplicationException.cs",
+              "RelativeDocumentMoniker": "ModulerERP(MVC)\\Common\\Extensions\\BaseApplicationException.cs",
+              "ToolTip": "C:\\Users\\hossny D. monkey\\source\\repos\\ModulerERP(MVC)\\ModulerERP(MVC)\\Common\\Extensions\\BaseApplicationException.cs",
+              "RelativeToolTip": "ModulerERP(MVC)\\Common\\Extensions\\BaseApplicationException.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAIA3wBAAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-11T08:01:31.974Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 63,
+              "Title": "GlobalErrorHandlerMiddleware.cs",
+              "DocumentMoniker": "C:\\Users\\hossny D. monkey\\source\\repos\\ModulerERP(MVC)\\ModulerERP(MVC)\\Common\\Middleware\\GlobalErrorHandlerMiddleware.cs",
+              "RelativeDocumentMoniker": "ModulerERP(MVC)\\Common\\Middleware\\GlobalErrorHandlerMiddleware.cs",
+              "ToolTip": "C:\\Users\\hossny D. monkey\\source\\repos\\ModulerERP(MVC)\\ModulerERP(MVC)\\Common\\Middleware\\GlobalErrorHandlerMiddleware.cs",
+              "RelativeToolTip": "ModulerERP(MVC)\\Common\\Middleware\\GlobalErrorHandlerMiddleware.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAAlwCcAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-11T08:34:06.893Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 98,
+              "Title": "20251211195610_ChangeCurency.cs",
+              "DocumentMoniker": "C:\\Users\\hossny D. monkey\\source\\repos\\ModulerERP(MVC)\\ModulerERP(MVC)\\Migrations\\Tenant\\20251211195610_ChangeCurency.cs",
+              "RelativeDocumentMoniker": "ModulerERP(MVC)\\Migrations\\Tenant\\20251211195610_ChangeCurency.cs",
+              "ToolTip": "C:\\Users\\hossny D. monkey\\source\\repos\\ModulerERP(MVC)\\ModulerERP(MVC)\\Migrations\\Tenant\\20251211195610_ChangeCurency.cs",
+              "RelativeToolTip": "ModulerERP(MVC)\\Migrations\\Tenant\\20251211195610_ChangeCurency.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-11T19:56:10.42Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 66,
+              "Title": "GeneralRepository.cs",
+              "DocumentMoniker": "C:\\Users\\hossny D. monkey\\source\\repos\\ModulerERP(MVC)\\ModulerERP(MVC)\\Common\\Repositories\\Interfaces\\GeneralRepository.cs",
+              "RelativeDocumentMoniker": "ModulerERP(MVC)\\Common\\Repositories\\Interfaces\\GeneralRepository.cs",
+              "ToolTip": "C:\\Users\\hossny D. monkey\\source\\repos\\ModulerERP(MVC)\\ModulerERP(MVC)\\Common\\Repositories\\Interfaces\\GeneralRepository.cs",
+              "RelativeToolTip": "ModulerERP(MVC)\\Common\\Repositories\\Interfaces\\GeneralRepository.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAYwBIAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-11T08:34:07.654Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 99,
+              "Title": "20251211193048_changeCurncy.cs",
+              "DocumentMoniker": "C:\\Users\\hossny D. monkey\\source\\repos\\ModulerERP(MVC)\\ModulerERP(MVC)\\Migrations\\Tenant\\20251211193048_changeCurncy.cs",
+              "RelativeDocumentMoniker": "ModulerERP(MVC)\\Migrations\\Tenant\\20251211193048_changeCurncy.cs",
+              "ToolTip": "C:\\Users\\hossny D. monkey\\source\\repos\\ModulerERP(MVC)\\ModulerERP(MVC)\\Migrations\\Tenant\\20251211193048_changeCurncy.cs",
+              "RelativeToolTip": "ModulerERP(MVC)\\Migrations\\Tenant\\20251211193048_changeCurncy.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-11T19:30:48.844Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 67,
               "Title": "MasterCompany.cs",
               "DocumentMoniker": "C:\\Users\\hossny D. monkey\\source\\repos\\ModulerERP(MVC)\\ModulerERP(MVC)\\Common\\Models\\MasterCompany.cs",
               "RelativeDocumentMoniker": "ModulerERP(MVC)\\Common\\Models\\MasterCompany.cs",
@@ -738,12 +1299,11 @@
               "RelativeToolTip": "ModulerERP(MVC)\\Common\\Models\\MasterCompany.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAABCAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-11T08:56:20.438Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-11T08:56:20.438Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 34,
+              "DocumentIndex": 68,
               "Title": "IGeneralRepository.cs",
               "DocumentMoniker": "C:\\Users\\hossny D. monkey\\source\\repos\\ModulerERP(MVC)\\ModulerERP(MVC)\\Common\\Repositories\\Interfaces\\IGeneralRepository.cs",
               "RelativeDocumentMoniker": "ModulerERP(MVC)\\Common\\Repositories\\Interfaces\\IGeneralRepository.cs",
@@ -751,12 +1311,11 @@
               "RelativeToolTip": "ModulerERP(MVC)\\Common\\Repositories\\Interfaces\\IGeneralRepository.cs",
               "ViewState": "AgIAAAMAAAAAAAAAAAAAAA0AAAAeAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-11T08:34:06.813Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-11T08:34:06.813Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 36,
+              "DocumentIndex": 69,
               "Title": "ValidationBehavior.cs",
               "DocumentMoniker": "C:\\Users\\hossny D. monkey\\source\\repos\\ModulerERP(MVC)\\ModulerERP(MVC)\\Common\\Behaviors\\ValidationBehavior.cs",
               "RelativeDocumentMoniker": "ModulerERP(MVC)\\Common\\Behaviors\\ValidationBehavior.cs",
@@ -768,19 +1327,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 35,
-              "Title": "Balance.cshtml",
-              "DocumentMoniker": "C:\\Users\\hossny D. monkey\\source\\repos\\ModulerERP(MVC)\\ModulerERP(MVC)\\Views\\Treasuries\\Balance.cshtml",
-              "RelativeDocumentMoniker": "ModulerERP(MVC)\\Views\\Treasuries\\Balance.cshtml",
-              "ToolTip": "C:\\Users\\hossny D. monkey\\source\\repos\\ModulerERP(MVC)\\ModulerERP(MVC)\\Views\\Treasuries\\Balance.cshtml",
-              "RelativeToolTip": "ModulerERP(MVC)\\Views\\Treasuries\\Balance.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAO4AAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-12-10T21:59:34.839Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 37,
+              "DocumentIndex": 70,
               "Title": "FinanceErrorCode.cs",
               "DocumentMoniker": "C:\\Users\\hossny D. monkey\\source\\repos\\ModulerERP(MVC)\\ModulerERP(MVC)\\Common\\Enums\\Finance_Enum\\FinanceErrorCode.cs",
               "RelativeDocumentMoniker": "ModulerERP(MVC)\\Common\\Enums\\Finance_Enum\\FinanceErrorCode.cs",
@@ -788,11 +1335,12 @@
               "RelativeToolTip": "ModulerERP(MVC)\\Common\\Enums\\Finance_Enum\\FinanceErrorCode.cs",
               "ViewState": "AgIAAC8AAAAAAAAAAAAAwDsAAAAqAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-11T12:26:59.974Z"
+              "WhenOpened": "2025-12-11T12:26:59.974Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 71,
+              "DocumentIndex": 97,
               "Title": "20251211122228_AddCurrency.cs",
               "DocumentMoniker": "C:\\Users\\hossny D. monkey\\source\\repos\\ModulerERP(MVC)\\ModulerERP(MVC)\\Migrations\\Tenant\\20251211122228_AddCurrency.cs",
               "RelativeDocumentMoniker": "ModulerERP(MVC)\\Migrations\\Tenant\\20251211122228_AddCurrency.cs",
@@ -804,7 +1352,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 40,
+              "DocumentIndex": 73,
               "Title": "BusinessLogicException.cs",
               "DocumentMoniker": "C:\\Users\\hossny D. monkey\\source\\repos\\ModulerERP(MVC)\\ModulerERP(MVC)\\Common\\Extensions\\BusinessLogicException.cs",
               "RelativeDocumentMoniker": "ModulerERP(MVC)\\Common\\Extensions\\BusinessLogicException.cs",
@@ -816,7 +1364,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 39,
+              "DocumentIndex": 72,
               "Title": "ServiceCollectionExtensions.cs",
               "DocumentMoniker": "C:\\Users\\hossny D. monkey\\source\\repos\\ModulerERP(MVC)\\ModulerERP(MVC)\\Common\\Extensions\\ServiceCollectionExtensions.cs",
               "RelativeDocumentMoniker": "ModulerERP(MVC)\\Common\\Extensions\\ServiceCollectionExtensions.cs",
@@ -828,7 +1376,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 38,
+              "DocumentIndex": 71,
               "Title": "ValidationException.cs",
               "DocumentMoniker": "C:\\Users\\hossny D. monkey\\source\\repos\\ModulerERP(MVC)\\ModulerERP(MVC)\\Common\\Extensions\\ValidationException.cs",
               "RelativeDocumentMoniker": "ModulerERP(MVC)\\Common\\Extensions\\ValidationException.cs",
@@ -840,43 +1388,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 42,
-              "Title": "TreasuriesController.cs",
-              "DocumentMoniker": "C:\\Users\\hossny D. monkey\\source\\repos\\ModulerERP(MVC)\\ModulerERP(MVC)\\Finance\\Treasuries\\Controllers\\TreasuriesController.cs",
-              "RelativeDocumentMoniker": "ModulerERP(MVC)\\Finance\\Treasuries\\Controllers\\TreasuriesController.cs",
-              "ToolTip": "C:\\Users\\hossny D. monkey\\source\\repos\\ModulerERP(MVC)\\ModulerERP(MVC)\\Finance\\Treasuries\\Controllers\\TreasuriesController.cs",
-              "RelativeToolTip": "ModulerERP(MVC)\\Finance\\Treasuries\\Controllers\\TreasuriesController.cs",
-              "ViewState": "AgIAABkBAAAAAAAAAAAqwC4BAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-10T21:45:48.229Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 43,
-              "Title": "TreasuryDto.cs",
-              "DocumentMoniker": "C:\\Users\\hossny D. monkey\\source\\repos\\ModulerERP(MVC)\\ModulerERP(MVC)\\Finance\\Treasuries\\ViewModels\\TreasuryDto.cs",
-              "RelativeDocumentMoniker": "ModulerERP(MVC)\\Finance\\Treasuries\\ViewModels\\TreasuryDto.cs",
-              "ToolTip": "C:\\Users\\hossny D. monkey\\source\\repos\\ModulerERP(MVC)\\ModulerERP(MVC)\\Finance\\Treasuries\\ViewModels\\TreasuryDto.cs",
-              "RelativeToolTip": "ModulerERP(MVC)\\Finance\\Treasuries\\ViewModels\\TreasuryDto.cs",
-              "ViewState": "AgIAAEYAAAAAAAAAAAA8wFsAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-10T21:43:31.753Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 44,
-              "Title": "Delete.cshtml",
-              "DocumentMoniker": "C:\\Users\\hossny D. monkey\\source\\repos\\ModulerERP(MVC)\\ModulerERP(MVC)\\Views\\Treasuries\\Delete.cshtml",
-              "RelativeDocumentMoniker": "ModulerERP(MVC)\\Views\\Treasuries\\Delete.cshtml",
-              "ToolTip": "C:\\Users\\hossny D. monkey\\source\\repos\\ModulerERP(MVC)\\ModulerERP(MVC)\\Views\\Treasuries\\Delete.cshtml",
-              "RelativeToolTip": "ModulerERP(MVC)\\Views\\Treasuries\\Delete.cshtml",
-              "ViewState": "AgIAAMsAAAAAAAAAAAAqwOAAAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-12-10T21:59:23.963Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 45,
+              "DocumentIndex": 75,
               "Title": "Details.cshtml",
               "DocumentMoniker": "C:\\Users\\hossny D. monkey\\source\\repos\\ModulerERP(MVC)\\ModulerERP(MVC)\\Views\\Treasuries\\Details.cshtml",
               "RelativeDocumentMoniker": "ModulerERP(MVC)\\Views\\Treasuries\\Details.cshtml",
@@ -888,7 +1400,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 41,
+              "DocumentIndex": 74,
               "Title": "TreasuryService.cs",
               "DocumentMoniker": "C:\\Users\\hossny D. monkey\\source\\repos\\ModulerERP(MVC)\\ModulerERP(MVC)\\Finance\\Treasuries\\Services\\TreasuryService.cs",
               "RelativeDocumentMoniker": "ModulerERP(MVC)\\Finance\\Treasuries\\Services\\TreasuryService.cs",
@@ -900,7 +1412,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 46,
+              "DocumentIndex": 76,
               "Title": "Edit.cshtml",
               "DocumentMoniker": "C:\\Users\\hossny D. monkey\\source\\repos\\ModulerERP(MVC)\\ModulerERP(MVC)\\Views\\Treasuries\\Edit.cshtml",
               "RelativeDocumentMoniker": "ModulerERP(MVC)\\Views\\Treasuries\\Edit.cshtml",
@@ -912,7 +1424,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 47,
+              "DocumentIndex": 77,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\hossny D. monkey\\source\\repos\\ModulerERP(MVC)\\ModulerERP(MVC)\\Views\\Treasuries\\Index.cshtml",
               "RelativeDocumentMoniker": "ModulerERP(MVC)\\Views\\Treasuries\\Index.cshtml",
@@ -924,7 +1436,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 48,
+              "DocumentIndex": 78,
               "Title": "ITreasury.cs",
               "DocumentMoniker": "C:\\Users\\hossny D. monkey\\source\\repos\\ModulerERP(MVC)\\ModulerERP(MVC)\\Finance\\Treasuries\\Services\\ITreasury.cs",
               "RelativeDocumentMoniker": "ModulerERP(MVC)\\Finance\\Treasuries\\Services\\ITreasury.cs",
@@ -936,7 +1448,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 49,
+              "DocumentIndex": 79,
               "Title": "TenantController.cs",
               "DocumentMoniker": "C:\\Users\\hossny D. monkey\\source\\repos\\ModulerERP(MVC)\\ModulerERP(MVC)\\Controllers\\TenantController.cs",
               "RelativeDocumentMoniker": "ModulerERP(MVC)\\Controllers\\TenantController.cs",
@@ -948,7 +1460,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 50,
+              "DocumentIndex": 80,
               "Title": "20251211090829_InitialMasterDatabase.cs",
               "DocumentMoniker": "C:\\Users\\hossny D. monkey\\source\\repos\\ModulerERP(MVC)\\ModulerERP(MVC)\\Migrations\\Master\\20251211090829_InitialMasterDatabase.cs",
               "RelativeDocumentMoniker": "ModulerERP(MVC)\\Migrations\\Master\\20251211090829_InitialMasterDatabase.cs",
@@ -960,7 +1472,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 70,
+              "DocumentIndex": 96,
               "Title": "20251211090927_InitialTenantSchema.cs",
               "DocumentMoniker": "C:\\Users\\hossny D. monkey\\source\\repos\\ModulerERP(MVC)\\ModulerERP(MVC)\\Migrations\\Tenant\\20251211090927_InitialTenantSchema.cs",
               "RelativeDocumentMoniker": "ModulerERP(MVC)\\Migrations\\Tenant\\20251211090927_InitialTenantSchema.cs",
@@ -972,7 +1484,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 51,
+              "DocumentIndex": 81,
               "Title": "Microsoft.Common.CurrentVersion.targets",
               "DocumentMoniker": "C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
               "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\Program Files\\Microsoft Visual Studio\\18\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
@@ -984,7 +1496,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 52,
+              "DocumentIndex": 82,
               "Title": "IMasterDbService.cs",
               "DocumentMoniker": "C:\\Users\\hossny D. monkey\\source\\repos\\ModulerERP(MVC)\\ModulerERP(MVC)\\Common\\Services\\IMasterDbService.cs",
               "RelativeDocumentMoniker": "ModulerERP(MVC)\\Common\\Services\\IMasterDbService.cs",
@@ -996,7 +1508,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 53,
+              "DocumentIndex": 83,
               "Title": "ITenantService.cs",
               "DocumentMoniker": "C:\\Users\\hossny D. monkey\\source\\repos\\ModulerERP(MVC)\\ModulerERP(MVC)\\Common\\Services\\ITenantService.cs",
               "RelativeDocumentMoniker": "ModulerERP(MVC)\\Common\\Services\\ITenantService.cs",
@@ -1008,7 +1520,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 54,
+              "DocumentIndex": 84,
               "Title": "TenantInfoViewComponent.cs",
               "DocumentMoniker": "C:\\Users\\hossny D. monkey\\source\\repos\\ModulerERP(MVC)\\ModulerERP(MVC)\\Common\\ViewComponents\\TenantInfoViewComponent.cs",
               "RelativeDocumentMoniker": "ModulerERP(MVC)\\Common\\ViewComponents\\TenantInfoViewComponent.cs",
@@ -1020,7 +1532,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 55,
+              "DocumentIndex": 85,
               "Title": "ModulerERP(MVC).csproj",
               "DocumentMoniker": "C:\\Users\\hossny D. monkey\\source\\repos\\ModulerERP(MVC)\\ModulerERP(MVC)\\ModulerERP(MVC).csproj",
               "RelativeDocumentMoniker": "ModulerERP(MVC)\\ModulerERP(MVC).csproj",
@@ -1032,7 +1544,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 56,
+              "DocumentIndex": 86,
               "Title": "AccountType.cs",
               "DocumentMoniker": "C:\\Users\\hossny D. monkey\\source\\repos\\ModulerERP(MVC)\\ModulerERP(MVC)\\Common\\Enums\\Finance_Enum\\AccountType.cs",
               "RelativeDocumentMoniker": "ModulerERP(MVC)\\Common\\Enums\\Finance_Enum\\AccountType.cs",
@@ -1044,7 +1556,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 57,
+              "DocumentIndex": 87,
               "Title": "_ViewStart.cshtml",
               "DocumentMoniker": "C:\\Users\\hossny D. monkey\\source\\repos\\ModulerERP(MVC)\\ModulerERP(MVC)\\Views\\_ViewStart.cshtml",
               "RelativeDocumentMoniker": "ModulerERP(MVC)\\Views\\_ViewStart.cshtml",
@@ -1056,7 +1568,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 58,
+              "DocumentIndex": 88,
               "Title": "custom.css",
               "DocumentMoniker": "C:\\Users\\hossny D. monkey\\source\\repos\\ModulerERP(MVC)\\ModulerERP(MVC)\\wwwroot\\css\\custom.css",
               "RelativeDocumentMoniker": "ModulerERP(MVC)\\wwwroot\\css\\custom.css",
@@ -1068,7 +1580,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 59,
+              "DocumentIndex": 89,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\hossny D. monkey\\source\\repos\\ModulerERP(MVC)\\ModulerERP(MVC)\\Views\\Home\\Index.cshtml",
               "RelativeDocumentMoniker": "ModulerERP(MVC)\\Views\\Home\\Index.cshtml",
@@ -1080,7 +1592,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 60,
+              "DocumentIndex": 90,
               "Title": "HomeController.cs",
               "DocumentMoniker": "C:\\Users\\hossny D. monkey\\source\\repos\\ModulerERP(MVC)\\ModulerERP(MVC)\\Controllers\\HomeController.cs",
               "RelativeDocumentMoniker": "ModulerERP(MVC)\\Controllers\\HomeController.cs",
@@ -1092,7 +1604,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 61,
+              "DocumentIndex": 91,
               "Title": "20251210213558_init.cs",
               "DocumentMoniker": "C:\\Users\\hossny D. monkey\\source\\repos\\ModulerERP(MVC)\\ModulerERP(MVC)\\Migrations\\20251210213558_init.cs",
               "RelativeDocumentMoniker": "ModulerERP(MVC)\\Migrations\\20251210213558_init.cs",
@@ -1104,55 +1616,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 62,
-              "Title": "TaxProfileComponent.cs",
-              "DocumentMoniker": "C:\\Users\\hossny D. monkey\\source\\repos\\ModulerERP(MVC)\\ModulerERP(MVC)\\Models\\Finance\\TaxProfileComponent.cs",
-              "RelativeDocumentMoniker": "ModulerERP(MVC)\\Models\\Finance\\TaxProfileComponent.cs",
-              "ToolTip": "C:\\Users\\hossny D. monkey\\source\\repos\\ModulerERP(MVC)\\ModulerERP(MVC)\\Models\\Finance\\TaxProfileComponent.cs",
-              "RelativeToolTip": "ModulerERP(MVC)\\Models\\Finance\\TaxProfileComponent.cs",
-              "ViewState": "AgIAAA0AAAAAAAAAAAAowCMAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-10T21:29:09.445Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 63,
-              "Title": "Voucher.cs",
-              "DocumentMoniker": "C:\\Users\\hossny D. monkey\\source\\repos\\ModulerERP(MVC)\\ModulerERP(MVC)\\Models\\Finance\\Voucher.cs",
-              "RelativeDocumentMoniker": "ModulerERP(MVC)\\Models\\Finance\\Voucher.cs",
-              "ToolTip": "C:\\Users\\hossny D. monkey\\source\\repos\\ModulerERP(MVC)\\ModulerERP(MVC)\\Models\\Finance\\Voucher.cs",
-              "RelativeToolTip": "ModulerERP(MVC)\\Models\\Finance\\Voucher.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAE4AAAAxAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-10T21:18:25.471Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 64,
-              "Title": "TaxProfile.cs",
-              "DocumentMoniker": "C:\\Users\\hossny D. monkey\\source\\repos\\ModulerERP(MVC)\\ModulerERP(MVC)\\Models\\Finance\\TaxProfile.cs",
-              "RelativeDocumentMoniker": "ModulerERP(MVC)\\Models\\Finance\\TaxProfile.cs",
-              "ToolTip": "C:\\Users\\hossny D. monkey\\source\\repos\\ModulerERP(MVC)\\ModulerERP(MVC)\\Models\\Finance\\TaxProfile.cs",
-              "RelativeToolTip": "ModulerERP(MVC)\\Models\\Finance\\TaxProfile.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-10T21:18:20.397Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 65,
-              "Title": "TaxComponent.cs",
-              "DocumentMoniker": "C:\\Users\\hossny D. monkey\\source\\repos\\ModulerERP(MVC)\\ModulerERP(MVC)\\Models\\Finance\\TaxComponent.cs",
-              "RelativeDocumentMoniker": "ModulerERP(MVC)\\Models\\Finance\\TaxComponent.cs",
-              "ToolTip": "C:\\Users\\hossny D. monkey\\source\\repos\\ModulerERP(MVC)\\ModulerERP(MVC)\\Models\\Finance\\TaxComponent.cs",
-              "RelativeToolTip": "ModulerERP(MVC)\\Models\\Finance\\TaxComponent.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-10T21:08:26.293Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 66,
+              "DocumentIndex": 92,
               "Title": "TaxRateType.cs",
               "DocumentMoniker": "C:\\Users\\hossny D. monkey\\source\\repos\\ModulerERP(MVC)\\ModulerERP(MVC)\\Common\\Enums\\Finance_Enum\\TaxRateType.cs",
               "RelativeDocumentMoniker": "ModulerERP(MVC)\\Common\\Enums\\Finance_Enum\\TaxRateType.cs",
@@ -1164,7 +1628,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 67,
+              "DocumentIndex": 93,
               "Title": "TaxAppliesOn.cs",
               "DocumentMoniker": "C:\\Users\\hossny D. monkey\\source\\repos\\ModulerERP(MVC)\\ModulerERP(MVC)\\Common\\Enums\\Finance_Enum\\TaxAppliesOn.cs",
               "RelativeDocumentMoniker": "ModulerERP(MVC)\\Common\\Enums\\Finance_Enum\\TaxAppliesOn.cs",
@@ -1176,7 +1640,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 68,
+              "DocumentIndex": 94,
               "Title": "ApplicationUser.cs",
               "DocumentMoniker": "C:\\Users\\hossny D. monkey\\source\\repos\\ModulerERP(MVC)\\ModulerERP(MVC)\\Models\\Finance\\ApplicationUser.cs",
               "RelativeDocumentMoniker": "ModulerERP(MVC)\\Models\\Finance\\ApplicationUser.cs",
@@ -1188,7 +1652,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 69,
+              "DocumentIndex": 95,
               "Title": "AuditLog.cs",
               "DocumentMoniker": "C:\\Users\\hossny D. monkey\\source\\repos\\ModulerERP(MVC)\\ModulerERP(MVC)\\Models\\Finance\\AuditLog.cs",
               "RelativeDocumentMoniker": "ModulerERP(MVC)\\Models\\Finance\\AuditLog.cs",

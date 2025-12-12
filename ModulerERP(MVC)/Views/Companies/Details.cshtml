@@ -1,0 +1,245 @@
+﻿@model ModulerERP_MVC_.Finance.Company.ViewModels.CompanyDetailsViewModel
+
+@{
+    ViewData["Title"] = "Company Details";
+}
+
+<div class="container-fluid">
+    <!-- Header Section -->
+    <div class="row mb-4 align-items-center">
+        <div class="col-md-6">
+            <nav aria-label="breadcrumb">
+                <ol class="breadcrumb">
+                    <li class="breadcrumb-item">
+                        <a asp-action="Index">
+                            <i class="fas fa-building me-1"></i>
+                            Companies
+                        </a>
+                    </li>
+                    <li class="breadcrumb-item active" aria-current="page">@Model.Name</li>
+                </ol>
+            </nav>
+            <h2 class="mb-0">
+                <i class="fas fa-building me-2 text-primary"></i>
+                @Model.Name
+            </h2>
+            <p class="text-muted mt-2">Company Details</p>
+        </div>
+        <div class="col-md-6 text-end">
+            <a asp-action="Edit" asp-route-id="@Model.Id" class="btn btn-warning me-2">
+                <i class="fas fa-edit me-2"></i>
+                Edit
+            </a>
+            <a asp-action="Delete" asp-route-id="@Model.Id" class="btn btn-outline-danger">
+                <i class="fas fa-trash me-2"></i>
+                Delete
+            </a>
+        </div>
+    </div>
+
+    <!-- Alert Messages -->
+    @if (TempData["SuccessMessage"] != null)
+    {
+        <div class="alert alert-success alert-dismissible fade show auto-dismiss" role="alert">
+            <i class="fas fa-check-circle me-2"></i>
+            <strong>Success!</strong> @TempData["SuccessMessage"]
+            <button type="button" class="btn-close" data-bs-dismiss="alert"></button>
+        </div>
+    }
+
+    <!-- Company Information Cards -->
+    <div class="row">
+        <!-- Basic Information Card -->
+        <div class="col-lg-6 mb-4">
+            <div class="card h-100">
+                <div class="card-header bg-primary text-white">
+                    <h5 class="mb-0">
+                        <i class="fas fa-info-circle me-2"></i>
+                        Basic Information
+                    </h5>
+                </div>
+                <div class="card-body">
+                    <div class="row mb-3">
+                        <div class="col-4">
+                            <strong>
+                                <i class="fas fa-fingerprint me-2 text-muted"></i>
+                                ID:
+                            </strong>
+                        </div>
+                        <div class="col-8">
+                            <code>@Model.Id</code>
+                        </div>
+                    </div>
+
+                    <div class="row mb-3">
+                        <div class="col-4">
+                            <strong>
+                                <i class="fas fa-building me-2 text-muted"></i>
+                                Name:
+                            </strong>
+                        </div>
+                        <div class="col-8">
+                            <span class="badge bg-primary fs-6">@Model.Name</span>
+                        </div>
+                    </div>
+
+                    <div class="row mb-3">
+                        <div class="col-4">
+                            <strong>
+                                <i class="fas fa-dollar-sign me-2 text-muted"></i>
+                                Currency:
+                            </strong>
+                        </div>
+                        <div class="col-8">
+                            <span class="badge bg-info fs-6">
+                                @Model.CurrencyCode - @Model.CurrencyName (@Model.CurrencySymbol)
+                            </span>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-4">
+                            <strong>
+                                <i class="fas fa-calendar me-2 text-muted"></i>
+                                Created At:
+                            </strong>
+                        </div>
+                        <div class="col-8">
+                            @Model.CreatedAt.ToString("dddd, dd MMMM yyyy")
+                            <br>
+                            <small class="text-muted">@Model.CreatedAt.ToString("hh:mm tt")</small>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Statistics Card -->
+        <div class="col-lg-6 mb-4">
+            <div class="card h-100">
+                <div class="card-header bg-success text-white">
+                    <h5 class="mb-0">
+                        <i class="fas fa-chart-bar me-2"></i>
+                        Statistics
+                    </h5>
+                </div>
+                <div class="card-body">
+                    <div class="row mb-3">
+                        <div class="col-6">
+                            <div class="d-flex align-items-center">
+                                <div class="flex-shrink-0">
+                                    <i class="fas fa-wallet fa-2x text-primary"></i>
+                                </div>
+                                <div class="flex-grow-1 ms-3">
+                                    <h4 class="mb-0">@Model.TreasuriesCount</h4>
+                                    <small class="text-muted">Treasuries</small>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-6">
+                            <div class="d-flex align-items-center">
+                                <div class="flex-shrink-0">
+                                    <i class="fas fa-university fa-2x text-success"></i>
+                                </div>
+                                <div class="flex-grow-1 ms-3">
+                                    <h4 class="mb-0">@Model.BankAccountsCount</h4>
+                                    <small class="text-muted">Bank Accounts</small>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <hr>
+
+                    <div class="row">
+                        <div class="col-6">
+                            <div class="d-flex align-items-center">
+                                <div class="flex-shrink-0">
+                                    <i class="fas fa-book fa-2x text-warning"></i>
+                                </div>
+                                <div class="flex-grow-1 ms-3">
+                                    <h4 class="mb-0">@Model.GlAccountsCount</h4>
+                                    <small class="text-muted">GL Accounts</small>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-6">
+                            <div class="d-flex align-items-center">
+                                <div class="flex-shrink-0">
+                                    <i class="fas fa-file-invoice fa-2x text-danger"></i>
+                                </div>
+                                <div class="flex-grow-1 ms-3">
+                                    <h4 class="mb-0">@Model.VouchersCount</h4>
+                                    <small class="text-muted">Vouchers</small>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Quick Actions Card -->
+    <div class="row">
+        <div class="col-12">
+            <div class="card">
+                <div class="card-header">
+                    <h5 class="mb-0">
+                        <i class="fas fa-bolt me-2"></i>
+                        Quick Actions
+                    </h5>
+                </div>
+                <div class="card-body">
+                    <div class="row text-center">
+                        <div class="col-md-3 mb-3">
+                            <a href="#" class="btn btn-outline-primary w-100 py-3">
+                                <i class="fas fa-wallet fa-2x mb-2 d-block"></i>
+                                <strong>Manage Treasuries</strong>
+                            </a>
+                        </div>
+                        <div class="col-md-3 mb-3">
+                            <a href="#" class="btn btn-outline-success w-100 py-3">
+                                <i class="fas fa-university fa-2x mb-2 d-block"></i>
+                                <strong>Manage Bank Accounts</strong>
+                            </a>
+                        </div>
+                        <div class="col-md-3 mb-3">
+                            <a href="#" class="btn btn-outline-warning w-100 py-3">
+                                <i class="fas fa-book fa-2x mb-2 d-block"></i>
+                                <strong>View GL Accounts</strong>
+                            </a>
+                        </div>
+                        <div class="col-md-3 mb-3">
+                            <a href="#" class="btn btn-outline-danger w-100 py-3">
+                                <i class="fas fa-file-invoice fa-2x mb-2 d-block"></i>
+                                <strong>View Vouchers</strong>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Back Button -->
+    <div class="row mt-4">
+        <div class="col-12">
+            <a asp-action="Index" class="btn btn-outline-secondary btn-lg">
+                <i class="fas fa-arrow-left me-2"></i>
+                Back to Companies List
+            </a>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    <script>
+        $(document).ready(function() {
+            // Auto-hide alerts
+            setTimeout(function() {
+                $('.alert').fadeOut('slow');
+            }, 5000);
+        });
+    </script>
+}

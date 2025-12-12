@@ -1,0 +1,160 @@
+﻿@model ModulerERP_MVC_.Finance.Company.ViewModels.UpdateCompanyViewModel
+
+@{
+    ViewData["Title"] = "Edit Company";
+}
+
+<div class="container-fluid">
+    <!-- Header Section -->
+    <div class="row mb-4">
+        <div class="col-12">
+            <nav aria-label="breadcrumb">
+                <ol class="breadcrumb">
+                    <li class="breadcrumb-item">
+                        <a asp-action="Index">
+                            <i class="fas fa-building me-1"></i>
+                            Companies
+                        </a>
+                    </li>
+                    <li class="breadcrumb-item">
+                        <a asp-action="Details" asp-route-id="@Model.Id">@Model.Name</a>
+                    </li>
+                    <li class="breadcrumb-item active" aria-current="page">Edit</li>
+                </ol>
+            </nav>
+            <h2 class="mb-0">
+                <i class="fas fa-edit me-2 text-warning"></i>
+                Edit Company
+            </h2>
+            <p class="text-muted mt-2">Update company information</p>
+        </div>
+    </div>
+
+    <!-- Alert Messages -->
+    @if (TempData["ErrorMessage"] != null)
+    {
+        <div class="alert alert-danger alert-dismissible fade show auto-dismiss" role="alert">
+            <i class="fas fa-exclamation-circle me-2"></i>
+            <strong>Error!</strong> @TempData["ErrorMessage"]
+            <button type="button" class="btn-close" data-bs-dismiss="alert"></button>
+        </div>
+    }
+
+    <!-- Edit Form -->
+    <div class="row">
+        <div class="col-lg-8">
+            <div class="card">
+                <div class="card-header">
+                    <h5 class="mb-0">
+                        <i class="fas fa-file-alt me-2"></i>
+                        Company Information
+                    </h5>
+                </div>
+                <div class="card-body">
+                    <form asp-action="Edit" asp-route-id="@Model.Id" method="post">
+                        <input type="hidden" asp-for="Id" />
+                        <div asp-validation-summary="ModelOnly" class="alert alert-danger" role="alert"></div>
+
+                        <!-- Company Name -->
+                        <div class="mb-4">
+                            <label asp-for="Name" class="form-label">
+                                <i class="fas fa-building me-1 text-primary"></i>
+                                Company Name <span class="text-danger">*</span>
+                            </label>
+                            <input asp-for="Name" class="form-control form-control-lg"
+                                   placeholder="Enter company name"
+                                   autofocus />
+                            <span asp-validation-for="Name" class="text-danger small"></span>
+                        </div>
+
+                        <!-- Currency Code -->
+                        <div class="mb-4">
+                            <label asp-for="CurrencyCode" class="form-label">
+                                <i class="fas fa-dollar-sign me-1 text-primary"></i>
+                                Currency <span class="text-danger">*</span>
+                            </label>
+                            <select asp-for="CurrencyCode" class="form-select form-select-lg">
+                                <option value="">-- Select Currency --</option>
+                                @if (ViewBag.Currencies != null)
+                                {
+                                    foreach (var currency in (IEnumerable<ModulerERP_MVC_.Finance.Currencies.ViewModels.CurrencyListViewModel>)ViewBag.Currencies)
+                                    {
+                                        <option value="@currency.Code" selected="@(currency.Code == Model.CurrencyCode)">
+                                            @currency.Code - @currency.Name (@currency.Symbol)
+                                        </option>
+                                    }
+                                }
+                            </select>
+                            <span asp-validation-for="CurrencyCode" class="text-danger small"></span>
+                        </div>
+
+                        <!-- Action Buttons -->
+                        <div class="d-flex justify-content-between align-items-center mt-5 pt-4 border-top">
+                            <div>
+                                <a asp-action="Details" asp-route-id="@Model.Id" class="btn btn-outline-secondary btn-lg me-2">
+                                    <i class="fas fa-times me-2"></i>
+                                    Cancel
+                                </a>
+                                <a asp-action="Index" class="btn btn-outline-secondary btn-lg">
+                                    <i class="fas fa-arrow-left me-2"></i>
+                                    Back to List
+                                </a>
+                            </div>
+                            <button type="submit" class="btn btn-warning btn-lg">
+                                <i class="fas fa-save me-2"></i>
+                                Update Company
+                            </button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+        <!-- Help Card -->
+        <div class="col-lg-4">
+            <div class="card bg-light">
+                <div class="card-body">
+                    <h6 class="card-title">
+                        <i class="fas fa-info-circle me-2 text-info"></i>
+                        Edit Information
+                    </h6>
+                    <hr>
+                    <p class="small mb-3">
+                        <strong>Company ID:</strong><br>
+                        <code>@Model.Id</code>
+                    </p>
+                    <p class="small mb-3">
+                        <strong>Note:</strong><br>
+                        Changing the currency will affect how financial data is displayed throughout the system.
+                    </p>
+                    <div class="alert alert-warning small mb-0">
+                        <i class="fas fa-exclamation-triangle me-2"></i>
+                        <strong>Warning:</strong> Make sure to verify all information before saving changes.
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+
+    <script>
+        $(document).ready(function() {
+            // Auto-hide alerts
+            setTimeout(function() {
+                $('.alert').not('.alert-warning').fadeOut('slow');
+            }, 5000);
+
+            // Form validation enhancement
+            $('form').on('submit', function() {
+                var submitBtn = $(this).find('button[type="submit"]');
+                submitBtn.prop('disabled', true);
+                submitBtn.html('<i class="fas fa-spinner fa-spin me-2"></i>Updating...');
+            });
+        });
+    </script>
+}

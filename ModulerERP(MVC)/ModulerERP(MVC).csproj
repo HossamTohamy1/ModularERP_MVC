@@ -36,15 +36,11 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Finance\Currencies\ViewModels\" />
-    <Folder Include="Finance\NewFolder\Commands\" />
     <Folder Include="Finance\NewFolder\Controllers\" />
-    <Folder Include="Finance\NewFolder\Handlers\" />
     <Folder Include="Finance\NewFolder\Mapping\" />
-    <Folder Include="Finance\NewFolder\Queries\" />
-    <Folder Include="Finance\NewFolder\Validators\" />
+    <Folder Include="Finance\NewFolder\Services\" />
     <Folder Include="Finance\NewFolder\ViewModels\" />
-    <Folder Include="Finance\Views\" />
+    <Folder Include="Finance\NewFolder\" />
   </ItemGroup>
 
 </Project>

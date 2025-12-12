@@ -1,4 +1,5 @@
 ﻿using AutoMapper;
+using ModulerERP_MVC_.Finance.Currencies.ViewModels;
 using ModulerERP_MVC_.Models.Finance;
 using ModulerERP_MVC_.Models.Finance.DTOs;
 
@@ -10,6 +11,9 @@ namespace ModulerERP_MVC_.Finance.Currencies.Mapping
         {
             // Currency → CurrencyDto
             CreateMap<Currency, CurrencyDto>();
+
+            CreateMap<Currency, CurrencyListViewModel>();
+
 
             // CreateCurrencyDto → Currency
             CreateMap<CreateCurrencyDto, Currency>()
